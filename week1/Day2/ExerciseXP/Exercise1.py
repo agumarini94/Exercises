@@ -1,0 +1,20 @@
+#Exercise 1 
+my_set = set()
+my_set.add(31)
+my_set.add(43)
+#print(my_set)
+my_set.add(98)
+my_set.add(3254)
+#print(my_set)
+#my_set.remove(3254)
+#print(my_set)
+friend_fav_numbers = set() 
+friend_fav_numbers.add(34)
+friend_fav_numbers.add(53)
+friend_fav_numbers.add(310)
+friend_fav_numbers.add(54)
+#print(my_set, friend_fav_numbers)
+our_fav_numbers = my_set.union(friend_fav_numbers)
+print(our_fav_numbers)
+
+
