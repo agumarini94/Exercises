@@ -1,11 +1,13 @@
-#numbers = range(0, 21)
-#for numeros in numbers :
- #       print(numeros)
+numbers = range(1,21)
+pares = []
+impares = []
+for num in numbers: 
+    if num % 2 == 0: 
+        pares.append(num)
+    else:
+        impares.append(num)
+    
+print(' pares' , pares ,  ' impares' , impares )
+ 
 
-numbers = range(0, 21)
-for numeros in numbers :
-        if numeros % 2 ==0:
-        print(numeros)
-# BUT IS NOT WORKING I DONT KNOW WHY ?????
-        
-        
+

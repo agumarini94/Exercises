@@ -1,6 +1,8 @@
 #Exercise 2
 my_touple = (5 , 6 , 9 ,29)
-#print(my_touple)
+ #los tuples se crean entre parentesis. y las listas entre [ ]
+#my_touple.append(54, 62, 18)
+print(my_touple)
 
 #cant added more numbers, because the touple is not allowed. 
 
@@ -15,6 +17,6 @@ basket.insert(0,'Apples')
 total_apple = basket.count('Apples')
 #print(total_apple)
 
-basket.clear()
-print(basket)
+#basket.clear()
+#print(basket)
 
