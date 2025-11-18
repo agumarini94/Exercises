@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/ExercisesXP/Exercise1/Exercise1.py
+suggestions for improvement:
+- In Exercise 1, consider using the newline character '\n' for better formatting and readability if the intention is for each 'Hello world' to be on a new line.
+- In Exercise 3, the comment about the error with `"3" > 3` indicates a misunderstanding.  Explain that strings and integers are different datatypes and cannot be directly compared without type conversion.
+- In Exercise 4, using an f-string (formatted string literal) is a more modern and readable approach: `print(f"I have a {computer_brand} computer.")`
+- In Exercise 5, prefer f-strings for string formatting to improve readability: `info = f'I'm {name}, I am {age} years old, and my shoe size is {shoe_size}.'`
+- In Exercise 9, the variable name `user_age` should be `user_height` to accurately reflect what is being asked of the user.
+Brief justification:
+- correctness: All exercises are correctly implemented based on the instructions provided. Each exercise covers the specific concepts outlined in the chapter content, including print statements, variables, mathematical operations, comparison operators, if statements, and user input.
+- readability: The code is generally readable, but could be improved by using f-strings for string formatting (Exercises 4 and 5) and adding comments to explain the logic behind certain operations (Exercise 3). Variable naming could be more consistent.
+- performance: The code's performance is adequate for the given exercises. There are no computationally intensive operations that would cause performance issues.
+- security: The code does not have any significant security vulnerabilities. User input is used, but it is not used in a way that could lead to code injection or other security problems.
+
