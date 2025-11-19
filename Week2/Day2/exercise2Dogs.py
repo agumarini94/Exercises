@@ -1,35 +1,72 @@
-class Dog(): 
-    def __init__(self,name,age,weight):
-        self.name = name
-        self.age = age 
-        self.weight = weight 
-    def bark (self):
-        return f'{self.name} is barking'
-    
-    def run_speed(self):
-        dog_speed = self.weight / self.age * 10 
-        return int(dog_speed)
-    
-    def fight(self, other_dog): #self vednria a se rel perro que yo paso, y otro dog seria el segundo perro 
-        dog_self = self.run_speed() * self.weight #aca obtengo la velocidad de dog self, 
-        versus_dog = other_dog.run_speed() * other_dog.weight #aca la de contra quien pelea, other_dog
-        if dog_self < versus_dog: #osea other_dog wins ..
-            return f'{other_dog.name}, {other_dog.weight}  wins over {self.name} , {self.weight}'
-        elif versus_dog == dog_self:
-            return f'are the same speed'
+class Currency: #ESTO ES LA CLASE 
+    def __init__(self, currency, amount):  
+        self.currency = currency
+        self.amount = amount
+
+    def __str__(self):
+        if self.amount == 1:
+            return f'{self.amount} {self.currency}'
         else:
-            return f' {self.name} , {self.weight} wins over {other_dog.name} , {other_dog.weight}'
-        # return f'{fight_winner} is the winner'
+            return f'{self.amount} {self.currency}s'
+        
+    def __int__(self):
+        return int(self.amount)
     
-#aca creo instancias/objetos de la clase Dog. 
-perro1 = Dog('messi' ,5, 80)
-perro2 = Dog('neymar',4, 76)
-perro3 = Dog('chicharito', 10, 45)
+    def __repr__(self):
+        if self.amount == 1:
+            return f'{self.amount} {self.currency}'
+        else:
+            return f'{self.amount} {self.currency}s'
+        
+    def __add__(self, other):
+        if type(other) != int and self.currency == other.currency:
+            return self.amount + other.amount
+        elif type(other) == int:
+            return self.amount + other
+        else:
+            raise TypeError(f'Cannot add between Currency type {self.currency} and {other.currency}')
+        
+    def __iadd__(self, other):
+        if type(other) != int:
+            result = self.amount + int(other.amount)
+            self.amount = result
+            return self
+        else:
+            result = self.amount + int(other)
+            self.amount = result
+            return self
 
-#AHORA LLAMO AL METODO. OSEA A LA ACCION
-print(perro1.bark())
+c1 = Currency('dollar', 5)
+c2 = Currency('dollar', 10)
+c3 = Currency('shekel', 1)
+c4 = Currency('shekel', 10)
 
-print(perro3.run_speed())
-# print(perro1.run_speed())
+#the comment is the expected output
+print(c1) 
+# '5 dollars'
 
-print(perro3.fight(perro2))
+print(int(c1))
+# # 5
+
+print(repr(c1))
+# # '5 dollars'
+
+print(c1 + 5)
+# # 10
+
+print(c1 + c2)
+# # 15
+
+print(c1) 
+# 5 dollars
+
+c1 += 5
+print(c1)
+# 10 dollars
+
+c1 += c2
+print(c1)
+# 20 dollars
+
+# print(c1 + c3)
+# # TypeError: Cannot add between Currency type <dollar> and <shekel>
