@@ -13,7 +13,7 @@ def add_users(): #funcion add_user
     for _ in range(total_users):
         users = {
                     'name': fake.name(),
-                     'addres': fake.address(),
+                     'address': fake.address(),
                      'language_code': fake.language_code()
                      }
         user_list.append(users)
