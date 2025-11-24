@@ -29,6 +29,7 @@ console.log('name of 2 tenan is ' + building.nameOfTenants[1] + ' and hi has roo
 
 let rentSaraAndDavid = building.numberOfRoomsAndRent.sarah[1] +building.numberOfRoomsAndRent.david[1];
 console.log(rentSaraAndDavid)
-if (rentSaraAndDavid > building.numberOfRoomsAndRent.dan[1]);
-building.numberOfRoomsAndRent.dan[1] = 1200; 
-console.log(building.numberOfRoomsAndRent.dan[1] + ' changed' + building.numberOfRoomsAndRent.david)
+if (rentSaraAndDavid > building.numberOfRoomsAndRent.dan[1]) {
+    building.numberOfRoomsAndRent.dan[1] = 1200;
+    console.log(building.numberOfRoomsAndRent.dan[1] + ' changed' + building.numberOfRoomsAndRent.david)
+}
