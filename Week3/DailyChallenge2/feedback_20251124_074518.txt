@@ -1,0 +1,12 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallenge2/DailyChallenge2.html
+suggestions for improvement:
+- The provided HTML file only sets up the structure for a webpage and links to an external JavaScript file ('DailyChallenge2.js'). It doesn't contain any code related to solving the Daily Challenge, which requires creating a specific pattern using loops.
+- The core logic for generating the pattern is expected to reside in the linked JavaScript file, which isn't provided. Therefore, the current HTML structure is incomplete and doesn't address the challenge.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallenge2/DailyChallenge2.js
+suggestions for improvement:
+- Consider using more descriptive variable names (e.g., 'line' instead of 'row' or 'r').
+- The second solution's outer loop iterates only once, which is not necessary. It could be removed to simplify the code.
+Correctness: 100%
+-----
