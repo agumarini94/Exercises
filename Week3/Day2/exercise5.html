@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 5 Day 2 </title>
+</head>
+
+<body>
+    <h1>Exercise 5 Day2</h1>
+    <div id="container">Users:</div>
+    <ul class="list">
+        <li>John</li>
+        <li>Pete</li>
+    </ul>
+    <ul class="list">
+        <li>David</li>
+        <li>Sarah</li>
+        <li>Dan</li>
+    </ul>
+</body>
+<script>
+    // 1) Retrieve the div and console.log it
+    let myDivs = document.getElementsByTagName('div'); 
+    // console.log(myDivs);
+    // 2) Change the name “Pete” to “Richard”.
+    document.getElementsByTagName('li')[1].innerHTML = 'Richard';
+
+    // 3) Delete the second < li > of the second < ul >.
+    let uls = document.getElementsByTagName('ul'); 
+    //esto trae los elementos UL 
+    let secondLi = uls[1].getElementsByTagName('li')[1];
+    //esto entra en el 2 uls('1'). obtiene los li, posicion 2('1') y lo borra . 
+    uls[1].removeChild(secondLi); 
+
+    // 4) Change the name of the first < li > of each < ul > to your name. (Hint : use a loop)
+    let ulsLi = document.getElementsByClassName('list')
+    console.log(ulsLi);
+    for(let i=0; i < ulsLi.length; i++){ //recorre los ul
+        const primerLi = ulsLi[i].firstElementChild;
+        primerLi.textContent = 'Agustin';
+    }
+
+    // ---------- 3 Using Javascript ------- 
+    // Add a class called student_list to both of the < ul > 's.
+    let clases = document.getElementsByClassName('list');
+    for (let i = 0; i < clases.length; i++){
+        clases[i].classList.add('student_list');
+        //classList--> propiedad para manipular clases CSS de un elemento. classList.add('student_list') suma la clase 'student_list' al elemento.
+        // Add the classes university and attendance to the first < ul >.
+        clases[0].classList.add('university' , 'attendance');
+    }
+
+//------------- 4 ------------
+// Using Javascript:
+// Add a “light blue” background color and some padding to the < div >.
+// Do not display the < li > that contains the text node “Dan”.(the last < li > of the first < ul >)
+// Add a border to the < li > that contains the text node “Richard”.(the second < li > of the < ul >)
+// Change the font size of the whole body.
+    const divClass = document.querySelector('div');
+    divClass.style.backgroundColor = 'red';
+    divClass.style.padding = '10';
+    
+    let liRichard = document.getElementsByClassName('list');
+    for (let r = 0; r <liRichard.length; r++){
+        liRichard[1].style.border = 'solid, 1px';
+    }
+    const theBody = document.querySelector('body');
+    theBody.style.fontSize = '25px';
+</script>
+
+</html>

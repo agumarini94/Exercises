@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2 Day 2 </title>
+</head>
+
+<body>
+    <h1>Exercise 2 Day2</h1>
+</body>
+<script>
+
+//Create a function named changeEnough(itemPrice, amountOfChange) that receives two arguments:
+// In the function, determine whether or not you can afford the item.
+// If the sum of the change is bigger or equal than the item’s price(ie.it means that you can afford the item), the function should return true
+// If the sum of the change is smaller than the item’s price(ie.it means that you cannot afford the item) the function should return false
+
+// Change will always be represented in the following order: quarters, dimes, nickels, pennies.
+// A quarters is 0.25
+// A dimes is 0.10
+// A nickel is 0.05
+// A penny is 0.01
+function changeEnough(itemPrice, amountOfChange){ //4.25 , array
+    // for(let money in amountOfChange) //25 , 20 ,5 ,0 
+        let quarters = amountOfChange[0] * 0.25;
+        let dimes = amountOfChange[1] * 0.10;
+        let nickels = amountOfChange[2] * 0.05;
+        let pennies = amountOfChange[3] * 0.01;
+        let totalMyMoney = quarters + dimes + nickels + pennies; 
+        if(totalMyMoney >= itemPrice){
+            // alert('you can buy the item');
+            return true;
+        }
+        else;
+        console.log('you cant buyy ou have ' + totalMyMoney);
+        return false
+}
+
+changeEnough(5.25, [25, 20, 5, 0]);
+
+
+// The value 4.25 represents the item’s price
+// The array[25, 20, 5, 0] represents 25 quarters, 20 dimes, 5 nickels and 0 pennies.
+// The function should return true, since having 25 quarters, 20 dimes, 5 nickels and 0 pennies gives you 6.25 + 2 + .25 + 0 = 8.50 which is bigger than 4.25(the total amount due)
+
+</script>
+</html>

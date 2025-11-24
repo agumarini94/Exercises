@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2 Day 2 </title>
+</head>
+
+<body>
+    <h1>Exercise 2 Day2</h1>
+</body>
+<!-- Let’s create functions that calculate your vacation’s costs:
+
+Define a function called hotelCost().
+It should ask the user for the number of nights they would like to stay in the hotel.
+If the user doesn’t answer or if the answer is not a number, ask again.
+The hotel costs $140 per night. The function should return the total price of the hotel. -->
+
+
+<!-- Define a function called planeRideCost().
+It should ask the user for their destination.
+If the user doesn’t answer or if the answer is not a string, ask again.
+The function should return a different price depending on the location.
+“London”: 183$
+“Paris” : 220$
+All other destination : 300$ -->
+
+
+<!-- Define a function called rentalCarCost().
+It should ask the user for the number of days they would like to rent the car.
+If the user doesn’t answer or if the answer is not a number, ask again.
+Calculate the cost to rent the car. The car costs $40 everyday.
+If the user rents a car for more than 10 days, they get a 5% discount.
+The function should return the total price of the car rental. -->
+
+<script>
+
+    function rentalCarCost(){
+    let userCarNights = prompt('Car, how many days ?');
+    while (isNaN(userCarNights) || userCarNights.trim() === '') {
+            userCarNights = prompt('number of night? ');
+        }
+        totalRentCar = userCarNights * 40;
+            if(userCarNights >= 10){
+               totalRentCar = totalRentCar - totalRentCar * 0.05;
+                // alert('car = ' + totalRentCar);
+                return totalRentCar;
+            }
+        // alert('car = ' + totalRentCar);
+        return totalRentCar;
+    }
+
+    function hotelCost(){
+        let userNights = prompt('number of night?')
+        while(isNaN(userNights) || userNights.trim() === ''){
+            userNights = prompt('number of night? ');
+            //mientras userNight sea numero , o cadena vacia, ask again ...
+        }
+        let totalCost = userNights * 140;
+        return totalCost;
+        // alert('hotel cost ' + totalCost);
+    }
+
+    function planeRideCost(){
+        let userDestination = prompt('Destination ?');
+        while(userDestination.trim === '' || !isNaN(userDestination)){
+            userDestination = prompt('Destination ?');
+        }
+        if(userDestination === 'London'){
+            return 183
+        }
+        else if (userDestination === 'Paris'){
+            // alert('123')
+            return 220;
+        }
+        else {
+            // alert('4343')
+            return 300;
+        }
+    }
+
+    // Define a function called totalVacationCost() that returns the total cost of the user’s vacation by calling the 3
+    // functions that you created above.
+    // Example : The car cost: $x, the hotel cost: $y, the plane tickets cost: $z.
+    // Hint: You have to call the functions hotelCost(), planeRideCost() and rentalCarCost() inside the function
+    // totalVacationCost(). -->
+    function totalVacationCost() {
+        hotel = hotelCost();
+        ride = planeRideCost();
+        carCost = rentalCarCost();
+        totalVacation = hotel + ride + carCost;
+        alert('total vacation is ' + totalVacation + 'hotel = ' + hotel + ' , ride = ' + ride + ' , car = ' + carCost); 
+    }
+
+    totalVacationCost()
+// hotelCost()
+// planeRideCost()
+// rentalCarCost();
+</script>
+</html>

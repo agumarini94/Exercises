@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise1 Day 2 </title>
+</head>
+
+<body>
+    <h1>Hello everybody!!!</h1>
+</body>
+<script>
+    function displayNumberDivisible(){ 
+        let suma = 0;
+        for (let numbers = 0; numbers < 500; numbers++){
+            if(numbers % 23 == 0){
+                console.log(numbers + ' ');
+                suma += numbers; 
+            }
+        }  
+        console.log('suma of all the numbers is ' + suma);
+    }
+    displayNumberDivisible();
+</script>
+
+</html>

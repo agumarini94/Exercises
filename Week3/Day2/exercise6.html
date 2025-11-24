@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 6 Day 2 </title>
+</head>
+
+<body>
+    <h1>Exercise 6 Day2</h1>
+    <div id="container">Users:</div>
+    <ul class="list">
+        <li>John</li>
+        <li>Pete</li>
+    </ul>
+    <ul class="list">
+        <li>David</li>
+        <li>Sarah</li>
+        <li>Dan</li>
+    </ul>
+</body>
+<script>
+    // 1Cambiar el id del div usando setAttribute
+    const navDiv = document.getElementById("navBar");
+    navDiv.setAttribute("id", "socialNetworkNavigation");
+
+    // 2️ Crear un nuevo <li> con texto "Logout"
+    // Creamos un nuevo elemento li
+    const newLi = document.createElement("li");
+
+    // Creamos un nodo de texto con el contenido "Logout"
+    const textNode = document.createTextNode("Logout");
+
+    // Agregamos el texto al nuevo <li>
+    newLi.appendChild(textNode);
+
+    // Seleccionamos el <ul> dentro del div
+    const ul = navDiv.querySelector("ul");
+
+    // Agregamos el nuevo <li> al final de la lista
+    ul.appendChild(newLi);
+
+    // 3️⃣ Obtener el primer y último <li> usando firstElementChild y lastElementChild
+    const firstLi = ul.firstElementChild;
+    const lastLi = ul.lastElementChild;
+
+    // Mostrar el texto de los links
+    console.log("Primer elemento:", firstLi.textContent); // "Profile"
+    console.log("Último elemento:", lastLi.textContent); // "Logout"
+
+</script>
+</html>
