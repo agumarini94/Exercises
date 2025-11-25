@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 1xp </title>
+</head>
+<body>
+    <article>
+        <button id="changeBold">Submit</button>
+        <h1 id="pixelRandom"> Some Facts </h1>
+        <h2 id="changeColor" value="clickme" onclick="changeColor()"> The Chocolate </h2>
+        <h3 id="notShow" onclick="ocultar()"> History of the chocolate </h3>
+        <p> Chocolate is made from tropical Theobroma cacao tree seeds.
+            Its earliest use dates back to the Olmec civilization in Mesoamerica.</p>
+        <p> After the European discovery of the Americas, chocolate became
+            very popular in the wider world, and its demand exploded. </p>
+        <p> Chocolate has since become a popular food product that millions enjoy every day,
+            thanks to its unique, rich, and sweet taste.</p>
+        <p> But what effect does eating chocolate have on our health?</p>
+    </article>
+<script>
+    //Using a DOM property, retrieve the h1 and console.log it.
+    const firstH1 = document.getElementsByTagName('h1')[0];
+    console.log(firstH1);
+    //Using DOM methods, remove the last paragraph in the <article> tag.
+    const parrafos = document.getElementsByTagName('article');
+    parrafos[0].lastElementChild.remove(); //parrafos 0 es articulos, luego selecciono el ultimo hijo, que es p. y lo borro
+
+    // 3 'Add a event listener which will change the background color of the h2 to red, when it’s clicked on.
+        function changeColor(){
+            const h2NewColor = document.getElementById('changeColor');
+            h2NewColor.style.backgroundColor = 'red';
+        }
+
+    // 4 Add an event listener which will hide the h3 when it’s clicked on(use the display: none property).
+        let h3notShow = document.getElementById('notShow');
+        h3notShow.addEventListener('click',Ocultar);
+        function Ocultar(){
+            h3notShow.style.display = 'none';
+        }
+// Add a < button > to the HTML file, that when clicked on, should make the text of all the paragraphs, bold.
+        let bottonBold = document.getElementById('changeBold');
+        bottonBold.addEventListener('click',convertToBold);
+        function convertToBold(){
+            allTheParragraphs = document.getElementsByTagName('p'); //esto trae un arreglo, debo recorrer para cambiar el style en cada p. 
+            for(let i=0; i< allTheParragraphs.length; i++){
+                allTheParragraphs[i].style.fontWeight = 'bold';
+            }
+        }
+    // 6 BONUS: When you hover on the h1, set the font size to a random pixel size between 0 to 100.(Check out this documentation)
+    let h1PixelRandom = document.getElementById('pixelRandom');
+    h1PixelRandom.addEventListener('mouseover',MouseOver);
+    function MouseOver(){
+        // let randomNumber = Math.floor(Math.random()* 101);
+        h1PixelRandom.style.fontSize = (Math.random() * 100) + 'px'; //genera numero random 1 - 100, y agrega px. 
+    }
+    // BONUS: When you hover on the 2nd paragraph, it should fade out(Check out “fade css animation” on Google)
+    const h2Fade = document.getElementById('changeColor');
+    h2Fade.addEventListener('mouseover', fadeOut);
+    function fadeOut(){
+        h2Fade.style.transition = 'opacity 2s'
+        h2Fade.style.opacity = '0';
+        setTimeout(() => { 
+            h2Fade.style.opacity = '1';
+        }, 3000); //esto hace que la opacidad dure 2 segundos y vuelva
+    }
+
+
+</script>
+
+</body>
+</html>
