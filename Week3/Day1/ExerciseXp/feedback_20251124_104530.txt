@@ -1,0 +1,59 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise1.html
+suggestions for improvement:
+- The HTML file only sets up the basic structure for including a JavaScript file. It doesn't contain any code related to the exercises described in the prompt (variables, conditionals, loops, and objects).
+- The HTML file itself doesn't address the exercises, which require JavaScript code to manipulate arrays, objects, and user input.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise1.js
+suggestions for improvement:
+- In Part I, step 2, splice could be simplified: people[people.indexOf('James')] = 'Jason';
+- In Part II, loop 2: You exit the loop in the first iteration because of the break statement inside the while loop. Break should be inside the while loop to break after Devon.  Better use a for loop to search for Devon.
+Correctness: 85%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise2.html
+suggestions for improvement:
+- The provided code is an HTML structure that sets up a webpage, but it doesn't include any JavaScript code that addresses the exercises outlined in the prompt, like manipulating arrays, using loops, or working with objects.  The actual javascript is expected to be in exercise2.js which is not provided.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise2.js
+suggestions for improvement:
+- The code addresses exercise 2 but incompletely. It only handles up to four colors instead of five as requested in the instructions.
+- The code can be improved by directly addressing all requirements laid out in the exercise instructions.
+Correctness: 50%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise3.html
+suggestions for improvement:
+- The provided HTML code does not address any of the exercises described in the chapter content. It only sets up a basic HTML structure with a title and a heading.  It attempts to load an external javascript file called `exercise3.js` which is also not provided in the submission.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise3.js
+suggestions for improvement:
+- The prompt for the user's number should be inside the `while` loop to continuously ask for a new number until the condition is met. Currently, it only asks once before the loop and then gets stuck if the initial number is less than 10.
+- Consider using `parseInt` instead of `Number` to convert the input from the prompt to an integer. This is slightly more robust, especially if the user enters a non-integer value.
+- The code repeats the variable declaration `let userNumber` inside the loop, which, while functionally okay, is less clean than reassigning the value to the existing variable. Remove the `let` inside the loop.
+Correctness: 25%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise4.html
+suggestions for improvement:
+- The HTML file provided doesn't contain any JavaScript code that addresses the exercises. The javascript file `exercise4.js` is linked, but its content is unknown.
+- To properly address the exercises, JavaScript code needs to be written within the script tag or in the linked JavaScript file to manipulate arrays, use loops, work with objects, and handle user input as described in the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise4.js
+suggestions for improvement:
+- The `if` statement has a semicolon at the end of the condition, which means the code block within the `if` statement will always execute. Remove the semicolon.
+- Consider using template literals for string concatenation to improve readability, especially when dealing with multiple variables.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise5,6,7.html
+suggestions for improvement:
+- The HTML code provided does not address any of the JavaScript exercises outlined in the chapter content. It simply creates a basic HTML structure with a heading and links an external JavaScript file.
+- To address the exercises, the JavaScript file (exercise5,6,7.js) should contain code that implements the solutions for each exercise, including array manipulations, loops, conditional statements, and object operations as specified in the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise5,6,7.js
+suggestions for improvement:
+- Consider using `const` instead of `let` for `secretSociety` since it's only assigned once.
+- While the code works, using `Object.keys(details).forEach()` or `Object.values(details).join(' ')` could be slightly more readable in Exercise 6.
+Correctness: 100%
+-----
