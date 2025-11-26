@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Example</title>
+    <style>
+        /* Estilos básicos para la navbar */
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navegador">
+        <a href="#home">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <h1>Bienvenido a mi página</h1>
+<script>
+    (function autoDisplay(name){
+        const navBar = document.getElementById('navegador')//traigo los nav
+        //aca obtuve una collection
+        //creo el nav 
+        const newDiv = document.createElement('a');
+        newDiv.textContent ='welcome ' + name;
+        navBar.appendChild(newDiv);
+    })('juan')
+</script>
+</body>
+</html>
