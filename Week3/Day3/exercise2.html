@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 </title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="firstname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lastname"><br><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    <ul class="usersAnswer">
+        <li id="firstLi">first name of the user</li>
+        <li id="secondLi">last name of the user</li>
+    </ul>
+    <ul class="usersAnswer"></ul>
+<script>
+    //-----= 1) Recupere el formulario y guárdelo en console.log.
+let newInput = document.getElementsByTagName('form');
+    // console.log(newInput)
+    //-----= 2) Recupere las entradas por su id y las archive en console.log.
+    // const form = document.getElementById('myForm'); //recibo el form
+    // const input1 = document.getElementById('fname'); 
+    // const input2 = document.getElementById('lname');
+    // form.addEventListener('submit', function(e){
+    //     e.preventDefault(); //evita q el form se envie. 
+    // console.log(input1.value); //valor del input nombre
+    // console.log(input2.value);
+
+    // ---= 3) Retrieve the inputs by their name attribute and console.log them.
+    // const form1 = document.getElementById('myForm');
+    // const fname = document.querySelector('[name=firstname]')
+    // const lnmae = document.querySelector('[lastname]')
+    // form1.addEventListener('submit',function(e){
+    //     e.preventDefault();
+    //     console.log(fname.value)
+    //     console.log(lname.value)
+    // })
+    // ---= Cuando el usuario envía el formulario (es decir, submitdetector de eventos)...
+    const myForm = document.getElementById('myForm');
+    const firstName = document.querySelector('[name=firstname]');
+    const lastName = document.querySelector('[name=lastname]');
+    myForm.addEventListener('submit',function(e){
+        e.preventDefault(); //evito enviar el formulario antes de verificar los datos 
+        if(firstName.value !== '' && lastName.value !== ''){
+            const liFirst = document.getElementById('firstLi'); //obtengo que LI quiero cambiar
+            const liLast = document.getElementById('secondLi');
+            liFirst.textContent = firstName.value; //cambio el texto del ul 
+            liLast.textContent = lastName.value; //usando textContent accedo al texto de la caja de texto. 
+        }
+    })
+</script>
+    
+</body>
+</html>

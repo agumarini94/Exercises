@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+        p {
+          background: yellow;
+          color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        <button id="clear">Clear Interval</button>
+    <script>
+// Part I
+// In your Javascript file, using setTimeout, call a function after 2 seconds.
+// The function will alert “Hello World”.
+    function helloWorld(){
+        alert('Hello World');
+    }
+    // setTimeout(helloWorld,2000);
+
+// In your Javascript file, using setTimeout, call a function after 2 seconds.
+// The function will add a new paragraph < p > Hello World</p > to the < div id = "container" >.
+    function newParragraph(){
+        //obtengo el div
+        const firstDiv = document.getElementById('container'); 
+        //creo el nuevo parrafo 
+        const newParragraph = document.createElement('p');
+        //agrego texto al parrafo 
+        newParragraph.textContent = ('HelloWorld'); 
+        //agrego el parrafo, al div. 
+        firstDiv.appendChild(newParragraph);
+    }
+    // setTimeout(newParragraph,1000);
+
+    //Part III
+    // setInterval(()=>{
+    //     // let contador = 0;
+    //         //obtengo el div 
+    //         const myDiv = document.getElementById('container'); 
+    //         //creo el nuevo parrafo 
+    //         const newParragraph = document.createElement('p');
+    //         //agrego el texto al parrafo
+    //         newParragraph.textContent = ('Hola Mundo');
+    //         //agrego el parrafo
+    //         myDiv.appendChild(newParragraph);
+        
+    // },6000);
+    //llamo a la funcion new parragraph, para que se siga ejecutando durante 2 segundos. 
+    const intervalo = setInterval(newParragraph, 2000)
+    //--- == ---> Ahora detener el intervalo: 
+    //obtener el bottom
+    const boton = document.getElementById('clear'); 
+    //le agrego una funcion al hacer click, ejecuta funcion anonima que se ejecuta cada vez que ocurre el evento. 
+    boton.addEventListener('click', function(){
+        //clearInterval detiene la ejecucion, de la variable intervalo. 
+        clearInterval(intervalo);
+        alert ('user stopped the intervalo');
+    })
+
+    // }, 2000);
+    </script>
+    </body>
+
+    
+    </html>
