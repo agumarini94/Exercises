@@ -1,0 +1,278 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/AllExercisesXp.py
+suggestions for improvement:
+- Exercise 2 is missing. You were asked to create a module and import it into `exercise_one.py`. This is not implemented.
+- In Exercise 3, the prompt asks to generate a random string of length 5 using the string module, consisting of uppercase and lowercase letters. The current code only uses lowercase letters.
+- In Exercise 5 and 6, the prompt wants the time left until January 1st, not the age of the user. The current implementation calculates the user's age based on a provided birthdate.
+- Exercise 7 has a logical error. The name of the key in the dictionary is "addres", but it should be "address".
+Correctness: 71%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/Exercise1.py
+suggestions for improvement:
+- The `__str__` method is mostly correct but includes an unnecessary else block and does not manage plural strings correctly.
+- The `__int__` method is incorrect. It should return the integer value of the amount, but instead attempts to initialize the class again without proper arguments, leading to an error. The method should be `def __int__(self): return int(self.amount)`
+- The `__repr__` method is missing. The instructions explicitly ask for it.
+- The `__add__` method lacks proper type checking and currency compatibility checks, and the `__iadd__` method is missing. It needs to check the types and currencies before performing addition, and `__iadd__` should also be implemented to handle in-place addition.
+- The class is missing the `__repr__` and `__iadd__` dunder methods that were specified in the requirements.
+- The code does not raise a TypeError when trying to add two currencies of different types.
+- The code has commented out sections, suggesting the implementation is not complete and the provided test cases are not fully addressed.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/Exercise3.py
+suggestions for improvement:
+- The problem description asks to create a Currency class, import modules, use the string module, the datetime module and the faker module, the code only implements the string module exercise.
+- The code uses a while loop to generate the random string. A for loop or a more concise method like `random.sample` and `join` could be more readable and potentially slightly more efficient.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise1Inclass.py
+suggestions for improvement:
+- Consider adding a more robust type checking in the `__add__` and `__iadd__` methods to ensure that you are only adding `Currency` objects or integers.
+- The conditional logic for singular vs. plural currencies could be slightly more concise, but it is perfectly functional.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise4.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise5.py
+suggestions for improvement:
+- The current implementation calculates the difference in days and attempts to convert that to seconds using `.total_seconds()`. This function is designed to be used on `timedelta` objects which already represent time differences, but it is not doing what you expect here.
+- The code mixes responsibilities: it gets input, parses the date, and calculates the age all in the global scope. It would be better to encapsulate input and parsing into a separate function.
+- The variable names could be improved for clarity.  `fecha_valida` is not very descriptive. Use more descriptive names, and stick to English.
+- Handle potential `ValueError` if the user enters an invalid date format.
+- The instruction asks for minutes, but you are calculating seconds.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise6.py
+suggestions for improvement:
+- The code calculates age in seconds, but the exercise specifies minutes.
+- The function name `calculate_age` is misleading, as it calculates the time alive in seconds.
+- The date parsing and calculation logic could be improved for clarity.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise7.py
+suggestions for improvement:
+- Consider improving variable names for better clarity (e.g., `total_users` could be `num_users`).
+- The commented-out code within the `add_users` function can be removed to reduce clutter.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one.html
+suggestions for improvement:
+- The provided code is HTML, CSS, and JavaScript for a web page displaying course content and exercises, not Python code to solve the given exercises.
+- The code does not address the Python exercises described in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/bootstrap(1).min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/bootstrap-select.min.js
+suggestions for improvement:
+- The code is a Bootstrap Select plugin and doesn't address any of the exercises or topics outlined in the chapter content.
+- The submission is completely unrelated to the instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/bootstrap.css
+suggestions for improvement:
+- The submitted code is CSS, which is completely irrelevant to the Python-focused chapter content.
+- The content of the chapter deals with Python dunder methods, modules, and specific Python modules like string, datetime, and faker.
+- CSS has nothing to do with python
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/bootstrap.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/code-editor.css
+suggestions for improvement:
+- The provided code appears to be related to UI elements (editor, output) and does not address any of the Python-specific exercises outlined in the chapter content.  The code doesn't implement dunder methods, module imports, string manipulation, date/time calculations, or Faker module usage.  It's entirely unrelated.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/color-brewer.min.css
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/courses_app.css
+suggestions for improvement:
+- The code provided is CSS, which is for styling web pages. It does not address any of the Python programming exercises or concepts outlined in the chapter content (dunder methods, modules, string/datetime/faker modules).
+- The code appears to be related to styling the display of course content, such as chapters, exercises, and videos, using CSS. This is entirely unrelated to the Python exercises described in the prompt.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/emoji-mart.css
+suggestions for improvement:
+- The provided code appears to be CSS for styling an emoji picker, not Python code that addresses the exercises outlined in the chapter content.  Therefore, it's completely irrelevant to the task.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/font-awesome.min.css
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/framework.css
+suggestions for improvement:
+- The submitted code is CSS, which is entirely irrelevant to the Python-focused content and questions in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/framework.js
+suggestions for improvement:
+- The code provided is a full library, UIkit, which is completely unrelated to the exercises and topics specified in the chapter content. It doesn't attempt to solve any of the given problems.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/fullcalendar.min.css
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/fullcalendar.min.js
+suggestions for improvement:
+- The code provided is a large JavaScript library, completely unrelated to the Python exercises described in the chapter content.
+- The provided code seems to be a calendar library, which does not address any of the exercises related to dunder methods, modules, string manipulation, date/time calculations, or faker module usage.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/github-dark.min.css
+suggestions for improvement:
+- No specific feedback.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/highlight(1).min.js
+suggestions for improvement:
+- The provided code appears to be a large JavaScript file, likely related to syntax highlighting, and is completely unrelated to the Python exercises described in the prompt.
+- The code does not implement any of the required functionalities, such as dunder methods for a Currency class, module creation and importing, string manipulation with the string module, date/time calculations with the datetime module, or user data generation with the faker module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/highlight.min.js
+suggestions for improvement:
+- The code provided is a minified Javascript file for highlight.js, a syntax highlighter. This is completely unrelated to the Python exercises described in the prompt. The code does not address any of the exercises about dunder methods, modules, string manipulation, date/time, or the faker module.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/icons.css
+suggestions for improvement:
+- The code does not address any of the exercises outlined in the chapter content.
+- The code appears to be CSS for styling icons, which is unrelated to the Python concepts covered in the chapter (dunder methods, modules, string/datetime/faker modules).
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jquery-3.2.1.slim.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jquery-3.3.1.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jquery-3.6.0.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jquery-ui.css
+suggestions for improvement:
+- The submitted code is a CSS file for jQuery UI, which is completely unrelated to the Python exercises described in the chapter content.  It does not address any of the learning goals or instructions provided.
+- Because the code is irrelevant, it's impossible to evaluate its correctness, readability, performance, or security in the context of the chapter content.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jquery-ui.js
+suggestions for improvement:
+- The submitted code is a large Javascript library (jQuery UI) and is not relevant to any of the exercises described in the prompt, which are all Python exercises.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/jspdf.umd.min.js
+suggestions for improvement:
+- The provided code is a minified Javascript library for generating PDFs. It has no relevance to the exercises outlined in the prompt, which focus on basic Python syntax, dunder methods, module imports, and usage of the `string`, `datetime`, and `faker` modules.
+- This code does not attempt to address the prompt in any way.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/main.js
+suggestions for improvement:
+- The provided code appears to be JavaScript code for a website's front-end, implementing features like a mobile menu, back-to-top button, and a progress bar (NProgress).
+- This code is entirely unrelated to the Python exercises described in the chapter content, which focus on dunder methods, modules, and the `string`, `datetime`, and `faker` modules.
+- Since the code does not address any of the specified Python-related tasks, it receives a 0% correctness score.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/marked.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/moment.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/night-mode.css
+suggestions for improvement:
+- This submission contains CSS code for implementing a night mode theme, which is completely unrelated to the Python programming exercises described in the Chapter Content/Questions.
+- The exercises focus on Python concepts such as dunder methods, modules, string manipulation, and date/time handling. The provided CSS code does not address any of these topics.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/popper(1).min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/popper.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/prism.css
+suggestions for improvement:
+- This submission contains only CSS code, which is a default theme for PrismJS and is unrelated to the Python exercises in the chapter content. The exercises focus on Python dunder methods, modules, and the `string`, `datetime`, and `faker` modules.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/script.js
+suggestions for improvement:
+- The provided JavaScript code is entirely unrelated to the Python-focused exercises in the chapter content.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/shBrushJScript.js
+suggestions for improvement:
+- The provided code is a JavaScript syntax highlighter brush, completely unrelated to the Python exercises described in the chapter content.
+- The code doesn't address any of the specified goals or instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/shBrushXml.js
+suggestions for improvement:
+- The provided code is a syntax highlighter brush for XML, which is completely unrelated to the exercises described in the chapter content. The exercises focus on dunder methods, modules, and string/datetime/faker modules in Python.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/shCore.css
+suggestions for improvement:
+- The submitted code is CSS for SyntaxHighlighter, a tool for displaying code snippets. This has nothing to do with the Python exercises in the prompt, which are about dunder methods, modules, and the datetime/faker libraries.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/shCore.js
+suggestions for improvement:
+- The provided code is a heavily obfuscated JavaScript library (SyntaxHighlighter), which is completely unrelated to the Python exercises described in the chapter content.  It does not address any of the specified goals or instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/shCoreMidnight.css
+suggestions for improvement:
+- The provided code is a CSS stylesheet for SyntaxHighlighter, a tool for highlighting code syntax. This is entirely unrelated to the Python exercises described in the chapter content, which involve implementing dunder methods, working with modules, and using the string, datetime, and faker modules.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/simplebar.js
+suggestions for improvement:
+- The provided code is a JavaScript library for creating custom scrollbars, and it does not address any of the Python-related tasks or concepts outlined in the chapter content. Therefore, it's entirely irrelevant to the given exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/slider.css
+suggestions for improvement:
+- The provided code is CSS, which is not related to the Python exercises described in the chapter content.  The exercises focus on Python dunder methods, modules, and the datetime/faker libraries.
+- Submit Python code that addresses the exercises on dunder methods, module imports, and using the string, datetime, and faker modules.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise_one_files/style.css
+suggestions for improvement:
+- The code provided is CSS, which is completely irrelevant to the Python exercises described in the prompt. The prompt specifically asks for Python code implementing dunder methods, modules, and using specific Python libraries like `string`, `datetime`, and `faker`.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
