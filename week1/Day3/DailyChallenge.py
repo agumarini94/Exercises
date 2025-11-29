@@ -13,3 +13,6 @@ print(my_dictionary)
 #         not_repeated_letters += letters
 
 # print('repeat ' , repeated_letters , 'no repeat ' , not_repeated_letters)
+
+
+

@@ -14,15 +14,13 @@ print (dicc)
 
 # ------------------------- EXERCISE 2 --------------------------------
 #Write a program that calculates the total cost of movie tickets for a family based on their ages.
-
-
 family = {"rick": 43, 'beth': 13, 'morty': 5, 'summer': 8}
 price = 0
 for name in family: 
     if family[name] >12: 
         price += 15
         print(f'the price for {name} is $15')
-    elif price > 3:
+    elif price[name] >= 3 and family[name] <= 3:  
         price += 10 
         print(f'the price for {name} is $10')
     else: 

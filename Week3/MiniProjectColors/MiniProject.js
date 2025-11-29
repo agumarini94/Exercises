@@ -11,7 +11,7 @@ function clearBoard() {
     theBotton.addEventListener('click', () => {
         const pixels = document.querySelectorAll('.pixel');
         pixels.forEach(pixel => {
-            pixel.style.backgroundColor = 'white';
+            pixel.style.backgroundColor = 'white'; 
         });
     });
     }
