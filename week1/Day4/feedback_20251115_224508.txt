@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day4/exercise1.py
+suggestions for improvement:
+- Exercise 1: The `display_message()` function has an unnecessary `print` statement when calling the function. It should just be `display_message()`.
+- Exercise 4:  There's a mixup with the variable names (using both `random_number` defined globally and `number` as a parameter). This can cause confusion and potentially incorrect results.  The random number should be generated *inside* the function, not globally.
+- Exercise 6:  In `make_greats`, avoid printing the list directly; the instructions only ask you to modify it.
+- Exercise 6: The parameter names are inconsistent and confusing (e.g., `parameters = magician_names` which is redundant).
+- Exercise 7: The if/elif structure could be improved in main() to avoid overlapping temperature ranges
+Brief justification:
+- correctness: The code implements the functions as described in the exercises. Minor errors include the print call in exercise 1, global variable and wrong conditionals in Exercise 4 and the print in exercise 6's make_great function and the lack of months in exercise 7.
+- readability: The code is generally readable, but comments could be added to explain the purpose of each function and complex logic.  Inconsistent naming and unused variables decrease readability.
+- performance: The code has no significant performance issues. The use of for loops is appropriate for the given tasks.
+- security: There are no security concerns in this code.
+
