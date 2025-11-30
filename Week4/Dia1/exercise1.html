@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1 Week4</title>
+</head>
+<body>
+<script>   
+// -----------------> EXERCISE 1 <===============:
+    const person = {
+        name: 'John Doe',
+        age: 25,
+        location: {
+            country: 'Canada',
+            city: 'Vancouver',
+            coordinates: [49.2827, -123.1207]
+        }
+    }
+
+    const { name, location: { country, city, coordinates: [lat, lng] } } = person;
+    // console.log(`I am ${name} from ${city}, ${country}. Latitude(${lat}), Longitude(${lng})`);
+
+//Analyze the code below. What will be the output?
+// i am john doe from vancouver , canada, latitude 49.2827 , longitude -123.1207; 
+//saca name, y luego del objeto location, trae el name, city, y del array cordiantes, guarda en la variable lat y long, lo que esta en el array posision 0 y 1. 
+
+//------->  EXERCISE 2 <=========
+// Using the code above, destructure the parameter inside the function and return a string as the example seen below:
+    //output : 'Your full name is Elie Schoppik'
+    function displayStudentInfo(objUser) {
+        //destructuring
+    const {first, last }= objUser; //saco las variables del objeto objUser, y las guardo en first y last .
+    console.log('your full name is ' + first + last);
+    }
+    displayStudentInfo({ first: 'Elie', last: 'Schoppik' });
+
+
+// --------------> EXERCISE 3 <------------- 
+// Using this object const users = { user1: 18273, user2: 92833, user3: 90315 }
+// .Using methods taught in class, turn the users object into an array:
+// .Modify the outcome of part 1, by multipling the user’s ID by 2.
+    const users = { user1: 18273, user2: 92833, user3: 90315 }
+    // const usersArray = Object.entries(users);
+
+    for(let keys in users){
+        users[keys] = users[keys] * 2; 
+    }
+    console.log(Object.entries(users));
+
+
+// -------> EXERCISE 4 <------- 
+// Analyze the code below.What will be the output ?
+        class Person {
+            constructor(name) {
+                this.name = name;
+            }
+        }
+const member = new Person('John');
+    console.log(typeof member);
+    //STRING //// OBJECT, XQ PERSON ESTA CREANDO UN NUEVO OBJETO.
+    
+    
+    // ----------> EXERCISE 5 <-------= 
+    class Dog {
+            constructor(name) {
+                this.name = name;
+            }
+        };
+//1 Analyze the options below. Which constructor will successfully extend the Dog class?
+
+    class Labrador extends Dog { 
+        //labrador hereda de dog todas las propiedades 
+        constructor(name, size) {
+            this.size = size;
+        }
+    }; //error because didnt called to the super before. should be super(name) and after this.size..
+
+      // 2
+    //     class Labrador extends Dog {
+    //         constructor(name, size) {
+    //             super(name);
+    //             this.size = size;
+    //         }
+    //     };//this.size will succesfully
+
+    // // 3
+    // class Labrador extends Dog {
+    //     constructor(size) {
+    //         super(name);
+    //         this.size = size;
+    //     } //not add because the constructor is name 
+    // };
+
+    // // 4
+    //     class Labrador extends Dog {
+    //         constructor(name, size) {
+    //             this.name = name;
+    //             this.size = size;
+    //         }
+    //     }; //error because is not calling to the super 
+
+//exercise 6
+// What is, for each object below, the value of the property number and why ?
+
+const object1 = { number: 5 };
+    const object2 = object1;
+    const object3 = object2;
+    const object4 = { number: 5 };
+
+    object1.number = 4;
+    console.log(object2.number) // 4
+    console.log(object3.number) // 4
+    console.log(object4.number) //5
+//Create a class Animal with the attributes name, type and color.The type is the animal type, for example: dog, cat, dolphin etc …
+
+    class Animal {
+    constructor(name, type, color) {
+        this.name = name;
+        this.type = type;
+        this.color = color;
+    }
+    }
+    class Mammal extends Animal {
+        constructor(name,type,color){
+            super(name, type,color);
+        }
+            sound(sound){ //metodo 
+                return{
+                name: this.name,
+                type: this.type,
+                color:this.color,
+                sound: sound
+                };
+        }
+    }//abajo cree un metodo (o instancia de la clase)
+    let farmerCow = new Mammal('VacaCora' , 'Cow', 'Violet');
+    console.log(farmerCow.sound('moo')); //muestro instancia, y le paso el parametro a la funcion sound. 
+</script>
+</body>
+</html>
