@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    class Video {
+        constructor(title,uploader,time){
+            this.title = title; //estos son las propiedades 
+            this.uploader = uploader;
+            this.time = time;
+        }
+        //agrego el metodo 
+    watch(){
+        console.log(this.uploader + ' watched all ' + this.time +  ' of ' + this.title);
+    }
+    }
+    let videoInstance = new Video('pokemon','Im the owner', 91)
+    let secondVideo = new Video ('My poor angel', 'U2', 43); 
+    videoInstance.watch();
+    secondVideo.watch();
+</script>
+</body>
+</html>
