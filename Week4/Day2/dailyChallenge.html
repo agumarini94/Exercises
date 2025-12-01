@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyChallenge</title>
+</head>
+<body>
+<form id="form1" action="exercise1.html" method="GET">
+    <label for="fname">Name:</label><input type="text" id="fname"><br>
+    <label for="lname">Last name:</label><input type="text" id="lname"><br>
+    <button id="sendBoton">Send</button>
+    </form>
+    </form>
+</form>
+<script>
+    const form1 = document.getElementById('form1');
+    form1.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nameUser = document.getElementById('fname').value;
+        const lastNameUser = document.getElementById('lname').value;
+        const user = { firstName: nameUser , lastName: lastNameUser};
+        //lo de arriba es un objeto, puedo acceder a las propiedades de objetos y demas, con user.firstName o user.lastName. Es editable y usable en el codigo de forma facil .
+        const userJson = JSON.stringify(user);
+        console.log(userJson); //recibi los datos, y los meti en un obj
+        //Aca converti a json, es un string de json, no un objeto. se usa para guardar datos, enviarlos a un servidor, y no puedo acceder a propiedades, como user.nameUser.      
+    })
+</script>
+</body>
+</html>
