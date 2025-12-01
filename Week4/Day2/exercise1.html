@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise1 Day2</title>
+</head>
+<body>
+<!-- <form>
+    <form id="form1" action="exercise1.html" method="GET">
+<ANSWER EXERCISE 1 Si uso get, la informacion enviada aparecera visible en la url, name=cadenaUser -->
+    <!-- <form id="form1" action="exercise1.html" method="POST"> -->
+<!-- Si uso POST, LA INFORMACION NO SE GUARDA Y NO SERA VISIBLE. LOS DATOS VAN EN EL CUERPO DEL BODY Y NO EN LA URL. -->
+        <!-- <label for="name">Name:</label><input type="text" id="noun"><br>
+        <label for="place">Write a comments:</label><input type="textbox" id="place"><br>
+        <button id="lib-button">Send</button>
+    </form>
+</form> -->
+
+<script>
+//-------> EXERCISE 3<----------
+    const marioGame = {
+            detail: "An amazing game!",
+            characters: {
+                mario: { //objeto1
+                    description: "Small and jumpy. Likes princesses.",
+                    height: 10,
+                    weight: 3,
+                    speed: 12,
+                },
+                bowser: { //objeto2
+                    description: "Big and green, Hates princesses.",
+                    height: 16,
+                    weight: 6,
+                    speed: 4,
+                },
+                princessPeach: { //objeto3
+                    description: "Beautiful princess.",
+                    height: 12,
+                    weight: 2,
+                    speed: 2,
+                }
+            },//objeto characters 
+        } //object marioGame. 
+let jsonMarioGame = JSON.stringify(marioGame, null, 2);
+alert( typeof marioGame);
+console.log(jsonMarioGame);
+//answer 1 the nested object are an object inside the object 
+//answer 2 is consoled. 
+
+</script>
+</body>
+</html>
