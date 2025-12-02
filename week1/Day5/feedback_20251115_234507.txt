@@ -1,0 +1,12 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day5/DailyChallenge.py
+suggestions for improvement:
+- For Challenge 1, the code is commented out. You should provide the complete solution for each challenge, not just snippets.
+- In Challenge 1, instead of printing the list, the elements should be joined with commas to match the expected output format.
+- For Challenge 2, improve readability by adding more descriptive variable names, and by making sure to avoid unnecessary print statements.
+- Consider adding docstrings to functions to describe their purpose, arguments, and return values.
+Brief justification:
+- correctness: Challenge 1 is not implemented. Challenge 2 correctly identifies the longest word in a sentence as per the prompt. Some improvements are needed to make it fully compliant.
+- readability: The code is generally readable but could be enhanced with better variable names and the removal of unnecessary print statements.
+- performance: The performance is acceptable for the given problem size. No major performance concerns.
+- security: The code doesn't appear to have any security vulnerabilities.
+
