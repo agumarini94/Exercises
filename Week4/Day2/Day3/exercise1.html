@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1 Day 3 W4</title>
+</head>
+<body>
+<script>
+    function compareToTen(num){
+        let resultPromise = new Promise((resolve, reject) => {
+            if(num<=10){
+                resolve('el numero es menor que 10');
+            }
+            else{
+                reject('el numero es mayor que 10');
+            }
+        })
+        return resultPromise; // si no devuelvo la promesa, no estoy devolviendo nignun valor y va a tomar como undefined. 
+    }
+compareToTen(10)
+    .then(result => console.log(result))
+    .catch(error => console.log(error))
+
+
+</script>
+</body>
+</html>

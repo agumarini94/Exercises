@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProjectDay2</title>
+    <style>
+        body{ 
+            background-color: green;
+            font-size: 45px;
+            font-family: fantasy;
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+<form id="form1" method="GET">
+<label for="fname">Cita:</label><input type="text" id="citaUser"><br>
+<label for="fname">Autor:</label><input type="text" id="autorUser"><br>
+<button id="send">Send</button>
+<button id="characters">Contar Caracteres and Spaces</button>
+<button id="charactersNS">Characteres without Spaces</button>
+<button id="countWords">Count Words</button>
+<button id="like">Like</button>
+<section id="sectionCita"></section>
+</form>
+<script>
+    //PARTE 1 
+    //CREAR UNA MATRIZ DE OBJETOS 
+    const objetos = [{
+        id: 0, autor: 'Diego', cita: 'La pelota no mancha'},
+        {id: 1, autor: 'Pepe', cita: 'Pedazo de boludooo'},
+        {id: 2, autor: 'Milei', cita: 'No hay plata'},
+    ]
+    const form1 = document.getElementById('form1').addEventListener('submit',(e) => {
+    e.preventDefault();
+    //math floor convierte en numero valido.
+    //math random obtiene un random number
+    //objetos.lenght dice cuantos objetos hay. 
+    const citaRandom = obtenerCita();
+    document.getElementById('sectionCita').textContent = citaRandom.cita
+    console.log(citaRandom.cita); //acordate poner .cita, para acceder a las citas. 
+    })
+    let ultimaCita = -1; //----> -1 xq la cita aun no existe. 
+    // USO LET xq el valor -1 va a cambiar a 0 1 o 2 
+    function obtenerCita(){ // <----- FUNCTION PARA OBTENER CITA. 
+    let randomIndex = Math.floor(Math.random() * objetos.length); //genero numero random. 
+        if (randomIndex === ultimaCita){// si es el mismo, genera otro. 
+            randomIndex = Math.floor(Math.random() * objetos.length) 
+        }
+        ultimaCita = randomIndex; //actualiza el ultimo numero .
+        return objetos[randomIndex];
+    }
+
+    //PARTE 2 <---------
+    
+</script>
+</body>
+</html>

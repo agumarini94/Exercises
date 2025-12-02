@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let try1 = 54353
+    let promesa = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            if (try1 > 99){
+                resolve('success');
+            }
+            else{
+                reject('Not exito');
+            }
+        }, 4000); //---> timeout 4sec
+    })
+    promesa.then(res => console.log(res))
+    .catch(error => console.log(error)) // no llamar devuelta como promesa.catch xq eso genera error. 
+</script>
+</body>
+</html>

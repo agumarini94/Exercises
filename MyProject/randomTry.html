@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guardar Código Fuente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Obtener código fuente de una página</h1>
+    <input type="text" id="urlInput" placeholder="Ingresa el link de la página">
+    <button onclick="fetchSource()">Obtener y descargar</button>
+    <textarea id="pageSource" placeholder="Aquí se mostrará el código fuente"></textarea>
+
+    <script>
+        async function fetchSource() {
+            const url = document.getElementById('urlInput').value;
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error('Error al obtener la página');
+                const text = await response.text();
+                document.getElementById('pageSource').value = text;
+
+                // Crear archivo descargable
+                const blob = new Blob([text], { type: 'text/html' });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(blob);
+                link.download = 'pagina.html';
+                link.click();
+                URL.revokeObjectURL(link.href);
+            } catch (error) {
+                alert('No se pudo obtener la página. Puede ser un problema de CORS.');
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+
+</html>
