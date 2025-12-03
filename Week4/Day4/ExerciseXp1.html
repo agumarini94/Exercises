@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1 xp Api</title>
+</head>
+<body>
+<script>
+    fetch("https://api.giphy.com/v1/gifs/search?q=hilarious&rating=g&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My")
+    .then((response) => { //response es el objeto de respuesta http
+        if(response.ok){ //response.ok si la respuesta es true..
+            return response.json()  //devuelve los obj de api a js.
+        }
+        else 
+        {
+            throw new Error ('working in the error'); 
+            //si hubo algun error, o no hubo rpsta, va directo al cath 
+        }
+    })
+    //ahora el segundo .then, es decir que ya tengo los datos reales...
+    .then((objetoFromJson) => { //es el objeto que recibi de return.response.json()..
+        console.log(objetoFromJson); //lo muestro
+    })
+    .catch(function(error){ //error puede ser cualquier nombre, es el nombre de la variable que representa el error que pueda pasar
+        console.log('there was an error')
+    });
+    console.log('work done')
+</script>
+</body>
+</html>

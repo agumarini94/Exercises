@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExerciseXp2</title>
+</head>
+<body>
+<script>
+    const getGifts = () => {
+        fetch("https://api.giphy.com/v1/gifs/search?q=sol&rating=g&limit=10&offset=2&api_key=hpvZycW22qCjn5cRM1xtWB8NKq4dQ2My")
+        .then((response) =>{ //get the object of the API
+            if(response.ok){
+                return response.json(); //devuelvo el objeto API
+            }
+            else {
+                throw new Error('something wrong with the data');
+            }
+    })
+    .then(objetoFromResponseJson => {
+    console.log(objetoFromResponseJson);
+    })
+    .catch(error => {
+        console.log('somethinh wrong' , error);
+    })
+}
+getGifts();
+</script>
+</body>
+</html>
