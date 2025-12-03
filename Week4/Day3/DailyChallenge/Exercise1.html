@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const words = ['peruano', 'chau', 'buendia', 'buenasNoches' , 'boliviano'];
+    // const wordsMayusculas = ['HOLA', 'AERUANO', 'JUAN' , 'ZUZANA', 'AAAA'];
+    function makeAllCaps(words) {
+        const promess2 = new Promise((resolve, reject) => {
+             setTimeout(() => {
+                    for( let i=0; i<words.length; i++){ //recorro el array
+                        if(typeof words[i] === 'string' && words[i] !== '' ){
+                        words[i] = words[i].toUpperCase();
+                    }
+                        else { reject('This is not a string')
+                        return; // --> este hace salir del bucle. 
+                    }
+
+                };
+                resolve(words);
+         } , 1000)
+        });
+        return promess2;
+    }
+    makeAllCaps(words) // no se pone ; al final xq sino corto el proceso. 
+        .then(res => {
+        console.log('promesa resuelta', res);
+        return sortWords(res) // <--- ACA LE PASO EL ARRAY EN MAYUSC A LA SEGUNDA FUNCION
+        })
+        .then(sortedRes => console.log('Palabras ordenadas:', sortedRes))
+        .catch(err => console.log('Error', err));
+//Parte 2 
+// La segunda función llamada sortWords(), toma una matriz de palabras en mayúsculas como argumento.
+// Si la longitud del array es mayor que 4, se resuelve la promesa.El valor de la promesa resuelta es el array de palabras ordenadas alfabéticamente.
+    function sortWords(wordsOrder){
+        const promessOrderWords = new Promise((resolve, reject) => {
+            setTimeout(() => {
+                if(wordsOrder.length > 4){
+                    resolve(wordsOrder.sort())
+                }
+                else {reject('Theres less of 4 words')};
+            }, 2000);
+        })
+        return promessOrderWords;
+    }
+</script>
+    
+</body>
+</html>

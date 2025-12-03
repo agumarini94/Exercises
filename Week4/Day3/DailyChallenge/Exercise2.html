@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyChallenge2</title>
+</head>
+<body>
+    <div id="result"></div>
+<script>
+    const morse = `{
+  "0": "-----",
+  "1": ".----",
+  "2": "..---",
+  "3": "...--",
+  "4": "....-",
+  "5": ".....",
+  "6": "-....",
+  "7": "--...",
+  "8": "---..",
+  "9": "----.",
+  "a": ".-",
+  "b": "-...",
+  "c": "-.-.",
+  "d": "-..",
+  "e": ".",
+  "f": "..-.",
+  "g": "--.",
+  "h": "....",
+  "i": "..",
+  "j": ".---",
+  "k": "-.-",
+  "l": ".-..",
+  "m": "--",
+  "n": "-.",
+  "o": "---",
+  "p": ".--.",
+  "q": "--.-",
+  "r": ".-.",
+  "s": "...",
+  "t": "-",
+  "u": "..-",
+  "v": "...-",
+  "w": ".--",
+  "x": "-..-",
+  "y": "-.--",
+  "z": "--..",
+  ".": ".-.-.-",
+  ",": "--..--",
+  "?": "..--..",
+  "!": "-.-.--",
+  "-": "-....-",
+  "/": "-..-.",
+  "@": ".--.-.",
+  "(": "-.--.",
+  ")": "-.--.-"
+}`
+function tojs(morse){
+    const step1promes = new Promise((resolve, reject) =>{
+        setTimeout(() => {
+            const morseObj = JSON.parse(morse); // de json a objeto
+            if(Object.keys(morseObj).length > 0){
+                resolve(morseObj); // if is not empty, so is ok.
+            } 
+            else {
+                reject('something is wrong');
+            }
+        }, 100);
+    })
+    return step1promes; 
+}
+
+function toMorse(morseObj){
+    const step2Promess = new Promise((resolve, reject) => 
+    setTimeout(() =>{
+        const userWord = prompt('PhraseUser').toLowerCase();
+        let codigoMorse = []; //hago un array vacio para guardar el codigo.
+        for(let letra of userWord){ //--> recorro la palabra del usuario letra por letra 
+            if (letra === ' '){
+                codigoMorse.push(' ');
+            }
+            else if(letra in morseObj){ //if the letter is in the morse object 
+                codigoMorse.push(morseObj[letra]);
+            }
+             else { 
+                reject('theres some letter wrong')  
+                return; //to finish the process .
+            }
+        }
+        resolve(codigoMorse);
+    }, 100)
+)}
+
+function joinWords(morseTranslation){ //here i should get codigoMorse , that is an Array
+    //im creating the newDiv here
+    const divToShowResult = document.getElementById('result');
+    divToShowResult.textContent = morseTranslation.join("\n");
+}
+
+function allTheProcess(){
+    tojs(morse)
+        .then(morseObj => {
+            return toMorse(morseObj); // i send to toMorse, the receive in tojs. 
+        })
+        .then(codigoMorse => {
+            joinWords(codigoMorse);
+        })
+        .catch(error => console.log('something is wrong'));
+}
+
+allTheProcess();
+</script>
+</body>
+</html>
