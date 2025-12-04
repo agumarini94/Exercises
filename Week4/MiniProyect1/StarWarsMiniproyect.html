@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars AJAX</title>
+    <style>
+        /* Estilo similar a http://di-star-wars-ajax.surge.sh/ */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0b0b0b;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color: #000;
+            padding: 1rem;
+            text-align: center;
+            border-bottom: 2px solid #feda4a;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #feda4a;
+            font-size: 2rem;
+        }
+
+        main {
+            width: 90%;
+            max-width: 500px;
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form {
+            width: 100%;
+            display: flex;
+            margin-bottom: 2rem;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: none;
+            border-radius: 4px 0 0 4px;
+            outline: none;
+        }
+
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            border: none;
+            background-color: #feda4a;
+            color: #000;
+            cursor: pointer;
+            border-radius: 0 4px 4px 0;
+        }
+
+        button:hover {
+            background-color: #ffd700;
+        }
+
+        #results {
+            width: 100%;
+        }
+
+        .card {
+            background-color: #1c1c1c;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(255, 255, 0, 0.2);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #feda4a;
+        }
+
+        .card p {
+            margin: 0.3rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Star Wars AJAX</h1>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    </header>
+    <main>
+            <button type="submit" id="searchButton">Buscar</button>
+        <div id="results">
+            <!-- Aquí aparecerán las tarjetas con los personajes -->
+        </div>
+    </main>
+<script>
+    const searchButton = document.getElementById('searchButton');
+    searchButton.addEventListener('click', getStarWars) //---> Hacer un evento para que la funcion se active cuando hago click en el boton buscar, de lo contrario, si solo llamo a la funcion, se activa inmediatamente. 
+    const divResults = document.getElementById('results');
+    const randomNumber = Math.floor(Math.random()*83)+1; // +1 para que sea entre 1 y 83, sino es entre 0 y 83
+
+    async function getStarWars (){
+        try{
+        console.log('starting'); //---> start process 
+        divResults.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Cargando...'; 
+        //first, the innerHTML will show the cargando... , and after will replace this ,for the data that i got from the server. 
+        const answerFromServer = await fetch(`https://www.swapi.tech/api/people/${randomNumber}`);
+        const dataFromServer = await answerFromServer.json(); //i got the data of the website 
+        const personaje = { name : dataFromServer.result.properties.name,
+                            height: dataFromServer.result.properties.height,
+                            gender: dataFromServer.result.properties.gender,
+                            birthYear: dataFromServer.result.properties.birth_year,
+                            homeWorld: dataFromServer.result.properties.home_world };
+                            //i got the info of the personaje 
+        console.log(personaje);
+        divResults.innerText =`name : ${personaje.name}, 
+        height: ${personaje.height}, 
+        gender: ${personaje.gender}, 
+        birthYear ${personaje.birthYear},
+        homeWorld: ${ personaje.homeWorld}`;
+        console.log('finish process') //--> finish process 
+    }catch (error){
+        console.log('something wrong in the server'.error);
+    }
+}
+
+// getStarWars();
+</script>
+</body>
+
+</html>
