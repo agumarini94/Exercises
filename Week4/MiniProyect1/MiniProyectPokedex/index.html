@@ -18,9 +18,6 @@
                 <div class="light light-yellow"></div>
                 <div class="light light-green"></div>
             </div>
-            <div class="pokedex-screen">
-                <p>Look your Pokemon</p>
-            </div>
             <div class="pokedex-bottom">
             </div>
             <div class="pokedex-controls">
@@ -51,7 +48,7 @@
             console.log('starting'); // start process 
             const answerFromServer = await fetch(`https://pokeapi.co/api/v2/pokemon/${numberPokemon}`);
             const dataFromServer = await answerFromServer.json();
-            const pokemonGot = { image: dataFromServer.sprites.front_default,
+            const pokemonGot = { image: dataFromServer.sprites.other["official-artwork"].front_default,
                                 name : dataFromServer.name,
                                 id : dataFromServer.id,
                                 height: dataFromServer.height,
