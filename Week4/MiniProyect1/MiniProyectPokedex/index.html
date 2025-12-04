@@ -37,7 +37,7 @@
     const botonRandom = document.getElementById('randomBoton')
     let pokemonNow; //DECLARO LA VARIABLE VACIA, Y CUANDO LA MANDO EN EL EVENTLISTENER, LE ASIGNO UN VALOR 
         botonRandom.addEventListener('click', () => {
-            pokemonNow = Math.floor(Math.random() * 1025) + 1; //GENERO UN VALOR RANDOM ENTRE 0 Y 1000, PARA DALRE AL POKEMON ACTUAL
+            pokemonNow = Math.floor(Math.random() * 1025    ) + 1; //GENERO UN VALOR RANDOM ENTRE 0 Y 1000, PARA DALRE AL POKEMON ACTUAL
             showPokemon(pokemonNow); // -----> LLAMO A LA FUNCION AL APRETAR EL BOTON, Y LE ENVIO COMO PARAMETRO EL POKEMON RANDOM ACTUAL.
         }); //here im doing the event 
     const botonLeft = document.getElementById('leftBoton');
@@ -78,17 +78,17 @@
         if (pokemonNow > 1) {
             showPokemon(pokemonNow -1);
         }
-        else if (pokemonNow === undefined){
+        else if (pokemonNow === undefined || pokemonNow === 1){
             showPokemon(1025);
         }
     });
     //BOTON NEXT
     botonRight.addEventListener('click',() => {
-        if(pokemonNow >1){
-            showPokemon(pokemonNow +1);
-        }
-        else if (pokemonNow === undefined) {
+        if(pokemonNow === 1025 || pokemonNow === undefined){
             showPokemon(1);
+        }
+        else  {
+            showPokemon(pokemonNow + 1);
         }
     })
 </script>
