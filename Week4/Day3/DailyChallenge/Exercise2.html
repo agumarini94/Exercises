@@ -74,7 +74,7 @@ function toMorse(morseObj){
     const step2Promess = new Promise((resolve, reject) => 
     setTimeout(() =>{
         const userWord = prompt('PhraseUser').toLowerCase();
-        let codigoMorse = []; //hago un array vacio para guardar el codigo.
+        let  codigoMorse = []; //hago un array vacio para guardar el codigo.
         for(let letra of userWord){ //--> recorro la palabra del usuario letra por letra 
             if (letra === ' '){
                 codigoMorse.push(' ');

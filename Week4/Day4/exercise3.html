@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    async function step1Get(){
+    try{
+    const answerServer = await fetch("https://www.swapi.tech/api/starships/9/")
+     if (!answerServer.ok) { //if the answer is not ok so..
+            throw new Error("HTTP error! status : ${answerServer.status}")
+        }
+        const data = await answerServer.json(); 
+        console.log(data.result);
+        } catch(error){
+            console.log('ocurrio un error'.error);
+        }
+    }
+step1Get();
+</script> 
+</body>
+</html>
