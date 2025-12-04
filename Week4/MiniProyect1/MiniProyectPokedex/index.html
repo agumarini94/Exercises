@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="pokedex">
+        <!-- Sección izquierda -->
+        <div class="pokedex-left">
+            <div class="pokedex-left-top">
+                <div class="light light-sky"></div>
+                <div class="light light-red"></div>
+                <div class="light light-yellow"></div>
+                <div class="light light-green"></div>
+            </div>
+            <div class="pokedex-screen">
+                <p>Look your Pokemon</p>
+            </div>
+            <div class="pokedex-bottom">
+            </div>
+            <div class="pokedex-controls">
+                <button class="btn-random" id="randomBoton">Random</button>
+                <button class="btn-prev" id="leftBoton">Anterior</button>
+                <button class="btn-next" id="rightBoton">Siguiente</button>
+            </div>
+        </div>
+        <!-- Sección derecha ACA INGRESO AL POKEMON-->
+        <div class="pokedex-right" id="pokemonList"></div>
+    </div>
+
+<script>
+    const botonRandom = document.getElementById('randomBoton')
+    let pokemonNow; //DECLARO LA VARIABLE VACIA, Y CUANDO LA MANDO EN EL EVENTLISTENER, LE ASIGNO UN VALOR 
+        botonRandom.addEventListener('click', () => {
+            pokemonNow = Math.floor(Math.random() * 1025) + 1; //GENERO UN VALOR RANDOM ENTRE 0 Y 1000, PARA DALRE AL POKEMON ACTUAL
+            showPokemon(pokemonNow); // -----> LLAMO A LA FUNCION AL APRETAR EL BOTON, Y LE ENVIO COMO PARAMETRO EL POKEMON RANDOM ACTUAL.
+        }); //here im doing the event 
+    const botonLeft = document.getElementById('leftBoton');
+    const botonRight = document.getElementById('rightBoton');
+
+    const divToSwohPokemon = document.getElementById('pokemonList')
+    //--- HERE START THE FUNCTION ---- 
+    async function showPokemon(numberPokemon) {  //number pokemon =  pokemonNow declarado arriba
+        try{
+            pokemonNow = numberPokemon;
+            console.log('starting'); // start process 
+            const answerFromServer = await fetch(`https://pokeapi.co/api/v2/pokemon/${numberPokemon}`);
+            const dataFromServer = await answerFromServer.json();
+            const pokemonGot = { image: dataFromServer.sprites.front_default,
+                                name : dataFromServer.name,
+                                id : dataFromServer.id,
+                                height: dataFromServer.height,
+                                weight: dataFromServer.weight,
+            };
+            console.log(dataFromServer);
+            console.log(pokemonGot); //EN EL DIV DE ABAJO, MUESTRO EN EL HTML AL POKEMON
+            divToSwohPokemon.innerHTML = ` 
+            <h2>${pokemonGot.name} (#${pokemonGot.id})</h2>
+            <img src="${pokemonGot.image}" alt="${pokemonGot.name}">
+            <p>Height: ${pokemonGot.height}</p>
+            <p>Weight: ${pokemonGot.weight}</p>
+            <p>Pokemon Id: ${pokemonGot.id}</p>
+                `;
+
+            console.log('finish'); //finish the process here <---- 
+        }catch(error){
+            console.log('something wrong'.error);
+        }
+    }
+
+    //boton anterior 
+    botonLeft.addEventListener('click', () => {
+        if (pokemonNow > 1) {
+            showPokemon(pokemonNow -1);
+        }
+        else if (pokemonNow === undefined){
+            showPokemon(1025);
+        }
+    });
+    //BOTON NEXT
+    botonRight.addEventListener('click',() => {
+        if(pokemonNow >1){
+            showPokemon(pokemonNow +1);
+        }
+        else if (pokemonNow === undefined) {
+            showPokemon(1);
+        }
+    })
+</script>
+</body>
+
+</html>

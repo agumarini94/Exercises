@@ -1,0 +1,121 @@
+/* style.css */
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.pokedex {
+    display: flex;
+    border: 4px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sección izquierda */
+.pokedex-left {
+    background: #e71d23;
+    padding: 20px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokedex-left-top {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+.light-sky {
+    background: #00e6ff;
+}
+
+.light-red {
+    background: #ff0000;
+}
+
+.light-yellow {
+    background: #ffff00;
+}
+
+.light-green {
+    background: #00ff00;
+}
+
+.pokedex-screen {
+    background: #fff;
+    width: 260px;
+    height: 200px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pokedex-bottom {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.pokedex-bottom input {
+    width: 160px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.pokedex-bottom button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Botones Random / Anterior / Siguiente */
+.pokedex-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.pokedex-controls button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-random {
+    background-color: #4CAF50;
+}
+
+/* verde */
+.btn-prev {
+    background-color: #2196F3;
+}
+
+/* azul */
+.btn-next {
+    background-color: #f44336;
+}
+
+/* rojo */
+
+/* Sección derecha */
+.pokedex-right {
+    background: #ddd;
+    padding: 20px;
+    min-width: 300px;
+}
