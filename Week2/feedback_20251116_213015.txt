@@ -1,0 +1,12 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Exercise1.py
+suggestions for improvement:
+- For Exercise 2 and 3, uncomment the code to enable its execution.
+- In Exercise 4, the 'list_animals' variable is defined both inside the class and outside. This creates confusion.  It should only be an instance variable of the Zoo class (defined within the __init__ method using self.animals = []).
+- In Exercise 4, the add_animal method appends to list_animals only if the animal is ALREADY in the list, which is the opposite of what's required. The logic should be reversed: append if the animal is NOT in the list.
+- In Exercise 4, the sort_animals and get_groups methods are not implemented.
+Brief justification:
+- correctness: The code correctly implements Exercise 1. Exercise 2 and 3 are commented out, but the code within appears correct. Exercise 4 has some correctness issues with the add_animal method and missing implementations for sort_animals and get_groups, resulting in a lower score. Overall, the code addresses most of the exercises' requirements but contains some bugs.
+- readability: The code is generally readable, with comments explaining the purpose of each step. However, using comments in Spanish alongside English code reduces readability for a broader audience. Consistent use of English is recommended. Also the variable names can be more descriptive in some parts.
+- performance: The code generally has good performance, with simple and efficient algorithms. The use of list comprehensions or other advanced techniques could potentially improve performance further, but the current implementation is sufficient for the given problem sizes.
+- security: The code does not appear to have any security vulnerabilities. It does not handle any user input or external data that could be exploited.
+

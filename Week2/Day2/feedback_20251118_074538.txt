@@ -1,0 +1,40 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/Dog.py
+suggestions for improvement:
+- Consider adding docstrings to your class and methods for better documentation.
+- Instead of returning f-strings, you could return plain strings from the methods and then format the output when printing the result. This would make your class more flexible.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/Exercise1,2,3XP.py
+suggestions for improvement:
+- In Exercise 1, rename `Siameses` to `Siamese` to adhere to naming conventions and correct spelling.
+- In Exercise 3 within the `play` method of the `PetDog` class, the logic to process dog names is not correct.  Instead of passing dog instances to the `play` method, names are passed as strings. Update the instruction to pass dog instances instead of names, and adjust the implementation accordingly, to iterate over the passed dog objects and access their names.
+- In Exercise 3 within the `do_a_trick` method, invoking the train method is redundant and messes up the intended flow. Instead of training it right before 'doing a trick', it is better to remove the train function in the do_a_trick function.
+- In Exercise 3 within the `do_a_trick` method, calling perro3.do_a_trick() doesn't execute because of missing parenthesis.
+Correctness: 85.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/Exercise1Pets.py
+suggestions for improvement:
+- Rename `Siameses` to `Siamese` to follow Python naming conventions.
+- Add comments in English for consistency and wider understanding.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/Exercise3.py
+suggestions for improvement:
+- In the `play` method, the instructions specify that `*args` should be a list of dog instances, not just arbitrary names. You should modify the function so that it accepts `PetDog` instances and extracts their names.
+- In the `do_a_trick` method, you should call the function instead of only show `perro3.do_a_trick`
+- The `fight()` method is missing from the Dog class. This was a requirement of Exercise 2 and needed to be included for PetDog to fully extend the Dog class functionality as described in Exercise 3.
+- Consider handling the case where no arguments are passed to `play`. Currently, if no dog names are provided, the method will still execute but it may not provide a very meaningful result. Adding a check for empty `*args` could improve the robustness.
+Correctness: 70%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/Exercise33.py
+suggestions for improvement:
+- The code demonstrates basic inheritance but doesn't address any of the specific exercises or goals outlined in the chapter content (Pets, Dogs, Dogs Domesticated, Family and Person Classes).
+- The code snippets shown for inheriting attributes are incomplete and would cause errors if run, because of the missing attributes in the instantiation of the `Dog` class
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day2/exercise2Dogs.py
+suggestions for improvement:
+- Consider adding docstrings to your class and methods to explain their purpose and usage.
+- Although it doesn't impact the functionality, it may be clearer if the variables `dog_self` and `versus_dog` are named something more descriptive like `dog_self_power` and `versus_dog_power`.
+Correctness: 100%
+-----
