@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moneda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Fondo con imagen de dinero */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('https://images.unsplash.com/photo-1606813908977-1c5c89c38068?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4NzYyMDR8&ixlib=rb-4.0.3&q=80&w=1080') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor */
+        .converter-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        select,
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #27ae60;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #2ecc71;
+        }
+
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div class="converter-container" id="divConverter">
+        <h1>Conversor de Moneda</h1>
+        <label for="fromCurrency">De:</label>
+        <select id="fromCurrency">
+        </select>
+        <button id="swapBtn" style="margin: 0 5px;">&#x21C5;</button><br> 
+        <label for="toCurrency">A:</label>
+        <select id="toCurrency">
+        </select>
+        <input type="number" id="amount" placeholder="Cantidad a convertir">
+
+        <button id="convertBtn">Convertir</button>
+
+        <div id="result">Resultado aparecerá aquí</div>
+    </div>
+<script>
+    moneyUser = document.getElementById('amount'); // --> Monto usuario
+    async function convertCash (){ // --> start function
+        typeDivisa = document.getElementById('fromCurrency'); // -->Select De que tipo de cambio 
+        aDivisa = document.getElementById('toCurrency'); //--> To dolar... euro... 
+        try{
+        console.log('starting process');
+        const answerServer = await fetch("https://v6.exchangerate-api.com/v6/0836001bb81e02cc0e71f5fa/latest/USD"); 
+        //use el codigo que recibi al iniciar sesion, y puse las conversiones en un select ... 
+        const dataFromServer = await answerServer.json();
+        typeDivisa.innerHTML= ''; 
+        aDivisa.innerHTML = '';
+        for( monedasCambio in dataFromServer.conversion_rates){
+            const options = document.createElement("option");
+            const options2select = document.createElement("option") //un option puede estar en un select a la vez. 
+            options.value = monedasCambio;
+            options.textContent = monedasCambio;
+            typeDivisa.appendChild(options); //primer select completo 
+            //ahora segundo select 
+            options2select.value = monedasCambio;
+            options2select.textContent = monedasCambio;
+            aDivisa.appendChild(options2select); // segundo select completo . 
+        }   
+        console.log(dataFromServer);
+
+        console.log('finish process');
+    }catch(error){
+        console.log('something wrong'.error);
+    }
+}
+convertCash();
+    // --> esto es lo que hace cuando activa el boton submit .
+    botonSubmit = document.getElementById('convertBtn'); // --> Boton submit
+    botonSubmit.addEventListener('click', () => { // -->llamo a la funcion 
+        resultConversion(); // llamo a la segunda funcion. 
+     }) //---> cuando hago click en submit, activo la funcion 
+
+async function resultConversion(){
+    try{
+    console.log('start second proces');
+    const valueFrom = document.getElementById('fromCurrency').value;
+    const valueTo = document.getElementById('toCurrency').value;
+    console.log(valueFrom, valueTo); // Chequeo los valores que recibo.
+    const secondAnswerServer = await fetch (`https://v6.exchangerate-api.com/v6/0836001bb81e02cc0e71f5fa/pair/${valueFrom}/${valueTo}`)
+    const secondDataFromServer = await secondAnswerServer.json();
+    console.log(secondDataFromServer);
+    valueMoneyUser = Number(moneyUser.value);
+    const resultadoTotal = valueMoneyUser * secondDataFromServer.conversion_rate; 
+    const mostrarResultado = document.getElementById('result');
+    mostrarResultado.textContent = resultadoTotal;
+    console.log('finish proces.');
+    }catch(error){
+        console.log('algo salio mal parte 2 ',error);
+    }
+}   
+// -----> BONUS <----- 
+    const botonInvertir = document.getElementById('swapBtn'); 
+        botonInvertir.addEventListener('click',() => {
+            const valueFrom = document.getElementById('fromCurrency');
+            const valueTo = document.getElementById('toCurrency')
+            const variableTemporal = valueFrom.value;
+            valueFrom.value = valueTo.value;
+            valueTo.value = variableTemporal; 
+        resultConversion();
+
+
+
+        })
+</script>
+</body>
+
+</html>
