@@ -96,7 +96,8 @@
         const answerServer = await fetch("https://v6.exchangerate-api.com/v6/0836001bb81e02cc0e71f5fa/latest/USD"); 
         //use el codigo que recibi al iniciar sesion, y puse las conversiones en un select ... 
         const dataFromServer = await answerServer.json();
-        typeDivisa.innerHTML= ''; 
+        typeDivisa.createElement('div');
+        
         aDivisa.innerHTML = '';
         for( monedasCambio in dataFromServer.conversion_rates){
             const options = document.createElement("option");
@@ -146,7 +147,7 @@ async function resultConversion(){
         botonInvertir.addEventListener('click',() => {
             const valueFrom = document.getElementById('fromCurrency');
             const valueTo = document.getElementById('toCurrency')
-            const variableTemporal = valueFrom.value;
+            const variableTemporal = valueFrom.value; //variable temporal para guardar el valor de valueFrom y no perderla. 
             valueFrom.value = valueTo.value;
             valueTo.value = variableTemporal; 
         resultConversion();
