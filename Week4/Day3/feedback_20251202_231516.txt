@@ -1,0 +1,20 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day3/exercise1.html
+suggestions for improvement:
+- Consider using template literals for the resolve and reject messages for better readability and potential for dynamic message construction.
+- While the code works well within the HTML context, for a cleaner separation of concerns, consider placing the JavaScript code in a separate `.js` file.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day3/exercise2.html
+suggestions for improvement:
+- Exercise 1 is missing.
+- Exercise 2 is partially implemented, but doesn't fully adhere to the instructions. It has a promise that resolves after 4 seconds, but the resolving condition is not based on user input or a specific calculation; it's hardcoded with `try1 > 99`, which makes the promise behave deterministically regardless of the context of the exercise.
+- Exercise 3 is missing.
+- The code uses a global variable `try1`, which is not recommended. Consider encapsulating the logic within functions.
+- The use of `setTimeout` is appropriate for Exercise 2. The `then` and `catch` blocks are correctly implemented for handling the resolved and rejected states of the promise.
+Correctness: 30%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day3/exercise3.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

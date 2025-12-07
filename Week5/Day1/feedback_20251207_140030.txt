@@ -1,0 +1,75 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise7xP.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise7xP.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise8.js
+suggestions for improvement:
+- Consider adding a default case to the switch statement to handle unexpected input.
+- Ensure consistent casing for role names (e.g., 'Admin' vs. 'admin').
+- Return a value in the `unknown` case to avoid implicit `undefined` return.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise8.ts
+suggestions for improvement:
+- The function name 'accion' should be renamed to 'role' to align with the instructions.
+- The first case in the switch statement should be 'admin' instead of 'Admin' to match the expected input.
+- Remove the redundant first console log for 'editor' as it's duplicated.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise9.ts
+suggestions for improvement:
+- The provided code does not implement function overloading as described in the chapter content, which is what Exercise 9 asks for. Instead, it implements a single function with an optional parameter.
+- Consider creating two separate function signatures for `greet` to achieve proper overloading.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/ExercisesXp.js
+suggestions for improvement:
+- Exercise 3: The code correctly implements union types, but it lacks explicit type annotations in the variable declaration. Add `let myId: string | number;` for better clarity.
+- Exercise 4: The function logic is correct, but the return statements could be simplified for better readability (e.g., using template literals).
+- Exercise 5: The function `mostrarTupla` does not return a tuple, but a string. Modify the function to return an actual tuple type. The formatting of the string is incorrect; it concatenates the entire array instead of individual elements. Return `[nombre, edad, `Hello, ${nombre}! You are ${edad} years old.`]`
+- Exercise 6: The `createPerson` function does not follow the instructions closely. The object should have properties `name` and `age`, not `fname` and `agePerson`. The object type is also not explicitly defined.
+- Missing exercises 1, 2, 7, 8 and 9.
+Correctness: 62%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/ExercisesXp.ts
+suggestions for improvement:
+- Exercise 3 is correctly implemented, but it lacks context. Should include a comment stating the exercise number.
+- Exercise 4 is correctly implemented, but the prompt specified to return a string indicating whether the number is positive, negative or zero. The condition `num1 > 1` does not account for numbers between 0 and 1.
+- Exercise 5 does not return a tuple, but a string. The prompt states that the function must return a tuple with the input values and a greeting message. You're returning a string instead of a tuple.
+- Exercise 7 is incomplete. Instructions require to get an element from the DOM, use type assertion, access the element's properties and test the functionality. There is no implementation for it in the submission.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise1Xp.js
+suggestions for improvement:
+- In Exercise 1, while the code outputs 'Hola mundo', the instructions specify 'Hello, World!'. Consider making the output exactly match the requirement.
+- In Exercise 2, the variable name is `nameString` instead of `name` as described in the instructions. Using template literals is fine, but ensure variable names align with instructions.
+- Exercise 3 is incomplete and doesn't fully demonstrate the use of union types. It only shows variable assignment without type annotation or demonstration of using the variable with different types.
+- Missing implementations for exercises 4 through 9. The submission only addresses exercises 1, 2 and 3
+Correctness: 25%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise1Xp.ts
+suggestions for improvement:
+- In Exercise 1, the variable name `holaMundo` is not ideal. It should be named with english words.
+- In Exercise 2, the variable name `nameString` is redundant; `name` is sufficient and clearer.
+- Exercise 3 is incomplete. It does not include the 'console.log' statement.
+Correctness: 33.33%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise7.html
+suggestions for improvement:
+- The HTML code alone does not address the instructions of Exercise 7, which involve using TypeScript and type assertions to manipulate an HTML element. The TypeScript code, which should interact with the element, is missing.  The provided HTML sets up the element, but the instructions require TypeScript code to retrieve the element, cast it using type assertions, and then modify its properties.
+- Add the Typescript code that is required by the exercise.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise9.js
+suggestions for improvement:
+- The function's logic is not entirely clear from the code.
+- There is only one function signature, so it is not an overloaded function. You need to define multiple function signatures to properly overload it.
+- The conditional check for `undefined` is outdated, and it would be better to use the optional parameter syntax in TypeScript or provide default values in the function signature itself.
+Correctness: 50%
+-----

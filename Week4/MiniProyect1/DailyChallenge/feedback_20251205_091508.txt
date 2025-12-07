@@ -1,0 +1,6 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/MiniProyect1/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- Consider adding more robust error handling for invalid user inputs, such as non-numeric amounts.
+- You could modularize the code further by extracting the API key into a separate configuration file or environment variable for better security and maintainability.
+Correctness: 100%
+-----
