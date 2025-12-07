@@ -11,12 +11,3 @@ console.log(holaMundo);
 let age: number = 342; 
 let nameString: string = 'MateDrink';
 console.log(`${age} , ${nameString}`)
-
-// --> Exercise 3 < --
-// Utilice tipos de unión para declarar una variable idque puede ser una cadena o un número.
-
-let hola: number | string; 
- = 10;
- = 'goodMates';
-
-

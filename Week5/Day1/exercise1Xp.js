@@ -7,8 +7,3 @@ console.log(holaMundo);
 var age = 342;
 var nameString = 'MateDrink';
 console.log("".concat(age, " , ").concat(nameString));
-// --> Exercise 3 < --
-// Utilice tipos de unión para declarar una variable idque puede ser una cadena o un número.
-var hola;
-10;
-'goodMates';
