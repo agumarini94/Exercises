@@ -1,0 +1,78 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/DailyChallenge/dailyChallenge.js
+suggestions for improvement:
+- The provided code does not address any of the exercises outlined in the chapter content. It introduces a `Library` class with methods to add books and (attempt to) retrieve book details, but this is completely unrelated to access modifiers, readonly properties, inheritance, static members, or interfaces as described in the exercises.
+- The chapter exercises focus on creating classes with specific access modifiers, readonly properties, implementing inheritance, using static methods, and defining/extending interfaces. The code provided does none of these.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/DailyChallenge/dailyChallenge.ts
+suggestions for improvement:
+- The provided code does not address any of the specific exercises outlined in the Chapter Content/Questions. It creates classes and interfaces unrelated to access modifiers, readonly properties, inheritance, static members, or function types in interfaces.
+- The `getBookDetails` method is incomplete and doesn't return any book details based on ISBN as suggested by a comment. It lacks implementation.
+- The `publishYear` property in `book1` does not match the `publishedYear` property in the `Book` interface definition, leading to a potential type mismatch.
+- Consider adding type annotations to the `book` parameter in the `addBook` method for better type safety and readability.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise1.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise1.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise2.js
+suggestions for improvement:
+- The code attempts to modify `Product.id` as a static property, which is not how `readonly` properties are meant to be used. The intention was to demonstrate the immutability of an instance property.
+- The property `name` in the class is named `fname`. Consider renaming it to `name` for better readability and adherence to common conventions.
+- While the example shows how to declare and use a readonly property, it doesn't explicitly demonstrate the error that occurs when attempting to modify it after initialization within the *instance* of the class.  Add code that attempts to change `product.id` to showcase the readonly behavior during runtime and compilation.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise2.ts
+suggestions for improvement:
+- Consider renaming 'fname' to 'name' for better readability and consistency with the problem description.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise3.js
+suggestions for improvement:
+- Consider adding a constructor to the `Animal` class to accept the name during initialization. This would make the class more flexible.
+- The comment 'para crear una nueva instancia, uso NEW, en este caso es una instancia de Dog' could be removed as it's self-evident.
+- The `name` property in `Animal` can be initialized in the constructor to allow for different names when creating Animal instances. e.g., constructor(name: string) { this.name = name; }
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/Exercise3.ts
+suggestions for improvement:
+- Consider initializing the `name` property in the `Animal` class constructor instead of directly assigning a default value. This allows for more flexibility when creating instances of the class or its subclasses.
+- The comment 'unkonwn crea un nombre desconocido para name' can be improved for clarity and should be in English for broader understanding.
+- The comment 'para crear una nueva instancia, uso NEW, en este caso es una instancia de Dog' is redundant as the code itself demonstrates this.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/exercise4.js
+suggestions for improvement:
+- The `add` method should accept two number arguments `a` and `b` instead of relying on static properties. The same applies to the `subtract` method.
+- Rename `suma` to `add` for clarity and consistency with the instructions.
+- Remove the unnecessary semicolons after the method definitions.
+- Consider adding type annotations to the return types of the static methods for better readability and maintainability.
+Correctness: 60%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/exercise4.ts
+suggestions for improvement:
+- The static properties `a` and `b` should be arguments to the `add` and `subtract` methods instead of being defined as static class properties.
+- The methods should be named `add` and `subtract`, not `suma` and `subtract` (minor naming issue).
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/exercise5.js
+suggestions for improvement:
+- The provided code doesn't address any of the exercises from 1 to 4. It only starts to address the last exercise. Implement the exercises sequentially as they are designed to build upon each other.
+- The interface `User` must have `id` as `readonly` and `email` as `email`, not `mail`.
+- The function `printUserDetails` should properly use the interface `PremiumUser`.
+- The interfaces `User` and `PremiumUser` were not defined
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day2/exercise5.ts
+suggestions for improvement:
+- Consider renaming 'mail' to 'email' in the `User` interface to align with common conventions.
+- No significant improvements needed; the code is well-structured and directly addresses the problem.
+Correctness: 100%
+-----
