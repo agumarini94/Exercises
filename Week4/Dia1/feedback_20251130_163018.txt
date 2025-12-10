@@ -1,0 +1,6 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Dia1/exercise1.html
+suggestions for improvement:
+- Consider adding comments or console.log statements to clarify the purpose of each section of code.
+- For better readability, format the code consistently, especially within class definitions and function bodies.
+Correctness: 90%
+-----
