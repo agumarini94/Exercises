@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Clima — Detalles</title>
+    <style>:root {
+    --bg: linear-gradient(135deg, #e0f7ff 0%, #dff5ea 100%);
+    --card: #ffffff;
+    --accent: #0077c8;
+    --muted: #6b7280;
+    --shadow: 0 8px 24px rgba(7, 22, 45, 0.08);
+    --radius: 14px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: var(--bg);
+    display: flex;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Últimas búsquedas fija a la izquierda */
+.left-column {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 280px; /* más ancho para que entren más palabras */
+    padding: 2rem 1.5rem;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); /* fondo diferente y suave */
+    border-right: 2px solid #e0e0e0;
+    box-shadow: 4px 0 20px rgba(0,0,0,0.05);
+    border-radius: 0 16px 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Título de la sección */
+.recent-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Lista de búsquedas */
+#recentSearches {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+#recentSearches li {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+    cursor: pointer;
+    color: var(--muted);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+#recentSearches li:hover {
+    background-color: rgba(0, 119, 200, 0.15);
+    color: var(--accent);
+    transform: translateX(5px);
+}
+
+/* Columna derecha centrada */
+.right-column {
+    margin-left: 300px;
+    padding: 2.2rem;
+    flex: 2;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+#myLocationColumn {
+    margin-left: 300px;
+    padding: 2.2rem;
+    flex: 1;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 1.8rem;
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: 1.2rem;
+    font-size: 1.2rem; /* más grande y elegante */
+    font-weight: 1000;  /* un poquito más marcado */
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.detail-item span {
+    color: var(--muted);
+    font-weight: 600; /* resalta el valor */
+    letter-spacing: 0.3px;
+}
+
+#weatherImage {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+    object-fit: cover;
+    display: block;
+}
+
+#searchInput {
+    width: calc(100% - 90px);
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    border: 1px solid #cdd4dd;
+    font-size: 1.1rem;
+    font-family: "Inter", sans-serif;
+}
+
+#searchBtn {
+    width: 90px;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 12px;
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.05rem;
+    transition: 0.2s ease;
+}
+
+#searchBtn:hover {
+    opacity: 0.85;
+    transform: translateY(-1px);
+}
+
+
+/* Responsive: en pantallas chicas, columna izquierda se hace parte superior */
+@media (max-width: 768px) {
+    .left-column {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .right-column {
+        margin-left: 0;
+    }
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column; /* h1 arriba, columnas abajo */
+    width: 100%;
+    padding: 1rem;
+}
+
+/* Contenedor de columnas: izquierda + derecha lado a lado */
+.columns-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem; /* separa h1 de las columnas */
+}
+
+/* Centrar el h1 con fondo bonito */
+.main-title {
+    text-align: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin: 0;
+
+    /* Fondo más oscuro para contraste */
+    background: linear-gradient(135deg, #4e54c8 0%, #8f94fb 100%);
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+
+    /* Tipografía */
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ffffff; /* blanco puro para contraste */
+
+    /* Sombra de texto */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+
+    /* Transición para hover */
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+/* ----------------------------- */
+/* Efecto de resaltar la tarjeta cuando cambian los datos */
+.update-highlight {
+    animation: highlightAnim 1s ease-in-out 2; /* dura 1s, se repite 2 veces */
+    border: 2px solid #0077c8; /* borde azul */
+    box-shadow: 0 0 15px rgba(0, 119, 200, 0.6); /* resplandor */
+}
+
+@keyframes highlightAnim {
+    0% { transform: scale(1); box-shadow: 0 0 0 rgba(0, 119, 200, 0); }
+    50% { transform: scale(1.03); box-shadow: 0 0 20px rgba(0, 119, 200, 0.7); }
+    100% { transform: scale(1); box-shadow: 0 0 0 rgba(0, 119, 200, 0); }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="page-container">
+        <h1 class="main-title">Search the city and get the weather</h1>
+    
+        <div class="columns-container">
+    <!-- Columna izquierda: Últimas búsquedas fija -->
+    <div class="left-column" id="leftColumn">
+        <section class="card" aria-label="Últimas búsquedas">
+            <h3 class="recent-title">Last Searcheds</h3>
+            <ul id="recentSearches">
+                <!-- ACA APARECEN LAS CIUDADES  -->
+            </ul>
+        </section>
+    </div>
+
+    <!-- Columna derecha: Detalle del clima -->
+    <div class="right-column">
+        <div style="margin-bottom:1rem; display:flex; gap:0.5rem; position:relative;">
+            <input id="searchInput" type="text" placeholder="Write a city">
+            <div id="suggestions"
+                style="position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #ccc; z-index: 10;">
+                <!-- aquí van apareciendo las sugerencias -->
+            </div>
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <section class="card" aria-label="Detalles del clima">
+            <img id="weatherImage" src="" alt="Imagen del clima" />
+
+            <div class="detail-item">
+                <div>País</div><span id="country">--</span>
+            </div>
+            <div class="detail-item">
+                <div>Temperature</div><span id="temperature">--°C</span>
+            </div>
+            <div class="detail-item">
+                <div>Humedity</div><span id="humidity">--%</span>
+            </div>
+            <div class="detail-item">
+                <div>Presión</div><span id="pressure">-- in</span>
+            </div>
+            <div class="detail-item">
+                <div>Wind</div><span id="wind">-- kph</span>
+            </div>
+            <div class="detail-item">
+                <div>Condition</div><span id="condition">--</span>
+            </div>
+            <div class="detail-item">
+                <div>Local Time</div><span id="horaLocal">--:--</span>
+            </div>
+            <div class="detail-item">
+                <div>Last Updated</div><span id="lastUpdated">--</span>
+            </div>
+        </section>
+        </div>
+        <div class="right-column" id="myLocationColumn">
+            <h2>Mi ubicación actual</h2>
+<img id="loader" src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
+    style="width:60px; display:none;">
+
+            <section class="card" id="miLocationId">
+                <p><strong>Ciudad:</strong> <span id="myCity">--</span></p>
+                <p><strong>Temperatura:</strong> <span id="myTemp">--°C</span></p>
+                <p><strong>Condición:</strong> <span id="myCondition">--</span></p>
+                <p><strong>You should:</strong> <span id="myDeberias">--</span></p>
+
+        
+            </section>
+        </div>
+        </div>
+        </div>
+    </div>
+  <script>
+    async function getWeather(cityUser){ //city user = parametro 
+        console.log('start process');
+        try{
+    const answerServer = await fetch (`http://api.weatherapi.com/v1/current.json?key=f07fb4072ddd4f3281a81753251012&q=${cityUser}&aqi=no`);
+    const dataFromServer = await answerServer.json(); // i got the weather 
+            //here i get the temperature and all this. ..
+        const weatherServer = {
+            temperature: dataFromServer.current.temp_c,
+            humidity: dataFromServer.current.humidity,
+            presion: dataFromServer.current.pressure_in,
+            viento: dataFromServer.current.wind_kph,
+            condition: dataFromServer.current.condition.text,
+            horaLocal: dataFromServer.location.localtime,
+            country: dataFromServer.location.country,
+            imagenClima: dataFromServer.current.condition.icon,
+            lastUpdate: dataFromServer.current.last_updated,
+        };
+    
+    //-=-=> Aca lleno los espacios del html con los datos obtenidos. <=-=-
+    const iconClima = document.getElementById('weatherImage');
+        iconClima.src = 'https:' + weatherServer.imagenClima;
+            iconClima.style.width = '60px';   // ancho fijo
+            iconClima.style.height = '60px';  // alto fijo
+            iconClima.style.objectFit = 'contain'; // mantiene proporción
+    const inputTemperature = document.getElementById('temperature');
+        inputTemperature.textContent = weatherServer.temperature;
+    const inputHumidity = document.getElementById('humidity');
+        inputHumidity.textContent = weatherServer.humidity;
+    const inputPresion = document.getElementById('pressure');
+        inputPresion.textContent = weatherServer.presion;
+    const inputViento = document.getElementById('wind');
+        inputViento.textContent = weatherServer.viento;
+    const inputCondicion = document.getElementById('condition');
+        inputCondicion.textContent = weatherServer.condition;
+    const inputHoraLocal = document.getElementById('horaLocal');
+        inputHoraLocal.textContent = weatherServer.horaLocal;
+    const inputCountry = document.getElementById('country')
+        inputCountry.textContent = weatherServer.country;
+    const inputLastUpdated = document.getElementById('lastUpdated');
+        inputLastUpdated.textContent = weatherServer.lastUpdate;
+//-----> Esta parte le agrega un efecto al cuadro para que cuando cambie de ciudad, se note el cambio. <----EFECTO ANIMACION.. 
+    const weatherCard = document.querySelector('section.card[aria-label="Detalles del clima"]') //esto trae el bloque donde se muestran los datos del clima 
+    weatherCard.classList.add('update-highlight');
+    if(weatherCard){
+                weatherCard.classList.add('update-highlight');
+                weatherCard.classList.style
+        setTimeout(() => { //efect when im searching some city and refresh the window. 
+            weatherCard.classList.remove('update-highlight')
+        }, 2000); 
+    }
+    //---> ESTO AGREGA A LA COLUMNA DE LAS ULTIMAS BUSQUEDAS <----
+    const leftColumn = document.getElementById('recentSearches');
+    const lastSearch = document.createElement('li'); 
+    //creo un array vacio para ir agregando los elementos, y si estan repetidos, no los agrego
+        lastSearch.textContent = `${cityUser}, ${weatherServer.country}`;
+        lastSearch.addEventListener('click',() =>{
+            getWeather(cityUser); //call back to the function when i do click on some lastSearch
+        })
+    const valueLastSearch = lastSearch.textContent; // --> esto guarda el valor que hay en el textcontent del li que guarde en leftColumn
+        if(!arrayLastSearch.includes(valueLastSearch)){ //si no esta incluido lastSearch en el array.. 
+            arrayLastSearch.push(valueLastSearch);
+            leftColumn.appendChild(lastSearch);
+        }
+    console.log(weatherServer); 
+    console.log('finish process');
+        }catch (error){
+            console.log('something wrong',error);
+        }
+
+    } //FIN DE LA FUNCION GETWEATHER() <--------- 
+
+        // ------ > ACA OBTENGO LAS CITIES DEL API PARA EL AUTOCOMPLETE <---- 
+    async function autocompleteSearch(cityUser){ 
+        try{
+        console.log('start autocomplete');
+         if (cityUser === "") { 
+                suggestionsSearch.innerHTML = "";
+                suggestionsSearch.style.display = "none"; // <-- Limpia la lista mientras el text box esta vacio
+                return;
+            }
+    const answerServerCities = await fetch(`http://api.weatherapi.com/v1/search.json?key=f07fb4072ddd4f3281a81753251012&q=${cityUser}`)
+    //observar en el codiog que puse search.json, eso hace que traiga un array de ciudades . y no un objeto. 
+    const dataFromServerCities = await answerServerCities.json(); //esto me trae un array de ciudades. 
+    console.log(dataFromServerCities);
+            suggestionsSearch.innerHTML = '';
+            suggestionsSearch.style.display = "block"; // <-- ACÁ AGREGUÉ ESTO (mostrar lista)
+
+    dataFromServerCities.forEach((ciudad, i) =>{ //ciudad es el elemento, i = posicion 0 , 1 ,2 ...
+        if(ciudad.name.toLowerCase().startsWith(cityUser.toLowerCase())){ //hago minusculas las comparaciones
+            const suggestionsSearchDiv = document.createElement('div'); //esto crea un nuevo div donde estan las sugerencias 
+                suggestionsSearchDiv.style.padding = "6px 10px";
+                suggestionsSearchDiv.style.cursor = "pointer";
+                suggestionsSearchDiv.style.borderBottom = "1px solid #eee";
+            suggestionsSearchDiv.textContent = `${ciudad.name}, ${ciudad.country}`; //<--- esto le cambia el texto. ciudad + country
+                suggestionsSearch.style.display = "block"; // <-- ACÁ AGREGUÉ ESTO (mostrar lista)
+            suggestionsSearch.appendChild(suggestionsSearchDiv);// esto lo agrega 
+
+            suggestionsSearchDiv.addEventListener('click',() =>{
+                inputSearch.value = ciudad.name;
+                suggestionsSearch.innerHTML ='';
+                suggestionsSearch.style.display = 'none';
+                getWeather(ciudad.url);
+            });
+        }
+    })
+    console.log('finish autocomplete');
+        }catch(error){
+            console.log('something wrong in the autocomplete', error);
+        }
+    }
+
+    const botonSearch = document.getElementById('searchBtn'); // este es el boton de buscar 
+    const suggestionsSearch = document.getElementById('suggestions') //this is to the autocomplete
+    const inputSearch = document.getElementById('searchInput'); // este es la caja de texto del input
+    const arrayLastSearch = []; // este array es para guardar los item en la columna izquierda, pero tiene que esta fuera de la funcion si no siempre se reinicia. 
+
+    suggestionsSearch.style.display = "none";
+    // -----> ACA SE ACTIVA EL EVENTO EN EL TEXT CUANDO EMPIEZA A ESCRIBIR <-----
+        inputSearch.addEventListener('input', () => {
+        const valueBotonSearch = document.getElementById('searchInput').value.trim();
+            autocompleteSearch(valueBotonSearch); //esto deberia activarse cuando empieza a escribir
+        })
+        // ---> ESTE EVENTO SE ACTIA CUANDO HAGO CLICK EN 'BUSCAR' < ---- 
+    botonSearch.addEventListener('click',()=>{
+        const valueBotonSearch = document.getElementById('searchInput').value.trim();
+
+            if (valueBotonSearch.trim() !== '') { //si ingreso un string,  
+                getWeather(valueBotonSearch);
+                        suggestionsSearch.innerHTML = "";
+
+                        suggestionsSearch.style.display = "none"; // <-- ACÁ AGREGUÉ ESTO
+
+            }
+            else{
+                alert ('Write a valid city');
+            }
+        })
+
+    // ESTA SECCION ES PARA MI UBICACION ACTUAL Y EL CLIMA <------------********************=) 
+
+    const divMiLocation = document.getElementById('miLocationId');
+    const cityWhereIm = document.getElementById('myCity'); 
+    const temperatureWhereIm = document.getElementById('myTemp')
+    const conditionWhereIm = document.getElementById('myCondition')
+    const deberiaWhereIm = document.getElementById('myDeberias'); 
+    async function miLocation() {
+        console.log('start process my Location');
+        try{
+            const answerServerMiLocation = await fetch('https://api.weatherapi.com/v1/current.json?key=f07fb4072ddd4f3281a81753251012&q=32.0836,34.8092&aqi=no');
+            const climaMiLocation = await answerServerMiLocation.json();
+        loader.style.display= 'none'; // esto limpia el tiempo de carga de la funcion. osea oculta el Loading. 
+            console.log(climaMiLocation);
+            cityWhereIm.textContent = `${climaMiLocation.location.name}, ${climaMiLocation.location.region} - ${climaMiLocation.location.country}`;
+            temperatureWhereIm.textContent = climaMiLocation.current.temp_c;
+            conditionWhereIm.textContent = climaMiLocation.current.condition.text;
+            const iconClimaMyLocation = 'https:' + climaMiLocation.current.condition.icon;
+            //hago un switch , para que en caso que el clima sea bueno, cambiar fondo y mostrar un cartel.. 
+            const typeConditionWhereIm = climaMiLocation.current.condition.text.toLowerCase();
+                switch(true){
+                        case typeConditionWhereIm.includes("rain"):
+                        case typeConditionWhereIm.includes("drizzle"):
+                        case typeConditionWhereIm.includes("shower"):
+                            deberiaWhereIm.textContent = '🌂 Take an Umbrella and not go to work';
+                            divMiLocation.style.backgroundImage = `url(${iconClimaMyLocation})`; // azul lluvia
+                            divMiLocation.style.backgroundRepeat = 'repeat';
+                            divMiLocation.style.backgroundSize = "50px 50px";
+                            divMiLocation.style.backgroundPosition = "top left";
+                            break;
+                        case typeConditionWhereIm.includes("snow"):
+                        case typeConditionWhereIm.includes("sleet"):
+                        case typeConditionWhereIm.includes("ice"):
+                            deberiaWhereIm.textContent = ("🧥 Abrigo pesado");
+                        divMiLocation.style.background = "#f0f0f0"; // gris nieve
+                            break;
+                        case typeConditionWhereIm.includes("cloud"):
+                            if (climaMiLocation.current.temp_c < 18) deberiaWhereIm.textContent = ("🧥 Quizás abrigo ligero");
+                                    deberiaWhereIm.textContent = ("👕 Put a jacket its cold"); //este es el else, si es nieve mas 18 grados
+                        divMiLocation.style.backgroundImage = `url(${iconClimaMyLocation})`; // azul lluvia
+                        divMiLocation.style.backgroundRepeat = 'repeat';
+                        divMiLocation.style.backgroundSize = "50px 50px";
+                        divMiLocation.style.backgroundPosition = "top left";
+                        break;
+                        case typeConditionWhereIm.includes("sunny"):
+                        case typeConditionWhereIm.includes("clear"):
+                            if (climaMiLocation.current.temp_c  > 25) console.log("😎 Protéjase del sol"); //si esta limpio y mas de 25 grados 
+                                else deberiaWhereIm.textContent = ("👕 Ropa cómoda");
+                        divMiLocation.style.background = "#ffe066"; // amarillo sol
+                        break;
+                        default:
+                        deberiaWhereIm.textContent = ("🌤️ Clima variable, revisa la temperatura");
+                        divMiLocation.style.background = "#e0e0e0";
+                }
+
+        }catch(error){
+            console.log('algo mal con tu ubicacion',error);
+        }
+    }
+loader.style.display = "none";  // ocultar
+const loadingTimer = setTimeout(() => {
+        loader.style.display = "block"; // mostrar
+    miLocation();
+
+    }, 2000);
+  </script>
+</body>
+
+</html>
