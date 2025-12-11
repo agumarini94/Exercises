@@ -55,8 +55,9 @@
                                 weight: dataFromServer.weight,
             };
             console.log(dataFromServer);
+            
             console.log(pokemonGot); //EN EL DIV DE ABAJO, MUESTRO EN EL HTML AL POKEMON
-            divToSwohPokemon.innerHTML = ` 
+            divToSwohPokemon.innerHTML = `  
             <h2>${pokemonGot.name} (#${pokemonGot.id})</h2>
             <img src="${pokemonGot.image}" alt="${pokemonGot.name}">
             <p>Height: ${pokemonGot.height}</p>
