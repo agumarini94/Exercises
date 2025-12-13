@@ -1,0 +1,15 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day4/DaillyChallengeCoffeShop/CoffeShop-1.py
+suggestions for improvement:
+- The `show_menu` function should not return the menu. It should only print it.
+- In `add_item`, after adding the item, the function calls `show_menu` and returns its output, but `add_item` should not return the menu or call `show_menu` and return its output.
+- In `update_price`, you're taking the drink to update as a float. It should be a string (the drink name). Also, the recursive call to `update_price` within the `update_price` function is incorrect and will lead to infinite recursion. After updating or not finding an item, the function should return to the main loop in `run_coffee_shop`.  Also, the updated price is not converted to a float.
+- In `delete_item`, similar to `update_price`, there's an incorrect recursive call and the drink name is expected as input, not an integer.
+- The `run_coffee_shop` function needs to be in a `while` loop to keep running until the user chooses to exit. The check `user_option.is_integer` is incorrect. Use `isinstance(user_option, int)` *before* the check `0 < user_option < 5` .
+- In `run_coffee_shop`, when the user selects options 2, 3, or 4, the returned value from the called functions is not being handled, which is not an issue, but should be noted.
+- Missing the "Goodbye!" message when exiting the program (option 5).
+Brief justification:
+- correctness: The code implements some of the required functions, but contains errors in the logic of `update_price` and `delete_item` functions, has problems in the run_coffee_shop function. `show_menu` does not handle the empty menu edge case. The program is also missing a proper exit condition. Overall, the code partially implements the required functionality, hence the 40% score.
+- readability: The code is reasonably readable with clear function definitions and some comments. However, better variable names and more consistent formatting could improve readability.
+- performance: The code's performance is not a major issue in this case, but the unnecessary recursive calls in `update_price` and `delete_item` functions could lead to stack overflow errors with very large menus.
+- security: The code is vulnerable to input errors, as it doesn't validate the price input in `add_item` and `update_price`. A user could enter non-numeric values, causing the program to crash.
+
