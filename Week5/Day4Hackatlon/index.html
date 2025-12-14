@@ -297,24 +297,26 @@ body {
             <div class="detail-item">
                 <div>Last Updated</div><span id="lastUpdated">--</span>
             </div>
+            <!-- ESTO ES PARA QUE APAREZCA UN MAPA DE GOOGLE  -->
+            <div id="map" style="height:500px; width:100%;"></div>
+
         </section>
         </div>
         <div class="right-column" id="myLocationColumn">
             <h2>Mi ubicación actual</h2>
-<img id="loader" src="https://media.tenor.com/wpSo-8CrXqUAAAAi/loading-loading-forever.gif"
-    style="width:60px; display:none;">
+    <img id="loader" src="https://i.gifer.com/VAyR.gif"
+        style="width:60px; display:none;">
 
             <section class="card" id="miLocationId">
                 <p><strong>Ciudad:</strong> <span id="myCity">--</span></p>
                 <p><strong>Temperatura:</strong> <span id="myTemp">--°C</span></p>
                 <p><strong>Condición:</strong> <span id="myCondition">--</span></p>
                 <p><strong>You should:</strong> <span id="myDeberias">--</span></p>
-
-        
             </section>
         </div>
         </div>
         </div>
+
     </div>
   <script>
     async function getWeather(cityUser){ //city user = parametro 
@@ -455,6 +457,25 @@ body {
             }
         })
 
+
+    // ESTO ES PARA AGREGAR EL MAPA 
+    async function getMapa(){
+        try{
+            const askServerMap = await fetch('http://wiki.openstreetmap.org/wiki/API', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+            },
+        }
+            );
+            const answerServerMapa = await askServerMap.json();
+            console.log(answerServerMapa);
+            }catch(error){
+                console.log('algo mal con el mapa', error);
+            }
+        }
+    
+
     // ESTA SECCION ES PARA MI UBICACION ACTUAL Y EL CLIMA <------------********************=) 
 
     const divMiLocation = document.getElementById('miLocationId');
@@ -514,11 +535,10 @@ body {
             console.log('algo mal con tu ubicacion',error);
         }
     }
-loader.style.display = "none";  // ocultar
+loader.style.display = "none";  // ocultar ESTO MUESTRA UN ICONO DE LOADING, Y LUEGO MUESTRA MI UBICACION ACTUAL
 const loadingTimer = setTimeout(() => {
         loader.style.display = "block"; // mostrar
-    miLocation();
-
+        miLocation();
     }, 2000);
   </script>
 </body>
