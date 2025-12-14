@@ -1,0 +1,6 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day2/dailyChallenge.html
+suggestions for improvement:
+- Consider adding the JSON string to the DOM as requested in the instructions. Currently, the JSON string is only being logged to the console.
+- You could improve the user experience by clearing the input fields after the data has been processed.
+Correctness: 100%
+-----

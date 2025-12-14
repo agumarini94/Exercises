@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day4/DaillyChallengeCoffeShop/CoffeShopNew.py
+suggestions for improvement:
+- In `show_menu`, the menu should print 'The menu is empty' when the menu is empty.
+- In `show_menu`, the currency symbol should be '₪', not '$'.
+- In `add_item`, there is no check to prevent adding an item that already exists in the menu.
+- The print statements in `add_item`, `update_price`, and `delete_item` could be improved to be more consistent with the examples (e.g., printing 'Item deleted.' instead of 'The item was deleted').
+- In `run_coffee_shop`, consider using a dictionary or a match-case statement (Python 3.10+) to map user input to function calls, which can improve readability and maintainability.
+Brief justification:
+- correctness: The code implements most of the required functionality, including showing the menu, adding items, updating prices, deleting items, and running the main loop. However, it misses a key requirement: the case when the menu is empty in `show_menu`, and adding an existing item in `add_item`. It also does not use the correct currency symbol. Overall, it addresses most of the problem but has some omissions and inaccuracies.
+- readability: The code is generally well-structured and easy to read, with clear function definitions and straightforward logic.  The use of meaningful variable names also aids readability.
+- performance: The code's performance is adequate for the given task. It uses simple data structures and algorithms that are efficient enough for a small coffee shop menu.
+- security: The code uses `float(input())` which can throw a ValueError. Handling this exception with a try-except block is recommended. Also, there is no input validation to prevent potentially harmful inputs or invalid prices (e.g., negative prices). This could be addressed by adding checks to ensure that prices are positive values.
+

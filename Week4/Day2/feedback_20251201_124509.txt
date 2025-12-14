@@ -1,0 +1,14 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day2/dailyChallenge.html
+suggestions for improvement:
+- Append the JSON string to the DOM as requested in the instructions. Currently, the JSON string is only logged to the console.
+- Consider adding basic input validation to prevent empty values from being submitted.
+Correctness: 80%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day2/exercise1.html
+suggestions for improvement:
+- The code does not contain a form with name and last name fields.
+- The code does not retrieve data from the form inputs.
+- The code does not append the data as a JSON string to the DOM.
+- The code includes unrelated Javascript regarding a Mario game object.
+Correctness: 0%
+-----
