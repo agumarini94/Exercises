@@ -1,0 +1,11 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day1/sqlDay1.sql
+suggestions for improvement:
+- Rename `customer_apellido` to `customer_last_name` in the queries where you are filtering by last name to align with the table definition.
+- Add comments to explain each query's purpose, particularly for those fetching specific data from the database.
+- The instruction to create a database called 'public' is unusual. Normally, 'public' is a schema within a database. Consider creating a database with a different name and then creating tables within the public schema of that database, or simply creating the tables within the default 'postgres' database.
+Brief justification:
+- correctness: The code successfully creates the tables, inserts the data, and performs most of the required queries. However, there's an error in queries 4 and 5 where `customer_apellido` is used instead of `customer_last_name`. Also, the instruction to create a database called 'public' is questionable. The code fulfills most of the requirements, except for the incorrect column name in the queries and the potentially problematic database creation step. The question asks to fetch customers where last name is 'Smith', since there are no Smiths, it should return an empty set. It fulfills 6/7 requirements.
+- readability: The code is generally readable, with appropriate indentation and comments. However, adding more descriptive comments for each query would improve understanding.
+- performance: The SQL queries are simple and efficient for the given dataset size. No performance issues are apparent.
+- security: The code doesn't involve any user input or external data, so there are no significant security concerns.
+
