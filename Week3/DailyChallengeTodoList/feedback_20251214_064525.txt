@@ -1,0 +1,8 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/todoList.html
+suggestions for improvement:
+- The task addition logic is inside a 'while' loop that's meant to check for empty input, but it immediately breaks, making the loop redundant. It should be an 'if' statement.
+- The code appends the new task to the `form` element instead of the `<div class="listTasks"></div>` as specified in the instructions. Target the correct container.
+- Missing the functionality to delete the task from the array on click on the 'X' button. Should implement the deleteTask() function as per the instructions.
+- The code could be refactored to improve readability, breaking the task creation into smaller, more manageable functions.
+Correctness: 70%
+-----
