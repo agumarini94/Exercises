@@ -1,0 +1,68 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise1.js
+suggestions for improvement:
+- The exercise description requires the creation of types `Person` and `Address`, then to create an intersection type `PersonWithAddress` that combines these two types. The code provided does not define these types, therefore it doesn't satisfy the problem. There is no code provided for the other exercises
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise1.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise2.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise2.ts
+suggestions for improvement:
+- The code does not correctly address the problem described in the chapter content.
+- The code does not use type guards to handle different types.
+- The code does not return the expected description based on the input type.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise3.js
+suggestions for improvement:
+- The code uses `String(someValue)` for type casting, which is acceptable, but using `someValue as string` as shown in the commented-out section, aligns more directly with the lesson on type assertions. Consider using the `as` keyword for a more explicit type assertion.
+- The comments are helpful in explaining the behavior, but could be slightly more concise.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise3.ts
+suggestions for improvement:
+- The code is correct and demonstrates type casting.
+- The comments are helpful in explaining the different approaches to type casting.
+- Consider removing the commented-out code to keep the example concise.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise4.js
+suggestions for improvement:
+- The task asks to use type assertions to return the first element as a `string`. Instead, the code iterates through the array to find the first string element and returns it. This is not what the exercise asked for.
+- Consider revising the logic to directly use a type assertion on the first element of the array, as demonstrated in the commented-out code snippet within the exercise description.
+Correctness: 80%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise4.ts
+suggestions for improvement:
+- The code could be slightly improved by directly returning the first element of the array using a type assertion, rather than looping through the entire array.  This would align more closely with the task's intent.
+- Consider handling the case where the array is empty to prevent potential errors.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise5.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise5.ts
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise6.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/exercise6.ts
+suggestions for improvement:
+- The code is good. Consider adding an explicit type guard function (e.g., `isManager(employee: Employee): employee is Manager`) for better readability and maintainability, even though the direct property access works here.
+- While the code works, for larger more complex types, using a discriminated union is typically preferred over intersection types coupled with type guards.
+Correctness: 100%
+-----

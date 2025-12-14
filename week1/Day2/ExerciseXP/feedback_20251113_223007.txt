@@ -1,0 +1,9 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day2/ExerciseXP/ExerciseDay2.py
+suggestions for improvement:
+- The code provided does not address the coffee shop menu manager problem described in the chapter content. It contains solutions to different, unrelated exercises.
+Brief justification:
+- correctness: The code solves a series of unrelated exercises involving sets, tuples, lists, loops, and user input. It does not implement any of the functions or data structures required for the coffee shop menu manager, hence a score of 0%.
+- readability: N/A
+- performance: N/A
+- security: N/A
+
