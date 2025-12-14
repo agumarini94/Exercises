@@ -1,0 +1,57 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/DailyChallengeDay4.html/DailyChallengeDay4.html
+suggestions for improvement:
+- The `displayGroceries` function is not correctly implemented. It attempts to iterate through the keys of the `groceries` object but then tries to access `groceries[fruits]` which is incorrect. It should directly access the `fruits` array and use `forEach` to iterate over it.
+- The task asks to create an arrow function named `displayGroceries`. Your function definition is incomplete.
+- The code is missing the `cloneGroceries` function entirely. This is a significant part of the challenge, and its absence greatly reduces the correctness score.
+- Consider using `console.log` within the `forEach` loop to print each fruit individually, as requested by the problem.
+Correctness: 30%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.html
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on objects, references, and values in JavaScript, and includes a specific exercise using an object called `groceries`. The code provided appears to be testing variable scope within functions, and has nothing to do with the objects or the specific instructions provided.
+- The file is also HTML, and not javascript
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.js
+suggestions for improvement:
+- The code provided is a basic HTML structure with JavaScript functions that explore variable scope and hoisting, which is unrelated to the chapter content on objects and pass by reference/value. The chapter content focuses on manipulating objects and understanding how variables are copied in JavaScript.
+- The provided code should address the specific instructions regarding the `groceries` object and the `displayGroceries` and `cloneGroceries` functions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise2.html
+suggestions for improvement:
+- The provided code is not related to the chapter content or the instructions given. It involves a ternary operator and a function that always returns true, which are unrelated to objects, references, and values as described in the 'What you will learn' section.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise3.html
+suggestions for improvement:
+- The provided code does not address the instructions related to objects, references, and values, or the `groceries` object manipulation as described in the prompt. It only contains a simple string type check function.
+- Ensure the code implements the `displayGroceries` and `cloneGroceries` functions as specified in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise4.html
+suggestions for improvement:
+- The provided code appears to be an unrelated example of an arrow function that sums two numbers. It doesn't address the daily challenge instructions related to the `groceries` object, `displayGroceries` function, or the `cloneGroceries` function.
+- The code should be rewritten to follow the instructions and work with the given `client` and `groceries` variables, creating the requested functions and demonstrating the pass-by-value and pass-by-reference concepts.
+- Remove the HTML structure as the task only requires Javascript code.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise5.html
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on objects, references, and values, as well as manipulating a given object.
+- The code calculates the weight in grams based on a given weight in kilograms. This task has nothing to do with the instructions in the prompt.
+- The code needs to be rewritten to address the instructions provided in the 'Chapter Content/Questions' section, specifically working with the `client` and `groceries` variables.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise6.html
+suggestions for improvement:
+- The provided HTML file contains JavaScript code that is completely unrelated to the chapter content. The chapter focuses on objects, references, values, and function manipulation in JavaScript, using a specific 'groceries' object as an example. The submitted code, however, implements an immediately invoked function expression (IIFE) that constructs a sentence based on provided arguments about children, partner's name, location, and job title, and outputs it to the console. This has nothing to do with the challenge questions.
+- Therefore, the code does not address the problems posed in the chapter content at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise7.html
+suggestions for improvement:
+- The provided code is an HTML document with a basic navbar and a JavaScript script that adds a welcome message to the navbar. This has absolutely nothing to do with the chapter content, which focuses on objects, references, and values in JavaScript, and uses a specific 'groceries' object as an example.
+- The code should be rewritten to address the object manipulation tasks outlined in the prompt using the provided `client` variable and `groceries` object.
+Correctness: 0%
+-----
