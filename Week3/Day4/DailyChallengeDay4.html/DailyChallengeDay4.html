@@ -21,13 +21,9 @@
                     meansOfPayment: ["cash", "creditCard"]
                     }
             }
-    //1) Crea una función de flecha llamada displayGroceries, que registre en console.log las 3 frutas del groceriesobjeto. Usa el método forEach .
-    Object.keys(groceries).forEach(key=> {
-            
+    Object.keys(groceries).forEach(key=> {       
     })
         console.log(groceries.fruits);
-    // Crea otra función de flecha llamada cloneGroceries.
-    // En la función, crea una variable llamada userque sea una copia de la clientvariable. (Consejo : haz que la uservariable sea igual a la clientvariable)    
         function cloneGrocerias(client) {
             let user = client;
             user = 'Bety'; 
@@ -37,19 +33,11 @@
         console.log(groceries);
         }
 
-        // En la función, crea una variable llamada shoppingque sea igual a la groceriesvariable.
-    // Cambie el valor de la totalPriceclave a 35$. ¿Veremos también esta modificación en el shoppingobjeto ? ¿Por qué ?
-        // 2) We don't see the change because `user` is a local variable.
-        //3) Change the value of the totalPrice key to 35$.Will we also see this modification in the shopping object ? Why ?
+    //2) Cambie el valor de la totalPriceclave a 35$. ¿Veremos también esta modificación en el shoppingobjeto ? ¿Por qué ?
+    //2)  Reassigning it does not affect `client`, which is a primitive value. We see the change because `shopping` and `groceries reference the same object in memory.
 
-    // Reassigning it does not affect `client`, which is a primitive value.    
-    // We see the change because `shopping` and `groceries`
-    // reference the same object in memory.
-// Modifying a property affects both variables.cloneGrocerias(client);
-    // 3) Yes, we will see the modification in the shopping object
-    // because `shopping` and `groceries` reference the same object.
-    // Objects are assigned by reference, so changing a property
-    // affects both variables.
+    //3) Change the value of the totalPrice key to 35$.Will we also see this modification in the shopping object ? Why ?
+    //3)  because `shopping` and `groceries` reference the same object. Objects are assigned by reference, so changing a property affects both variables.
 
 </script>
 </body>
