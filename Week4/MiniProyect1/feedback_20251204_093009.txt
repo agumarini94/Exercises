@@ -1,0 +1,6 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/MiniProyect1/StarWarsMiniproyect.html
+suggestions for improvement:
+- Consider creating separate functions to display the data, fetch the data, and handle errors for better organization.
+- Improve the error handling to display a user-friendly error message in the `results` div instead of just logging to the console.
+Correctness: 90%
+-----

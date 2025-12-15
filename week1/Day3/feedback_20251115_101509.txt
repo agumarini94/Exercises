@@ -1,0 +1,11 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day3/DailyChallenge.py
+suggestions for improvement:
+- The code fails to correctly implement the dictionary creation. The keys should be the character of the input word, and the values should be a list of the indexes where the character appears. Your code attempts to use the index as a key, which is incorrect.
+- The use of enumerate is not aligned with the problem description. While enumerate provides both the index and the value, the code misuses them, attempting to use the index 'letters' as a key.
+- The code should check if a letter exists as a key in the dictionary *before* processing it.
+Brief justification:
+- correctness: The code only partially addresses Challenge 1. It takes user input and attempts to create a dictionary, but the logic for mapping letters to their indices is flawed.  It incorrectly assigns the index as the key and doesn't iterate correctly through the characters. Therefore, the code does not fulfill the core requirement of the challenge (creating the correct dictionary structure) as described in the instructions.
+- readability: The code is relatively easy to follow, though the variable names could be more descriptive (e.g., 'letter' instead of 'letters'). The comments are helpful but don't fully explain the intended logic, and there's commented-out code that is distracting.
+- performance: The performance is acceptable for the given task, as it iterates through the input word once. There are no major performance bottlenecks.
+- security: There are no apparent security concerns with this code, as it only involves user input and basic data manipulation.
+

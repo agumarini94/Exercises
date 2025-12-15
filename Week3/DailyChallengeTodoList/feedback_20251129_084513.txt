@@ -1,0 +1,23 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/tdoList.js
+suggestions for improvement:
+- The while loop is not necessary, the condition `inputValor.value !== ''` should be an if statement.
+- The 'X' button uses both innerHTML and setAttribute which might cause confusion. Stick to one approach. If you are using Font Awesome, you should render the icon in one single line.
+- Consider creating functions for creating elements to improve readability and maintainability.
+- The code could be improved by adding event listeners to the newly created 'X' buttons to implement the delete functionality
+Correctness: 70%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/todoList.css
+suggestions for improvement:
+- The provided code is only CSS. It needs to include HTML and Javascript to fulfil the project requirements.
+- Create an HTML file with the specified form and div structure.
+- Implement the addTask() function in JavaScript to add tasks to the array and the DOM.
+- Include functionality for the 'X' button and checkbox as described in the instructions.
+- Consider adding the bonus functionalities for task objects and deletion.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/todoList.html
+suggestions for improvement:
+- The provided code only includes the HTML structure. The JavaScript file, which is essential for implementing the required functionality (addTask, array manipulation, DOM manipulation, and bonus tasks), is missing. To fully address the problem, the JavaScript code needs to be provided and reviewed.
+- Add the CSS file.
+Correctness: 0%
+-----
