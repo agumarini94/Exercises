@@ -1,0 +1,65 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- The provided code is entirely unrelated to the content and exercises outlined in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/DailyChallenge/DailyChallenge.js
+suggestions for improvement:
+- The code does not address any of the exercises presented in the chapter content. It generates a visual representation of planets and their moons, which is unrelated to the tasks outlined in the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/Exercise1XP.html
+suggestions for improvement:
+- The code partially fulfills the requirements. It correctly implements Exercise 1, displaying numbers divisible by 23 and calculating their sum. However, it does not include the bonus functionality of accepting a divisor parameter.
+- Consider adding the bonus functionality to make the function more versatile.
+- It is good practice to avoid direct HTML in the JS file.
+Correctness: 50%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise2xp.html
+suggestions for improvement:
+- Consider adding comments to explain more complex logic.
+- Use const instead of let for totalPrice, as it doesn't change outside the function scope.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise3.html
+suggestions for improvement:
+- Consider removing the unnecessary `else;` after the `if` statement. It doesn't affect the code's functionality but reduces readability slightly.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise4xp.html
+suggestions for improvement:
+- Consider using more descriptive variable names (e.g., `numberOfNights` instead of `userNights`).
+- The validation for the destination in `planeRideCost` could be more robust.  It currently only checks for empty strings and numbers, but might benefit from checking if the input contains disallowed characters.
+- Use `const` instead of `let` for variables that are not reassigned, such as `totalCost` in `hotelCost()` or the return values of the functions called within `totalVacationCost()`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise5.html
+suggestions for improvement:
+- The 'Exercise 5' section of the instructions was partly implemented; some parts are missing or implemented incorrectly.
+- The prompt requires not to display the `<li>` that contains the text node “Dan” but is not implemented.
+- The border is not correctly set for Richard's `<li>`. It should select the correct `<li>` and apply the border to it.
+- The bonus section about the alert is not implemented.
+Correctness: 65%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise5.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise6.html
+suggestions for improvement:
+- The provided code addresses Exercise 6 but is placed inside an HTML file that also includes content from Exercise 5. This makes it difficult to evaluate the code in isolation.
+- The prompt requests to modify the element that has an `id` of `navBar`, but the HTML provided does not contain such element. This means the exercise has not been completed correctly.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise7.html
+suggestions for improvement:
+- The provided code only contains the basic HTML structure but lacks the Javascript file with the actual logic to solve the problem. Add the Javascript code to `exercise7.js` to complete the requirements.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/exercise7.js
+suggestions for improvement:
+- Consider adding error handling for image loading (e.g., displaying a default image if the URL is invalid).
+- The code is well-structured, but adding more comments could further enhance readability, especially for those less familiar with DOM manipulation.
+Correctness: 100%
+-----

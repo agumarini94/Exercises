@@ -1,0 +1,10 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- Instead of using alerts to display the story, update the text content of the 'story' span element as specified in the HTML.
+- Consider creating an array of possible stories and randomly selecting one when the 'shuffle' button is clicked. This would fulfill the bonus requirement more effectively.
+- Refactor the `newHistory` function to avoid redundant code. The story generation logic is repeated across multiple `if` statements.  You can create a single story template and insert the values.
+- Avoid using `alert` for displaying information to the user. It is generally better to update elements within the page.
+- The validation logic and subsequent story generation should ideally be separated into distinct functions for better organization and reusability.
+- Consider using template literals for easier string concatenation when creating the story.
+Correctness: 70%
+-----
