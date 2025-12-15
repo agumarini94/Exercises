@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day4/Exercise2.html
+suggestions for improvement:
+- Consider using async/await for cleaner syntax, especially in Exercise 3.
+- For better error handling, especially in a production environment, consider logging more detailed error information.
+- The HTML structure is minimal. While sufficient for the exercise, a more structured HTML setup is generally preferred.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day4/ExerciseXp1.html
+suggestions for improvement:
+- Consider adding more descriptive variable names for better readability.
+- The error handling could be more specific by logging the actual error message.
+Correctness: 100%
+-----
