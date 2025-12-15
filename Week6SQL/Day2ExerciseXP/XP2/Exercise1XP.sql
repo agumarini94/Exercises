@@ -1,0 +1,6 @@
+-- SELECT * FROM customers;
+-- SELECT * FROM items
+-- SELECT * FROM items order by product_price 
+-- SELECT * FROM items WHERE product_price <= 80
+-- SELECT customer_name, customer_apellido FROM customers ORDER BY customer_name LIMIT 3
+-- SELECT customer_name FROM customers ORDER BY customer_name DESC
