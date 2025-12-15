@@ -1,0 +1,10 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day2ExerciseXP/XP2/DailyChallenge/dailychallenge.sql
+suggestions for improvement:
+- The code provided is only the SQL queries and data setup, not the actual predictions or their execution. The 'answers' provided in comments are not in a format that can be verified. Provide the predicted outputs for each query explicitly.
+- To get a correctness score greater than 0, execute the queries and compare the ACTUAL output with the predicted output. If they match, your prediction was correct.
+Brief justification:
+- correctness: The submission does not provide predicted outputs for the SQL queries, but instead contains comments that seem to represent attempts at explanation. Since there are no predicted outputs to compare against the actual outputs, the correctness score is 0%. The task requires predicting the output of SELECT statements based on the given SQL setup.
+- readability: N/A
+- performance: N/A
+- security: N/A
+
