@@ -1,0 +1,31 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise1.html
+suggestions for improvement:
+- In Part II - Loops, the `break` statement in the `while` loop causes it to exit after only one iteration, preventing it from iterating until 'Devon' is found. Remove the `break` statement to fix this.
+- In Part I - Review about arrays, step 2, instead of using splice(3,1,'Jason') you should find the index of the 'James' and replace it no matter in which position it is, using people.indexOf('James').
+- In the while loop, the condition `people[j] != 'Devon'` might cause an error if 'Devon' is not in the array, leading to an infinite loop. Add a condition to check if `j` is within the bounds of the array to prevent this.
+Correctness: 90%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise2.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise3.html
+suggestions for improvement:
+- The alert message 'no muy buen numero' is in Spanish, consider using English for consistency or personal preference.
+- The console log 'you choose good number' is misleading as it's printed inside the while loop, implying the number is good even if it's not. Move it outside the loop.
+- Consider adding input validation to ensure the user enters a number, not a string or other non-numeric value. The `parseInt` function will return `NaN` if the input can't be converted.
+Correctness: 75%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise4.html
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section of the code.
+- Using template literals (backticks) can improve the readability when concatenating strings and variables (e.g., `console.log(`name of 2 tenan is ${building.nameOfTenants[1]} and hi has rooms ${building.numberOfRoomsAndRent.dan[0]}`) ).
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise5,6,7.js
+suggestions for improvement:
+- Consider using more descriptive variable names to improve readability (e.g., `key` instead of `keys` in Exercise 5, although `keys` is technically valid, `key` is conventional).
+- In Exercise 6, directly concatenate into the `text` variable with spaces instead of concatenating the key and value separately. This is only a readability suggestion.
+Correctness: 100%
+-----
