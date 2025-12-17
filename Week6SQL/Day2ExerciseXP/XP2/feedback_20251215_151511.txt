@@ -1,0 +1,9 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day2ExerciseXP/XP2/exerciseXP2.sql
+suggestions for improvement:
+- In query 2, using 'AS' to define the alias 'full_name' is optional but improves readability.  Consider adding it for consistency.
+- In query 7, `film_id > 15 AND film_id < 150` will exclude movies with film_id 15 and 150. You should use `film_id IN (15, 150)` or `film_id = 15 OR film_id = 150` to retrieve the correct movies.
+- In query 8, it is better to use a parameter rather than hardcoding 'Marley and me' to make the query more versatile. Also, even if the movie does not exist it's good to have the query, it doesn't have to be in the database.
+- In query 11, using LIMIT 20 OFFSET 10 works, but there are other ways to select the next 10 cheapest movies. A common approach without LIMIT would involve subqueries or window functions, though for this exercise, the current method is acceptable.
+- In the final bonus question (15), including the staff's name is great. It adds clarity to the results. No real need for improvement!
+Correctness: 93%
+-----

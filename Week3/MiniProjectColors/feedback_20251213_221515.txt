@@ -1,0 +1,22 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject.js
+suggestions for improvement:
+- Remove commented-out code. It makes the code harder to read and understand.
+- Consolidate event listeners. Avoid attaching multiple similar event listeners to the same elements if possible.
+- Use more descriptive variable names.  While `newDiv` is functional, names like `pixelElement` would improve readability.
+- Consider code organization. Separate concerns into distinct functions or modules to improve maintainability.
+- Implement a more efficient way to clear the board, possibly by using a single loop or a more direct DOM manipulation method.
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject1.html
+suggestions for improvement:
+- The HTML sets up the basic structure, including the color palette and a board composed of pixels. However, the board is populated with only a few pixel elements manually, which doesn't scale to a usable grid size as required by the project brief. The script inclusion is correct.
+- The structure for color selection is provided, but the functionality for selecting a color and drawing on the board is missing. You will need to add Javascript to implement color selection and drawing based on mouse events.
+- The board currently contains very few pixel elements which are added manually. The javascript file will have to create all the pixel elements needed to create the 'board' or grid.
+Correctness: 20%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProjectColors.css
+suggestions for improvement:
+- This code is only the CSS part of the requested coloring squares project. It needs to be accompanied by HTML and Javascript code to fulfill the requirements of the exercise.
+- The CSS provides styling for the color palette and the drawing board, but the functionality (color selection, drawing) is completely absent.  These would need Javascript to implement. The HTML grid structure also needs to be created.
+Correctness: 0%
+-----
