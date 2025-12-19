@@ -40,12 +40,10 @@ app.post('/users', (req, res) => {
     };
     users.push(newBlog);
     res.json(users);
-
-    // const { title, content } = req.body;
 });
 
 //PUT /posts/:id: Update an existing blog post.
-app.post('/users/:id', (req, res) => {
+app.put('/users/:id', (req, res) => {
     const idToEdit = parseInt(req.params.id);
     const blog = users.find(u => u.id === idToEdit);
     if (!blog) {
@@ -57,24 +55,12 @@ app.post('/users/:id', (req, res) => {
 });
 
 // //DELETE /posts/:id: Delete a blog post.
-app.post('/users/:id', (req, res) => {
+app.delete('/users/:id', (req, res) => {
     const idDelete = Number(req.params.id);
     const index = users.findIndex(blogg => blogg.id === idDelete);
     if (index === -1) { //findIndex devuelve -1 si no encuentra nada. 
         return res.status(404).send('Blog not found');
     }
     users.splice(index, 1);
-    res.status(200).json('Blog deleted');
     res.json(users);
-
 })
-
-// app.delete("/api/products/:productID", (req, res) => {
-//     const id = Number(req.params.productID);
-//     const index = products.findIndex((product) => product.id === id);
-//     if (index === -1) {
-//         return res.status(404).send("Product not found");
-//     }
-//     products.splice(index, 1);
-//     res.status(200).json("Product deleted");
-// });
