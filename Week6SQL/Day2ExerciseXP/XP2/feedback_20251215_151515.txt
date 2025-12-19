@@ -1,0 +1,6 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day2ExerciseXP/XP2/exerciseXP2.sql
+suggestions for improvement:
+- In query 2, you should alias the combination of first and last name, rather than only aliasing the last_name.
+- In query 7, the prompt asks to retrieve movie details where the movie id is either 15 OR 150. Currently, you're retrieving films BETWEEN movie ID 15 AND 150. Change AND for OR.
+Correctness: 93%
+-----

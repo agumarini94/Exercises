@@ -1,0 +1,29 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- The provided code does not address the exercises in the chapter content which are focused on DOM manipulation with timers and animation. The code instead implements a "Mad Libs" game which is unrelated to the instructions. Therefore it receives a score of 0.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/ExerciseXP2 /exercise1.html
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability, especially in larger projects.
+- Consistently comment out the `setTimeout` calls to avoid accidental execution during development.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/ExerciseXP2 /exercise2.html
+suggestions for improvement:
+- Consider using `const` instead of `var` for variables that are not reassigned.
+- Use more descriptive variable names (e.g., `animationElement` instead of `container` when referring to the moving div).
+- The comment `//y se vuevle a activar` is confusing, clarify why it is commented or remove the line if it's not needed
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/exercise1.html
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content on Timers and Animations with the DOM. It focuses on basic DOM manipulation, event listeners, and styling, which are different topics.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/exercise2.html
+suggestions for improvement:
+- The provided code does not address the exercises described in the chapter content. It's a basic HTML form with JavaScript that retrieves and displays user input, which is not related to DOM manipulation with timers or animation.
+- The code appears to be solving a different problem, possibly related to form handling in JavaScript, but it doesn't align with the chapter's focus on setTimeout, setInterval, and DOM-based animation.
+Correctness: 0%
+-----

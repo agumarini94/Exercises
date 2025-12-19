@@ -1,0 +1,21 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/tdoList.js
+suggestions for improvement:
+- The while loop is not necessary and can cause issues if the input is somehow manipulated to always be non-empty. Use an if statement to check for empty input.
+- The "X" button's innerHTML is being set twice. This is redundant.
+- Consider using more descriptive variable names for better readability.
+- The task array is populated only with text, rather than objects as requested by BONUS I. The doneTask() and deleteTask() functionality is not implemented.
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/todoList.css
+suggestions for improvement:
+- The submission contains only CSS code which is unrelated to the JavaScript functionality requested in the problem description. A JavaScript implementation is expected that handles DOM events, DOM manipulation, and array operations to create the to-do list application.
+- The HTML structure also is missing in this submission.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/DailyChallengeTodoList/todoList.html
+suggestions for improvement:
+- The HTML code only sets up the basic structure of the form and links to CSS and JavaScript files, but it doesn't include the div element with class 'listTasks', which is crucial for displaying the to-do list items.  This needs to be added to the HTML to fulfill the prompt's requirement.
+- The HTML is missing the inclusion of Font Awesome, which is mentioned for rendering the 'X' button. Add a link to the Font Awesome CSS in the head section.
+- The JavaScript file (tdoList.js) is not included, so I cannot assess its content. However, based on the instructions, it should handle event listeners, array manipulations, and DOM manipulations, which are missing from this HTML file.
+Correctness: 0%
+-----
