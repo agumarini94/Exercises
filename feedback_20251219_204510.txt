@@ -1,0 +1,15 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/server.js
+suggestions for improvement:
+- Consider using more descriptive variable names for improved readability.
+- Implement proper error handling for different scenarios, such as when a resource is not found.
+- Use more robust data validation techniques to prevent potential issues.
+- Ensure the POST and PUT routes correctly utilize the request body for creating and updating resources dynamically instead of hardcoding the values.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which only describes the project's metadata and dependencies. It doesn't implement any of the API functionality described in the exercises.
+- To fulfill Exercise 1, a server.js file with Express routes and data handling logic is required.
+- Exercises 2 and 3 need similar app.js implementations with appropriate routes and data handling, possibly incorporating data modules and Axios for external API calls.
+Correctness: 0%
+-----
