@@ -1,0 +1,16 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- The HTML code only provides the structure of the Mad Libs game but lacks the core JavaScript functionality to make it interactive.
+- You need to add a JavaScript file (DailyChallenge.js) and link it to the HTML to implement the required functionalities such as event handling, DOM manipulation, and story generation.
+- Specifically, event listeners for form submission and the shuffle button (bonus) should be implemented in the Javascript file
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.js
+suggestions for improvement:
+- Instead of using alerts to display the stories, update the content of the `span` element with the id `story`. This aligns better with the HTML provided and the intention of the exercise.
+- The bonus functionality of shuffling stories is implemented, but the stories generated are repetitive.  Create unique story variations to enhance the user experience.
+- Consider using an array to store the different story templates and randomly select one each time the "shuffle" button is clicked.  This will lead to more varied and interesting results.
+- The counter variable and the `newHistory` function could be better structured for clarity and reusability.
+- Avoid hardcoding the same story structure in each `if` and `else if` block within the `newHistory` function.  This makes the code difficult to maintain and extend.
+Correctness: 60%
+-----
