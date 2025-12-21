@@ -1,0 +1,7 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day2/exercise1.html
+suggestions for improvement:
+- The HTML form for exercises 1 and 2 is incomplete. Include the actual form elements (input and textarea) within the <form> tags. The button should be a submit button (type="submit").
+- The form's 'action' attribute should point to a server-side script to handle the form submission, not the same HTML file unless you have server-side code to process the form data within the HTML file.  For a basic example, it's acceptable to point to the same file, but for a real application, you would use a different URL.
+- Exercise 3's JavaScript part is good, but should be separated to another file to have good practices.
+Correctness: 50%
+-----

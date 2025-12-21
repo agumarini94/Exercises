@@ -1,0 +1,7 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/exercise1.html
+suggestions for improvement:
+- Consider using CSS classes for applying styles instead of directly manipulating the style property in JavaScript for better separation of concerns and maintainability.
+- For the fade-out effect on the h2, applying a CSS class with the transition and opacity change would be more efficient and cleaner than directly manipulating the style and using setTimeout.
+- Using event delegation on the article for events on paragraphs (e.g., making them bold) could be more performant if you have a large number of paragraphs.
+Correctness: 90%
+-----
