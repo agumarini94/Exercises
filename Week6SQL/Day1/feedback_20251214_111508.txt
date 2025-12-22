@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day1/sqlDay1.sql
+suggestions for improvement:
+- The prompt states to create a database named `public`. In PostgreSQL, `public` is the default schema, not a database. Creating tables inside the `public` schema is sufficient.
+- The table creation scripts are commented out. They should be uncommented to execute the table creation.
+- The data insertion statements for the items and customers are missing.
+- Some queries use `product_price` which is not the correct column name (`item_price` should be used instead).
+- Query number 6 is incorrect. It selects customers whose first name IS Scott, instead of IS NOT Scott.
+Brief justification:
+- correctness: The code includes table creation scripts (commented out), and queries to retrieve data from the created tables as requested. The creation of database 'public' is misinterpreted. The data insertion part is missing which is a critical part of the exercise. The SELECT statements also use the incorrect column name, and the final SELECT statement returns the inverse of what was asked. These errors account for the 40% correctness score.
+- readability: The code is readable, with clear comments explaining what each query is intended to do. However, the use of Spanish in comments alongside English makes it slightly less consistent. Overall, readability is good. Some spacing is off in the SQL statements though.
+- performance: The performance of the queries is likely to be fine since these are simple SELECT statements. However, since there is no data insertion, there's nothing to query, decreasing the performance. The missing indexes also affect performance.
+- security: The code does not appear to have any glaring security vulnerabilities. It's primarily DDL and DML statements, so the risk is low. However, improper sanitization of inputs (if this were a real application) could lead to SQL injection vulnerabilities.
+

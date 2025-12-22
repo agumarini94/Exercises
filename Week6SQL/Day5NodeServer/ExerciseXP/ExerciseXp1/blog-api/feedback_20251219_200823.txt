@@ -1,0 +1,1994 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/.package-lock.json
+suggestions for improvement:
+- The provided code is a `package-lock.json` file, which describes the dependency tree of a Node.js project. It does not implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/accepts/index.js
+suggestions for improvement:
+- This code is not related to the exercise instructions. It appears to be the 'accepts' library, which is a dependency negotiation tool, and not an implementation of a RESTful API or CRUD operations as requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/accepts/package.json
+suggestions for improvement:
+- The provided code is a package.json file, not an implementation of the exercises described in the chapter content.
+- The content of package.json does not include code related to creating RESTful APIs with Express, building CRUD APIs, or using Axios for data retrieval.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/index.js
+suggestions for improvement:
+- This code appears to be the body-parser middleware, which is not a solution to any of the exercises in the provided chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/read.js
+suggestions for improvement:
+- The provided code appears to be middleware for parsing request bodies, and is not an implementation of any of the exercises. The exercises are designed to teach how to build RESTful APIs using Express, focusing on creating routes to perform CRUD operations. This code does not create routes or implement any API endpoints as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/types/json.js
+suggestions for improvement:
+- The code provided appears to be middleware for parsing JSON request bodies, which is not directly related to the exercises described in the chapter content. The exercises focus on building RESTful APIs and CRUD operations using Express.js, but this code snippet deals with request parsing, a lower-level concern.
+- Since the code doesn't implement any of the API endpoints or CRUD operations specified in the exercises, it cannot be evaluated for correctness in the context of the given chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/types/raw.js
+suggestions for improvement:
+- The provided code snippet appears to be middleware for parsing raw request bodies, specifically for the 'body-parser' library. This functionality is entirely unrelated to building RESTful or CRUD APIs using Express.js as described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/types/text.js
+suggestions for improvement:
+- The provided code is an excerpt from the 'body-parser' library, specifically the text parsing middleware. It does not address any of the exercises outlined in the chapter content, which involve building RESTful APIs with Express.js.
+- The code is unrelated to the task of creating APIs for blog posts or books. It's a utility function for parsing text request bodies, not for creating API endpoints, handling data, or using Axios.
+- Since the code doesn't implement any of the specified API functionalities (GET, POST, PUT, DELETE), it's entirely irrelevant to the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/types/urlencoded.js
+suggestions for improvement:
+- The provided code relates to the 'body-parser' library, specifically the 'urlencoded' middleware, which is used for parsing URL-encoded request bodies. This is not directly related to building RESTful APIs, creating CRUD operations, or using Axios to fetch data as outlined in the chapter's exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/lib/utils.js
+suggestions for improvement:
+- This code appears to be from a utility library for parsing request bodies, potentially related to Express.js middleware. However, it doesn't directly address any of the specific tasks outlined in the exercises (building RESTful APIs, CRUD operations, or using Axios to fetch data). Therefore, it's irrelevant to the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/body-parser/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package. It doesn't implement any of the API functionalities described in the exercises.
+- The submission should include the actual JavaScript code for the Express API to be evaluated against the exercises' requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/bytes/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, focusing on byte formatting and parsing rather than building APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/bytes/package.json
+suggestions for improvement:
+- This submission appears to be a `package.json` file, which is unrelated to the exercises described in the chapter content. The exercises involve building RESTful APIs with Express.js, including setting up routes, handling requests, and managing data. A `package.json` file simply defines metadata about a Node.js project and its dependencies.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code snippet appears to be a funding model configuration file, completely unrelated to the Express.js API building exercises described in the chapter content.
+- Since the code doesn't address any of the exercise requirements, it cannot be evaluated for correctness, readability, performance or security in the context of the chapter.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/actualApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/actualApply.js
+suggestions for improvement:
+- The provided code appears to be a utility for applying functions, potentially related to JavaScript's `apply` and `call` methods.  This is completely unrelated to building RESTful APIs with Express as described in the chapter content.
+- The code does not address the instructions for creating a blog API, a book API, or interacting with the JSONPlaceholder API.  It's purpose is entirely different from the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/applyBind.d.ts
+suggestions for improvement:
+- The code provided is completely unrelated to the exercises described in the chapter content, which focuses on building RESTful APIs with Express.js. It seems to be related to type manipulation in TypeScript, which is outside the scope of the given instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/applyBind.js
+suggestions for improvement:
+- The provided code snippet appears to be a utility function related to function binding and application, but it doesn't address any of the specific requirements outlined in the chapter content (building RESTful APIs with Express, CRUD operations, or data retrieval with Axios). It is entirely unrelated to the exercises provided.
+- Since the code is unrelated to the task, it's impossible to evaluate its correctness within the context of the assignment. Focus on completing the exercises as described in the chapter content using Express.js and Node.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/functionApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/functionApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/functionCall.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/functionCall.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/index.d.ts
+suggestions for improvement:
+- The code provided appears to be TypeScript type definitions and a function declaration for a `callBind` function. This is entirely unrelated to the exercise's focus on building RESTful APIs with Express.js. The exercises are about creating server-side applications with specific endpoints for managing blog posts or books.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/index.js
+suggestions for improvement:
+- The code provided appears to be a utility function related to function binding and application, which is not relevant to the exercises described in the chapter content. The exercises focus on building RESTful APIs with Express.js, involving tasks like setting up routes, handling requests, and performing CRUD operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file which is unrelated to the chapter exercises on building RESTful APIs with Express.js. The exercises involve creating server-side applications with specific endpoints and functionalities (CRUD operations on blog posts and books).
+- The package.json file contains metadata about a Node.js package, including its name, version, dependencies, and scripts, but it doesn't implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/reflectApply.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/reflectApply.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/test/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which focuses on building RESTful APIs with Express.js. The provided code appears to be a test suite for a function binding utility, which has no relevance to the API creation tasks outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bind-apply-helpers/tsconfig.json
+suggestions for improvement:
+- This code appears to be a TypeScript configuration file, which is completely unrelated to the exercises described in the chapter content. The exercises focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/.github/FUNDING.yml
+suggestions for improvement:
+- The provided file seems to be a funding model configuration, unrelated to the exercises which involve building RESTful APIs with Express.js. The file does not address any of the instructions in the chapter.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/index.d.ts
+suggestions for improvement:
+- This code appears to be a type definition file related to intrinsic JavaScript functions and their precise binding. It has nothing to do with building RESTful APIs using Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/index.js
+suggestions for improvement:
+- The code provided is completely unrelated to the chapter's exercises, which focus on building RESTful APIs using Express.js.
+- The code appears to be a utility for binding intrinsic JavaScript functions, which is not within the scope of the provided exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which describes a Node.js package. It doesn't implement any of the API-related tasks described in the chapter content.
+- The provided file is not related to building APIs using Express, creating routes, or handling data. It is a configuration file.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/test/index.js
+suggestions for improvement:
+- The provided code is a series of tests using the 'tape' testing library, and a 'callBound' function that seems to be testing intrinsic properties of JavaScript objects and functions. The code does not attempt to address building RESTful APIs or CRUD operations with Express.js as requested in the chapter content. Therefore, it is entirely unrelated to the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/call-bound/tsconfig.json
+suggestions for improvement:
+- The provided code is a TypeScript configuration file, which is not relevant to the exercises that focus on building RESTful APIs with Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/content-disposition/index.js
+suggestions for improvement:
+- The provided code is a module for handling HTTP Content-Disposition headers, which is not related to building RESTful APIs with Express as described in the chapter content. The chapter focuses on creating API endpoints for CRUD operations.
+- The code does not implement any of the exercises outlined in the chapter, which involve setting up an Express server, defining routes, and handling data.
+- The code doesn't address building a blog API (Exercise 1), a book API (Exercise 2), or an API that fetches data from JSONPlaceholder (Exercise 3).
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/content-disposition/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package. It doesn't implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/content-type/index.js
+suggestions for improvement:
+- The submitted code is a module for parsing and formatting content types, which is not directly related to the exercises that focus on building RESTful APIs with Express.js. It doesn't address the instructions for creating API endpoints, handling requests, or performing CRUD operations on data.
+- The code would be relevant if the exercises included aspects like handling different content types in requests or responses, but the provided exercises do not cover this.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/content-type/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'content-type'. It does not implement any of the API building exercises outlined in the chapter content.
+- The package.json file itself is valid and well-structured, but it is completely unrelated to the tasks of building RESTful APIs or CRUD APIs using Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/cookie-signature/index.js
+suggestions for improvement:
+- The provided code implements cookie signing and unsigning, which is completely unrelated to the exercises that focus on building RESTful APIs with Express.js for managing blog posts and books.
+- The code does not address the instructions provided in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/cookie-signature/package.json
+suggestions for improvement:
+- This submission is a `package.json` file, which is not code implementing the exercises as requested.  The exercises ask for the creation of RESTful APIs using Express.js. A `package.json` file simply describes the project and its dependencies.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/cookie/index.js
+suggestions for improvement:
+- This code is a cookie parsing and serialization library, completely unrelated to the exercises which focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/cookie/package.json
+suggestions for improvement:
+- This package.json file doesn't implement any of the API or CRUD functionalities requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/debug/package.json
+suggestions for improvement:
+- This submission is a package.json file, which does not implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/debug/src/browser.js
+suggestions for improvement:
+- The code appears to be related to debugging in a browser environment, possibly a library for logging or debugging purposes.
+- This code does not address any of the exercises which require building RESTful APIs with Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/debug/src/common.js
+suggestions for improvement:
+- The provided code appears to be an internal module related to debugging, possibly extracted from a library like 'debug'. This code does not implement any of the API building exercises outlined in the chapter content. Therefore, it's completely unrelated to the assigned task.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/debug/src/index.js
+suggestions for improvement:
+- The submitted code does not implement any of the API functionalities described in the exercises. It appears to be related to environment detection (browser vs. Node.js) which is not requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/debug/src/node.js
+suggestions for improvement:
+- The code provided does not implement any of the exercises. It seems to be the source code for the `debug` module, which is unrelated to building RESTful APIs with Express.
+- The submission completely misses the point of the exercise, which is to create API endpoints using Express to perform CRUD operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/depd/index.js
+suggestions for improvement:
+- The code provided is a module named `depd`, which is a utility for marking functions or properties as deprecated. This is completely unrelated to the exercise instructions that focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/depd/lib/browser/index.js
+suggestions for improvement:
+- The provided code does not implement any of the API exercises described in the prompt.
+- The code appears to be from a utility library (depd), which is unrelated to building RESTful APIs with Express as outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/depd/package.json
+suggestions for improvement:
+- This code appears to be a `package.json` file, which is not directly related to the exercises described in the chapter content. The exercises focus on creating RESTful APIs using Express.js, while this file describes metadata about a Node.js package.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/.github/FUNDING.yml
+suggestions for improvement:
+- This code is a funding model configuration and is entirely unrelated to the exercises on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/get.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/get.js
+suggestions for improvement:
+- This code appears to be a utility for accessing the prototype of an object, potentially related to JavaScript internals, and is completely unrelated to building RESTful APIs with Express.js as described in the exercises.  It doesn't address any of the instructions given.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which is not directly related to building RESTful APIs with Express as described in the exercises. It defines metadata about a Node.js package, including dependencies, scripts, and other configuration details, but it doesn't implement any API endpoints or server logic.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/set.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/set.js
+suggestions for improvement:
+- The code appears to be related to manipulating the `__proto__` property of objects, potentially for setting the prototype of an object. This is completely unrelated to the exercise instructions, which involve building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/test/get.js
+suggestions for improvement:
+- The submitted code is a unit test for a `getDunderProto` function, which is completely unrelated to building RESTful APIs with Express as described in the chapter content.  The code doesn't address any of the exercises provided.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/test/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/test/set.js
+suggestions for improvement:
+- The provided code is a test suite for a function called `setDunderProto`. This is entirely unrelated to the exercises, which involve building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/dunder-proto/tsconfig.json
+suggestions for improvement:
+- This code snippet is a TypeScript configuration file and is not related to building RESTful APIs or CRUD applications with Express.js as described in the exercises. It should not be included in the response.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ee-first/index.js
+suggestions for improvement:
+- The submitted code does not implement any of the API-related tasks described in the chapter content. It's a utility for handling events, which is completely unrelated to building RESTful APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ee-first/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file which describes a node module. It doesn't implement any of the API building exercises. The file does not contain any code related to building APIs with Express, managing blog posts or books, or using Axios to fetch data, as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/encodeurl/index.js
+suggestions for improvement:
+- This code is a utility for encoding URLs, which is not directly related to the exercises focused on building RESTful APIs with Express.js. While URL encoding is important in web development, it is not the primary subject of the provided exercises.
+- The code could benefit from additional comments explaining the purpose of each regular expression and the overall encoding strategy.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/encodeurl/package.json
+suggestions for improvement:
+- The code provided is a package.json file, which describes a Node.js module named 'encodeurl'. This file does not implement any of the API building exercises described in the chapter content.
+- The exercises require building RESTful APIs with Express.js, including defining routes, handling requests, and working with data. The package.json file does not contain any of this functionality.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/.github/FUNDING.yml
+suggestions for improvement:
+- This file does not address any of the exercises provided.
+- The exercises require building REST APIs using Node.js and Express.js, while this file seems to be related to funding models.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/index.js
+suggestions for improvement:
+- The submitted code appears to be unrelated to the exercises provided in the chapter content. It seems to be a utility module for defining object properties, which isn't directly relevant to building RESTful APIs with Express.js, creating CRUD APIs, or using Axios to fetch data from an external API.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is not a solution to any of the exercises. The exercises require building RESTful APIs with Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `defineProperty` function, which is completely unrelated to the chapter's exercises on building RESTful APIs with Express.js. The chapter focuses on server-side development, while the code seems to be testing a low-level JavaScript feature.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-define-property/tsconfig.json
+suggestions for improvement:
+- The provided code appears to be a `tsconfig.json` file, which is used for configuring TypeScript projects.  This file is not relevant to the exercises described in the Chapter Content/Questions, which focus on building RESTful APIs with Express.js.
+- The exercises require creating Node.js applications with specific routes and functionality related to creating, reading, updating, and deleting data. A `tsconfig.json` file does not address these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a YAML file listing supported funding model platforms, which is completely unrelated to the exercises that require building RESTful APIs using Express.js. The code does not address any of the instructions provided in the chapter content.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/eval.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/eval.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is irrelevant to the exercises that require building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/range.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/range.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/ref.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/ref.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/syntax.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/syntax.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/test/index.js
+suggestions for improvement:
+- This code appears to be testing some custom error classes, which is not related to building RESTful APIs with Express.js as outlined in the chapter content.
+- The code does not address any of the exercises provided, focusing instead on error handling in a different context.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/tsconfig.json
+suggestions for improvement:
+- The provided code is a `tsconfig.json` file, which configures the TypeScript compiler. While TypeScript can be used in Node.js projects (which these exercises are), this file alone does not implement any of the API functionality described in the exercises. It's not an implementation of a RESTful API, a CRUD API, or anything related to handling HTTP requests with Express.js.
+- The exercises require building APIs with specific endpoints and functionalities (GET, POST, PUT, DELETE), using Express.js to handle routes, and possibly Axios to fetch data. The `tsconfig.json` only configures the TypeScript compiler and does not fulfill any of these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/type.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/type.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/uri.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-errors/uri.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/.github/FUNDING.yml
+suggestions for improvement:
+- The provided file appears to be a funding model configuration, which is completely unrelated to the exercises that involve building RESTful APIs with Express.js.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/RequireObjectCoercible.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/RequireObjectCoercible.js
+suggestions for improvement:
+- The code is completely unrelated to the exercises which require building RESTful APIs using Express.js and Node.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/ToObject.d.ts
+suggestions for improvement:
+- The submitted code does not address any of the exercises related to building RESTful APIs with Express.js. It seems to be a TypeScript declaration file for a `ToObject` function, which is unrelated to the chapter's content.
+- The provided code should implement the REST API according to the instructions of the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/ToObject.js
+suggestions for improvement:
+- The provided code snippet appears to be a utility function related to object coercion in JavaScript, possibly part of a larger library. It's completely unrelated to the exercises which focus on building RESTful APIs using Express.js. Therefore, it doesn't address the exercise requirements at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/isObject.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/isObject.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Javascript package. This file itself doesn't implement any of the API functionalities described in the exercises.
+- The exercises require creating RESTful APIs with Express.js, including defining routes, handling requests, and returning responses. This file does not contain any of that logic.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/test/index.js
+suggestions for improvement:
+- The submitted code appears to be a set of tests for Javascript object coercion and type checking, and is unrelated to the Express.js API creation exercises described in the chapter content. The exercises focus on building RESTful APIs using Node.js, Express.js, and potentially Axios for data fetching. The provided code doesn't address any of those tasks.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/es-object-atoms/tsconfig.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/escape-html/index.js
+suggestions for improvement:
+- The provided code is for escaping HTML characters, which is not related to building RESTful APIs with Express.js as described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/escape-html/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module. This file doesn't implement any of the API functionality requested by the exercises, so it is completely irrelevant.
+- The exercises required building REST APIs with CRUD operations using Express, while the provided file is metadata about a module, not an actual implementation of an API.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/etag/index.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter exercises, which focus on building RESTful APIs with Express.js.  It appears to be the 'etag' module, used for generating HTTP ETags, but has nothing to do with the assigned tasks.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/etag/package.json
+suggestions for improvement:
+- This is a package.json file, which doesn't implement any of the API functionalities described in the exercises. It defines metadata about a Node.js project but doesn't contain any code related to building RESTful APIs, CRUD operations, or data fetching.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/index.js
+suggestions for improvement:
+- The provided code is the core `express` module definition, not a solution to any of the given exercises.
+- To address the exercises, you need to create `server.js` and `app.js` files, implement the required routes, and use the `express` module within those files.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/application.js
+suggestions for improvement:
+- This code is the source code for the Express.js framework itself, not a solution to any of the exercises. It is completely unrelated to the instructions provided.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/express.js
+suggestions for improvement:
+- The submitted code is the source code for the Express.js framework itself, not a solution to the exercises provided in the chapter content.
+- The code does not implement any of the API endpoints or functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/request.js
+suggestions for improvement:
+- The code provided appears to be the source code for the Express.js `req` object, which is a request object.  It does not implement any of the API exercises described in the prompt.
+- The code doesn't create an Express app, define routes, handle data, or implement CRUD operations as requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/response.js
+suggestions for improvement:
+- The code provided is the `res.js` file from the Express.js library itself, containing the implementation of the response object methods. This code does not address any of the specific API building exercises outlined in the chapter content. The exercises ask for building REST APIs for blogs and books, involving creating routes, handling requests, and managing data. This `res.js` file is a foundational component of Express, but it's not a solution to any of the given problems.
+- Since the code is part of Express.js and not a solution to the exercises, there's no correctness to evaluate in the context of the given instructions. It would be beneficial to submit code that implements the APIs described in the exercises using the Express library functions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/utils.js
+suggestions for improvement:
+- This code is from the Express.js library itself, not a solution to the exercises. Therefore, it's irrelevant to the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/lib/view.js
+suggestions for improvement:
+- The code provided is a module from the Express.js library itself, specifically the `View` class, which is responsible for handling view rendering. This code does not address any of the specific exercises outlined in the chapter content, which involve building RESTful APIs using Express.js. Therefore, it's entirely irrelevant to the assigned tasks.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/express/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, not an implementation of the exercises described in the chapter content.
+- The `package.json` provides metadata about the `express` package itself and does not address the tasks of building RESTful APIs or CRUD operations as outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/finalhandler/index.js
+suggestions for improvement:
+- The provided code is an Express finalhandler middleware, which is not directly related to building CRUD APIs as described in the exercises.
+- The code doesn't implement any of the API endpoints (GET, POST, PUT, DELETE) for blog posts or books as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/finalhandler/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module named 'finalhandler'.
+- This file does not implement any of the API building exercises specified in the chapter content.
+- The exercises require building RESTful APIs with Express.js, including defining routes, handling requests, and performing CRUD operations on data.
+- The package.json file provides metadata about a module but does not fulfill the requirements of the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/forwarded/index.js
+suggestions for improvement:
+- This code appears to be a utility for parsing the X-Forwarded-For header and extracting IP addresses. It is unrelated to the chapter's exercises, which focus on building RESTful APIs using Express.js.
+- The code is not relevant to building CRUD APIs with Express.js as requested by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/forwarded/package.json
+suggestions for improvement:
+- This code appears to be a package.json file, which describes a Node.js module. It doesn't implement any of the API-building exercises outlined in the chapter content.
+- To address the exercises, you'll need to create `server.js` (Exercise 1) and `app.js` (Exercises 2 and 3) and implement the required routes and functionalities using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/fresh/index.js
+suggestions for improvement:
+- The provided code does not address any of the exercises in the chapter. It appears to be a module for checking the freshness of HTTP responses, which is not related to building RESTful APIs with Express.js, creating CRUD operations, or using Axios for data retrieval as described in the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/fresh/package.json
+suggestions for improvement:
+- This appears to be a `package.json` file, which doesn't directly address the exercises. The exercises require building RESTful APIs with Express.js, including creating routes, handling data, and using modules.
+- A `package.json` file is useful for managing dependencies and scripts for a Node.js project, but it does not implement the API functionality required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/function-bind/.github/FUNDING.yml
+suggestions for improvement:
+- The provided file appears to be a funding model configuration file, not code related to building a RESTful API with Express.js as requested by the exercises.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/function-bind/implementation.js
+suggestions for improvement:
+- The provided code implements Function.prototype.bind, which is not related to building RESTful APIs with Express.js as requested in the exercises. 
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/function-bind/index.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/function-bind/package.json
+suggestions for improvement:
+- This submission is a package.json file, which describes a JavaScript package. While it's a valid file, it doesn't implement any of the API building exercises described in the chapter content.
+- The exercises require building RESTful APIs using Express.js, including defining routes, handling requests, and implementing CRUD operations. This file doesn't do any of that.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/function-bind/test/index.js
+suggestions for improvement:
+- The provided code appears to be a set of unit tests for a `functionBind` implementation, which is unrelated to the exercises on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-intrinsic/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a configuration file for funding models and is completely unrelated to the exercises which involve building RESTful APIs with Express.js.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-intrinsic/index.js
+suggestions for improvement:
+- The provided code is completely unrelated to the chapter content, which focuses on building RESTful APIs using Node.js and Express.js. The code appears to be a module for retrieving JavaScript intrinsics, which has nothing to do with creating APIs.
+- The code does not attempt to address any of the exercises outlined in the chapter. It does not create any Express applications, define routes, or handle HTTP requests.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-intrinsic/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a JavaScript package. It does not implement any of the API-related tasks described in the exercises.
+- The file provides metadata about a module named `get-intrinsic`, including its dependencies, scripts, and other configuration details. While useful in the context of Node.js development, it does not directly address the creation of RESTful APIs using Express.js, CRUD operations, or data handling with Axios as outlined in the provided exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-intrinsic/test/GetIntrinsic.js
+suggestions for improvement:
+- The code provided does not implement any of the exercises described in the chapter content. It appears to be a library for retrieving intrinsic JavaScript objects, which is completely unrelated to building RESTful APIs with Express.js.
+- Since the code does not address the chapter's exercises, it cannot be assessed for correctness, readability, performance, or security in the context of the given task.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a YAML file defining funding model platforms and is completely unrelated to the exercises which involve building RESTful APIs using Express.js.
+- The code does not implement any of the required functionalities (building APIs, CRUD operations, data fetching with Axios).
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/Object.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/Object.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/Reflect.getPrototypeOf.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/Reflect.getPrototypeOf.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/index.js
+suggestions for improvement:
+- The provided code appears to be a utility for getting the prototype of an object, which is not related to building RESTful APIs with Express.js as described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/package.json
+suggestions for improvement:
+- This submission is a package.json file which defines a node module. It does not relate to the exercises which are about creating REST APIs with Express.js.
+- The submission should have contained code implementing the API endpoints as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/test/index.js
+suggestions for improvement:
+- This code is a unit test for a `getProto` function, which is completely unrelated to the exercises that involve building RESTful APIs with Express.js.
+- The code uses `tape` for testing, and it checks the functionality of retrieving the prototype of an object. This is not relevant to the chapter's focus on API development.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/get-proto/tsconfig.json
+suggestions for improvement:
+- This configuration file is for TypeScript, not JavaScript, and it doesn't implement any of the API-related functionalities requested in the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/.github/FUNDING.yml
+suggestions for improvement:
+- This submission appears to be a funding model configuration, which is completely unrelated to the exercises outlined in the chapter content (building RESTful APIs with Express).
+- The content does not address any of the specified tasks: building a blog API, a book API, or a CRUD API using data from JSONPlaceholder.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/gOPD.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/gOPD.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/index.js
+suggestions for improvement:
+- The provided code snippet is unrelated to the chapter content, which focuses on building RESTful APIs with Express.js. It seems to be a utility module for getting property descriptors, which is not covered in the exercises.
+- The code does not address any of the exercises described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/package.json
+suggestions for improvement:
+- This code appears to be a `package.json` file, which describes a Node.js module. It doesn't implement any of the API-related functionality described in the exercises.
+- The exercises require creating RESTful APIs using Express, including defining routes for CRUD operations. This file doesn't contain any code related to Express or API endpoints.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/test/index.js
+suggestions for improvement:
+- This code is a unit test for a function called `gOPD` and is completely unrelated to building RESTful APIs with Express.js as described in the chapter content.
+- The code does not address any of the exercises provided.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/gopd/tsconfig.json
+suggestions for improvement:
+- This code snippet is a TypeScript configuration file (tsconfig.json), not an Express.js API as requested by the exercises.  It does not implement any of the CRUD functionalities described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/.github/FUNDING.yml
+suggestions for improvement:
+- This file is a funding model file, which is unrelated to the Express.js API building exercises described in the chapter content.
+- The file does not contain any JavaScript or Node.js code that would address the exercises.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/index.js
+suggestions for improvement:
+- This code snippet appears to be related to checking for native Symbol support in JavaScript environments, which is completely unrelated to building RESTful APIs with Express.js as described in the provided exercises. The exercises focus on creating API endpoints for managing blog posts and books using Express, including handling requests, defining routes, and working with data.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which specifies metadata about a Node.js package. It does not implement any of the API functionalities described in the exercises. Therefore, it's completely unrelated to the exercises' requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/shams.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/shams.js
+suggestions for improvement:
+- The provided code appears to be a module for detecting Symbol support in JavaScript environments, which is completely unrelated to the exercises on building RESTful APIs with Express.js.
+- The code does not address any of the requirements outlined in the chapter content, which focuses on creating API endpoints for managing blog posts and books.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for checking Symbol support in JavaScript environments, using the 'tape' testing framework. This code is entirely unrelated to the chapter content, which focuses on building RESTful APIs using Node.js, Express, and potentially Axios for data retrieval.  The chapter content involves setting up API endpoints for CRUD operations, while the provided code tests a JavaScript language feature.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/test/shams/core-js.js
+suggestions for improvement:
+- This code appears to be related to testing Symbol polyfills, which is entirely unrelated to the chapter's focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/test/shams/get-own-property-symbols.js
+suggestions for improvement:
+- This code appears to be related to testing Symbol polyfills, which is completely unrelated to the exercises of building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/test/tests.js
+suggestions for improvement:
+- The submitted code appears to be testing functionality related to the Symbol primitive in JavaScript, which is not related to building RESTful APIs with Express.js as outlined in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/has-symbols/tsconfig.json
+suggestions for improvement:
+- This code snippet is a `tsconfig.json` file, which is used for configuring the TypeScript compiler. It doesn't implement any of the API-related tasks described in the exercises. Therefore, it's not relevant to the chapter content.
+- The exercises require building RESTful APIs using Node.js and Express, with CRUD operations. This file is not related to those requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/hasown/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration, unrelated to the Express.js API exercises. It doesn't implement any of the required API functionalities.
+- The content is not JavaScript code and has nothing to do with the tasks outlined in the provided exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/hasown/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/hasown/index.js
+suggestions for improvement:
+- The provided code appears to be a utility function related to checking object properties, which is entirely unrelated to the exercises focusing on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/hasown/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which defines the metadata for a Node.js package. While it's a part of Node.js development, it doesn't directly implement any of the API building exercises described in the chapter. Therefore, it does not address the problems presented.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/hasown/tsconfig.json
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/http-errors/index.js
+suggestions for improvement:
+- The code provided defines a library for creating HTTP error objects, which is not directly related to the exercises that focus on building RESTful APIs with Express.js.  The exercises require creating server-side applications with specific routes and functionalities (CRUD operations on blog posts and books).
+- The code does not implement any of the required API endpoints or use Express.js.
+- Therefore, the code is not relevant to the exercises' objectives.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/http-errors/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module, but it does not implement any of the API functionality described in the exercises. The exercises require creating an Express server with specific routes for handling blog posts or books, none of which is present in this `package.json` file.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/dbcs-codec.js
+suggestions for improvement:
+- This code appears to be a complex codec implementation, likely for handling character encodings, and it doesn't directly address any of the specific API building tasks outlined in the exercises. The exercises focus on creating RESTful APIs using Express.js for managing blog posts or books, involving routes for creating, reading, updating, and deleting data. This code has no relevance to creating REST APIs with Express.
+- Since the code does not address building REST APIs, there is no way to meaningfully suggest improvements related to the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/dbcs-data.js
+suggestions for improvement:
+- This code appears to be character encoding data, completely unrelated to building RESTful APIs with Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/index.js
+suggestions for improvement:
+- This code appears to be a module related to encoding/decoding, which is completely unrelated to the chapter exercises that focus on building RESTful APIs with Express.js. Therefore, it doesn't address any of the requirements outlined in the provided exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/internal.js
+suggestions for improvement:
+- The provided code appears to be related to encoding and decoding, specifically within the context of Node.js. However, it does not directly address the exercises outlined in the chapter content, which focus on building RESTful APIs using Express.js. The exercises involve creating API endpoints for managing blog posts or books, including implementing CRUD operations.
+- The code does not implement any API endpoints, use Express.js, or handle HTTP requests. Therefore, it does not fulfill the requirements of the chapter.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/sbcs-codec.js
+suggestions for improvement:
+- The provided code appears to be a codec implementation, which is not directly related to building RESTful APIs with Express as described in the chapter content.
+- The code does not implement any of the API endpoints (GET, POST, PUT, DELETE) for managing blog posts or books.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/sbcs-data-generated.js
+suggestions for improvement:
+- This code appears to be character encoding data, completely unrelated to the exercise instructions which involve building RESTful APIs with Express.js.
+- The code doesn't implement any of the required API endpoints (GET, POST, PUT, DELETE) for managing blog posts or books.
+- The code lacks any Express.js-related functionality, such as route definitions, middleware usage, or server setup.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/sbcs-data.js
+suggestions for improvement:
+- This code appears to be related to character encoding and is not relevant to building RESTful APIs with Express.js as described in the exercises.
+- The code doesn't implement any of the API functionalities (CRUD operations, route handling, error handling) outlined in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/big5-added.json
+suggestions for improvement:
+- The provided data consists of strings, not code, and is completely unrelated to the task of building RESTful APIs with Express.js as described in the chapter content. Therefore, the correctness is 0%.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/cp936.json
+suggestions for improvement:
+- The submitted code is not related to the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/cp949.json
+suggestions for improvement:
+- The provided data seems to be encoded Korean characters and does not represent code related to the exercises described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/cp950.json
+suggestions for improvement:
+- The code provided is not valid JavaScript, thus it cannot be evaluated for correctness against any of the exercises.
+- The encoding appears incorrect as it's displaying character mappings instead of code.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/eucjp.json
+suggestions for improvement:
+- The code provided is not related to the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/gbk-added.json
+suggestions for improvement:
+- The provided data appears to be unrelated to the exercises. There is no code implementing the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/tables/shiftjis.json
+suggestions for improvement:
+- The submitted code consists of character mappings and doesn't implement any of the exercises outlined in the chapter content.
+- The code has nothing to do with building APIs using Express, Node.js, or Axios.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/utf16.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter exercises. The provided code appears to be related to UTF-16 encoding/decoding, while the exercises focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/utf32.js
+suggestions for improvement:
+- This code appears to be a codec implementation, likely for UTF-32 encoding, and is completely unrelated to the exercise instructions, which require building RESTful APIs with Express.js.
+- The provided code does not address the exercises' requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/encodings/utf7.js
+suggestions for improvement:
+- The provided code is completely unrelated to the exercises. It implements UTF-7 and UTF-7 IMAP encoding and decoding, while the exercises focus on building RESTful APIs using Express.js.
+- Since the code does not address any of the exercise requirements, there is no way to provide improvements based on the provided chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/lib/bom-handling.js
+suggestions for improvement:
+- The provided code does not implement any of the REST API functionalities described in the exercises. It appears to be related to BOM (Byte Order Mark) handling, which is not part of the exercise requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/lib/helpers/merge-exports.js
+suggestions for improvement:
+- This code snippet is a utility function for merging modules and does not relate to building RESTful APIs with Express as outlined in the provided exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/lib/index.d.ts
+suggestions for improvement:
+- The submitted code is a type definition file for the `iconv-lite` library, which is completely unrelated to the exercise instructions that focus on building RESTful APIs with Express.js. It does not address any of the specified tasks, such as creating API endpoints, handling HTTP requests, or managing data.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/lib/index.js
+suggestions for improvement:
+- This code appears to be from the `iconv-lite` library, which is a character encoding conversion library.  It is completely unrelated to the exercises, which are about building RESTful APIs with Express.js.
+- The provided code does not address the problem or implement the functionality described in the Chapter Content/Questions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/lib/streams.js
+suggestions for improvement:
+- The provided code relates to stream processing and character encoding, which is not relevant to building RESTful APIs with Express.js as described in the chapter content.
+- The code does not address any of the specific tasks outlined in the exercises, such as creating routes, handling requests, or managing data.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js package, but it doesn't implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/iconv-lite/types/encodings.d.ts
+suggestions for improvement:
+- The provided code is a type definition file, likely for use with a library like `iconv-lite`. It does not implement any of the API-related tasks described in the exercises.
+- The code needs to implement the RESTful API endpoints using Express.js as described in the exercises.
+- The code should include error handling and appropriate HTTP status codes as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/inherits/inherits.js
+suggestions for improvement:
+- This code snippet provides a polyfill for the `util.inherits` function in Node.js, which is not directly related to building RESTful APIs with Express as outlined in the exercises. It does not address the core tasks of creating routes, handling HTTP methods, or managing data, rendering it irrelevant in the context of the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/inherits/inherits_browser.js
+suggestions for improvement:
+- The code provided does not address any of the exercises outlined in the chapter content, which involves building RESTful APIs with Express.js. The code appears to be a utility function for implementing inheritance, unrelated to the exercises.
+- The code doesn't implement any API endpoints, data handling, or server setup as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/inherits/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is not code related to building the REST APIs as requested in the exercises. It provides metadata about a Node.js package but does not implement any of the API functionalities described in the chapter content.
+- The submission should have contained server-side JavaScript code using Express.js to create API endpoints for managing blog posts (Exercise 1) or books (Exercises 2 and 3).
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ipaddr.js/ipaddr.min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ipaddr.js/lib/ipaddr.js
+suggestions for improvement:
+- This code appears to be a library for working with IP addresses, and is completely unrelated to the chapter content, which is about building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ipaddr.js/lib/ipaddr.js.d.ts
+suggestions for improvement:
+- This code is a TypeScript declaration file for the `ipaddr.js` library, which is entirely unrelated to the Express.js and API building exercises described in the chapter content. It does not attempt to address any of the problems presented in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ipaddr.js/package.json
+suggestions for improvement:
+- This submission appears to be a package.json file, not code implementing the exercises. It does not address any of the exercise requirements related to building RESTful or CRUD APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/is-promise/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/is-promise/index.js
+suggestions for improvement:
+- The provided code snippet is a function to check if an object is a promise. This is unrelated to building RESTful APIs with Express, which is the focus of the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/is-promise/index.mjs
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/is-promise/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, not an implementation of the exercises described in the chapter. It doesn't create an Express API or any of the requested functionalities.
+- The file is entirely unrelated to building RESTful APIs with Express, managing books with CRUD operations, or using Axios to fetch data.
+- The file provides metadata about a node package named `is-promise`, including name, version, description, entry point, test script, and other relevant information.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code is a YAML file listing funding model platforms, which is completely unrelated to the chapter's content on building RESTful APIs with Express.js. It doesn't address any of the exercises.
+- The submission does not contain any code related to Express.js, API creation, or CRUD operations.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/abs.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/abs.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxArrayLength.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxArrayLength.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxSafeInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxSafeInteger.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxValue.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/constants/maxValue.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/floor.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/floor.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isFinite.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isFinite.js
+suggestions for improvement:
+- This code is completely unrelated to the chapter content, which focuses on building RESTful APIs with Express.js. The provided code appears to be a utility function for checking if a value is finite, which has no connection to the exercises described.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isInteger.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isInteger.js
+suggestions for improvement:
+- The provided code snippet appears to be a utility function for checking if a number is an integer. This is unrelated to the exercises that focus on building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isNaN.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isNaN.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isNegativeZero.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/isNegativeZero.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/max.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/max.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/min.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/min.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/mod.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/mod.js
+suggestions for improvement:
+- The provided code calculates the modulo operation. However, the exercises are about building RESTful APIs with Express.js. This code snippet is irrelevant to the instructions provided.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) or use Express.js.
+- There is no attempt to create a server, define routes, or handle requests/responses related to blog posts or books.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/package.json
+suggestions for improvement:
+- This submission does not appear to be related to the exercises provided, which involve building RESTful APIs using Node.js, Express, and potentially Axios. The submitted code appears to be a `package.json` file for a math-related library, completely unrelated to API development.
+- Ensure that the submitted code addresses the specific instructions outlined in the exercise descriptions. This involves creating server-side applications with endpoints for creating, reading, updating, and deleting data.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/pow.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/pow.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/round.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/round.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/sign.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/sign.js
+suggestions for improvement:
+- This code appears to be a utility function for determining the sign of a number, which is unrelated to the exercises focused on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/test/index.js
+suggestions for improvement:
+- The provided code appears to be a set of unit tests for JavaScript number functions, completely unrelated to the exercises on building RESTful APIs with Express.js. Therefore, it does not address the problem or implement any of the described functionality.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/math-intrinsics/tsconfig.json
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/media-typer/index.js
+suggestions for improvement:
+- The provided code does not implement any of the API building exercises described in the chapter content. It appears to be a module for parsing and formatting media types, which is unrelated to building RESTful APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/media-typer/package.json
+suggestions for improvement:
+- This code appears to be a package.json file, likely for a module named 'media-typer'.
+- It does not address any of the API building exercises described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/merge-descriptors/index.d.ts
+suggestions for improvement:
+- The provided code snippet appears to be a TypeScript declaration for a `mergeDescriptors` function.  It describes how to merge properties from one object to another, including handling non-enumerable properties.  However, it doesn't directly relate to building RESTful APIs with Express.js as outlined in the provided exercises.  The exercises focus on creating API endpoints for CRUD operations, and this snippet doesn't implement any of that functionality. It's a utility function declaration, not an API implementation.
+- The code does not create any of the API endpoints described in the exercises.
+- The code does not use Express.js or Axios, which are required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/merge-descriptors/index.js
+suggestions for improvement:
+- The provided code appears to be a utility function for merging object descriptors, which is unrelated to the exercises focusing on building RESTful APIs with Express.js.
+- The chapter exercises require building API endpoints for blog posts and books, including CRUD operations. This code does not implement any of those functionalities.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/merge-descriptors/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package named `merge-descriptors`. This file does not implement any of the API-related functionalities requested in the exercises, therefore it's entirely unrelated.
+- The response does not contain any Javascript code that would address the problem.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-db/db.json
+suggestions for improvement:
+- This submission appears to be a comprehensive list of MIME types, which is entirely unrelated to the exercises on building APIs with Node.js and Express.js. The content of the file has nothing to do with the instructions provided.
+- Ensure that you are submitting the correct files or code snippets relevant to the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-db/index.js
+suggestions for improvement:
+- This code is a data file, seemingly for mime types, which is completely unrelated to the exercise of building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-db/package.json
+suggestions for improvement:
+- This is a package.json file, which does not address any of the exercises that require building an Express API.
+- The content of the file is metadata about a node package, not the implementation of a REST API.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-types/index.js
+suggestions for improvement:
+- The provided code appears to be the implementation of a `mime-types` library, which is completely unrelated to the exercises that require building RESTful APIs with Express.js.
+- The exercise instructions are focused on creating server-side applications using Node.js and Express to handle HTTP requests and manage data, while the code provided is a utility for determining MIME types based on file extensions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-types/mimeScore.js
+suggestions for improvement:
+- This code appears to be a module for scoring MIME types based on various facets, source, and type preferences.
+- This functionality is completely unrelated to the exercises described in the chapter content, which focus on building RESTful APIs using Express.js.
+- Therefore, while the code itself might be well-written, it does not address any of the given tasks.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/mime-types/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is not code related to building an Express API as requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ms/index.js
+suggestions for improvement:
+- This code snippet appears to be a utility for parsing and formatting time durations, completely unrelated to building RESTful or CRUD APIs with Express.js as outlined in the exercises. Therefore, it doesn't address any of the specified tasks.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/ms/package.json
+suggestions for improvement:
+- The submitted code is a `package.json` file, which describes a Node.js module named `ms`. This file specifies metadata, dependencies, and scripts for the module. However, it doesn't implement any of the API functionalities or Express server setups outlined in the exercises.
+- Since the `package.json` file does not address the exercises' requirements (building RESTful APIs with Express), it's considered irrelevant.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/index.js
+suggestions for improvement:
+- This code appears to be from the 'negotiator' library, which is unrelated to the Express.js API exercises provided in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/lib/charset.js
+suggestions for improvement:
+- The provided code appears to be a module for parsing and negotiating character sets, which is unrelated to building RESTful or CRUD APIs with Express.js as described in the exercises.
+- The code does not implement any of the API functionalities (create, read, update, delete) specified in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/lib/encoding.js
+suggestions for improvement:
+- The provided code appears to be a module for handling HTTP Accept-Encoding headers, completely unrelated to building RESTful APIs with Express as outlined in the exercises.
+- The code does not address any of the instructions given in the chapter content.
+- Ensure the submitted code is relevant to the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/lib/language.js
+suggestions for improvement:
+- This code does not implement any of the API functionalities described in the exercises.
+- The code appears to be a module for handling language negotiation, which is unrelated to building RESTful APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/lib/mediaType.js
+suggestions for improvement:
+- This code is entirely unrelated to the exercises. It's the 'negotiator' module, which is used for content negotiation, but has nothing to do with building APIs with Express as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/negotiator/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which is not a solution to any of the provided exercises, which all require building an Express API.
+- The `package.json` file is unrelated to the instructions, which are focused on creating server-side applications using Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/.github/FUNDING.yml
+suggestions for improvement:
+- This file appears to be a funding model configuration file, completely unrelated to the Express.js API exercises.
+- The file's content does not address any of the instructions for building RESTful APIs or CRUD APIs using Node.js, Express, and Axios.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/example/all.js
+suggestions for improvement:
+- The submitted code snippet appears to be unrelated to the exercise instructions. It seems to be using a library called 'inspect' and is not implementing any of the RESTful API functionalities or CRUD operations as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/example/circular.js
+suggestions for improvement:
+- This code snippet is unrelated to the exercises, which focus on building RESTful APIs with Express.js and Node.js.
+- The provided code uses a 'require('../')' statement, which is not a standard Node.js module import and suggests a local module not included in the exercise requirements. This makes the code's purpose unclear within the context of the exercises.
+- The code aims to inspect a JavaScript object, including circular references, which is not a task outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/example/fn.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/example/inspect.js
+suggestions for improvement:
+- This code appears to be related to inspecting DOM elements, possibly for debugging purposes in a browser environment, but it is completely unrelated to the exercises described in the chapter content.
+- The chapter content focuses on building RESTful APIs using Node.js, Express, and potentially Axios. The code does not address any of these topics.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/index.js
+suggestions for improvement:
+- The provided code does not implement any of the REST API exercises. It appears to be a utility/helper library, possibly for inspecting objects, and is completely unrelated to the task of building APIs with Express.js.
+- The code should implement the REST API according to the instructions provided in exercises 1, 2, and 3.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/package-support.json
+suggestions for improvement:
+- The submitted code is not related to the exercises described in the chapter content. It appears to be a configuration file, possibly related to package management or funding information for a project, but it doesn't implement any of the required API functionalities (RESTful blog API, CRUD book API, or CRUD API with Axios).
+- No code was provided to create any of the APIs described in the exercises. Therefore, it does not address any of the exercises' instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/package.json
+suggestions for improvement:
+- The provided code is a package.json file, not an implementation of the exercises described in the chapter content.
+- The package.json file describes a JavaScript package, but it does not create any API endpoints or perform CRUD operations as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test-core-js.js
+suggestions for improvement:
+- The submitted code appears to be testing or inspecting data structures (Maps, WeakMaps, Sets, WeakSets) and it's completely unrelated to building RESTful APIs with Express as outlined in the chapter content.
+- The code does not address any of the exercises related to building APIs for blog posts or books using Express.js.
+- There is no implementation of any API endpoints (GET, POST, PUT, DELETE) or data handling as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/bigint.js
+suggestions for improvement:
+- The submitted code appears to be related to testing and inspecting BigInt objects in JavaScript, and is unrelated to building RESTful APIs with Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/browser/dom.js
+suggestions for improvement:
+- The provided code snippet uses `require('../../')` which suggests it's part of a larger testing framework or library, likely `browserify-inspect`. However, the exercises are about building RESTful APIs with Express.js. Therefore, the code is completely unrelated to the exercises' requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/circular.js
+suggestions for improvement:
+- This code snippet appears to be testing a function related to inspecting circular objects, likely for debugging or logging purposes. It's completely unrelated to the exercises, which focus on building RESTful APIs with Express.js.
+- The exercises involve creating API endpoints for managing blog posts or books, using HTTP methods like GET, POST, PUT, and DELETE. This code doesn't implement any of those functionalities.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/deep.js
+suggestions for improvement:
+- The provided code appears to be testing the 'inspect' function, which is unrelated to building RESTful APIs or CRUD operations with Express.js as described in the chapter content.
+- The code does not address any of the exercises provided in the chapter.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/element.js
+suggestions for improvement:
+- This code appears to be testing functionality related to inspecting and representing HTML elements, likely for debugging purposes.
+- However, it is completely unrelated to the chapter's instructions on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/err.js
+suggestions for improvement:
+- The submitted code appears to be a test suite for an 'inspect' utility, possibly for debugging or logging purposes. It tests how different types of errors and error properties are handled by the `inspect` function. This code is unrelated to the exercises, which involve building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/fakes.js
+suggestions for improvement:
+- This code appears to be testing a feature related to `Symbol.toStringTag` and object inspection, which is completely unrelated to the chapter's focus on building RESTful APIs with Express.js. The chapter content is about creating API endpoints for CRUD operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/fn.js
+suggestions for improvement:
+- The provided code is a series of tests for a JavaScript inspection library. It does not address any of the exercises that involve building RESTful APIs with Express.js.
+- The code is completely unrelated to the chapter content, which focuses on creating APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/global.js
+suggestions for improvement:
+- The provided code appears to be a test case for a JavaScript library, possibly related to object inspection or debugging. This has absolutely no relevance to the exercises outlined in the chapter content, which focus on building RESTful APIs using Node.js, Express, and potentially Axios.
+- The code doesn't implement any API endpoints, doesn't use Express, doesn't handle HTTP requests, and doesn't perform CRUD operations as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/has.js
+suggestions for improvement:
+- The provided code uses 'inspect', 'tape', and 'mock-property' which are testing and mocking libraries. It aims to test the scenario where `Object.prototype.hasOwnProperty` is deleted and checks how the `inspect` function handles sparse arrays. However, it completely misses the instructions of building RESTful APIs with Express.js. The exercise requires creating API endpoints for blog posts and books, using Express to handle routes, and using Axios for data retrieval, none of which are present in the provided code.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/holes.js
+suggestions for improvement:
+- The provided code is a test case using 'tape' and 'inspect', seemingly for array inspection. This is completely unrelated to the exercise instructions which require building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/indent-option.js
+suggestions for improvement:
+- The code provided seems to be testing functionality unrelated to building RESTful APIs with Express, CRUD operations, or using Axios to retrieve data from an external API. It appears to be testing an 'inspect' function, potentially for debugging or formatting output, which is not directly related to the chapter's objectives.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/inspect.js
+suggestions for improvement:
+- The provided code is a series of tests for an `inspect` function, seemingly related to object inspection or formatting. This code does not implement any of the API-building exercises described in the chapter content. The exercises involve building RESTful APIs with Express.js, including creating routes for CRUD operations (Create, Read, Update, Delete) on data like blog posts or books. The provided code is entirely unrelated to these instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/lowbyte.js
+suggestions for improvement:
+- The provided code appears to be a test file using the 'tape' and 'inspect' modules, which is unrelated to the exercises described in the chapter content. The exercises focus on building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/number.js
+suggestions for improvement:
+- The provided code is a series of tests for a JavaScript library related to value inspection and formatting, particularly focusing on numeric separators. It does not implement any of the API or CRUD functionalities described in the exercises. Therefore, it's completely unrelated to the prompt's requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/quoteStyle.js
+suggestions for improvement:
+- This code appears to be testing the `quoteStyle` option of a Javascript inspection library, completely unrelated to building RESTful APIs with Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/toStringTag.js
+suggestions for improvement:
+- The submitted code appears to be related to testing the `Symbol.toStringTag` functionality in JavaScript, possibly within a specific library or environment. This code is completely unrelated to the exercises about building RESTful APIs with Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/undef.js
+suggestions for improvement:
+- The provided code snippet uses `tape` and `inspect` modules, which are not related to the exercises described in the chapter content. The exercises focus on building RESTful APIs with Express.js.
+- The code tests the inspection of an object with undefined and null values, which is irrelevant to the task of creating APIs.
+- The code should be implementing one or more of the API functionalities described in the exercises (creating, reading, updating, deleting data).
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/test/values.js
+suggestions for improvement:
+- This code appears to be testing the functionality of an 'inspect' module, which is unrelated to the exercises that involve building RESTful APIs with Express.js.
+- The code does not implement any of the required API endpoints (GET, POST, PUT, DELETE) for managing blog posts or books.
+- The code does not use Express.js to create an API server or define routes.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/object-inspect/util.inspect.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/on-finished/index.js
+suggestions for improvement:
+- The provided code appears to be a module for detecting when a request has finished in Node.js, which is unrelated to building RESTful APIs with Express as described in the exercises.
+- The code does not address any of the specific tasks outlined in the exercises, such as creating routes, handling data, or setting up an Express server.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/on-finished/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is not code related to building RESTful APIs with Express as requested in the exercises. The file does not implement any of the CRUD operations or API endpoints specified in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/once/once.js
+suggestions for improvement:
+- The submitted code is completely unrelated to the exercises described in the chapter content.
+- The chapter focuses on building RESTful APIs with Express.js, while the provided code appears to be a utility for ensuring a function is only executed once.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/once/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file, which describes a Node.js module. This file does not address the exercises outlined in the chapter content, which involve building RESTful APIs using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/parseurl/index.js
+suggestions for improvement:
+- This code appears to be the `parseurl` library, which is a utility for parsing URLs. It doesn't implement any of the API building exercises described in the chapter content.
+- The code is unrelated to the exercises which require building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/parseurl/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js module. It does not implement any of the API-building exercises described in the chapter content.
+- The chapter content explicitly asks for the creation of RESTful APIs using Express.js, including routes for CRUD operations. This `package.json` file does not address any of these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/path-to-regexp/dist/index.d.ts
+suggestions for improvement:
+- The code appears to be a set of type definitions and utility functions related to path parsing and matching, potentially from a library like `path-to-regexp`. This is unrelated to the exercises, which focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/path-to-regexp/dist/index.js
+suggestions for improvement:
+- The provided code appears to be a library for parsing and compiling path strings into regular expressions and functions. It doesn't implement any of the API building exercises described in the chapter content. The code focuses on path manipulation and doesn't interact with Express.js or any HTTP request handling, which are central to the exercises.
+- The code should be implementing RESTful APIs with Express, but this code doesn't use Express at all.  It's a utility library, not an API implementation.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/path-to-regexp/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module. This file alone does not implement any of the API functionalities described in the exercises. It needs to be accompanied by javascript files containing the actual implementation of the API endpoints.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/proxy-addr/index.js
+suggestions for improvement:
+- The provided code appears to be from a library for determining the address of a proxied request, and is not related to building RESTful APIs with Express as described in the exercises.  Therefore, it is not relevant to the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/proxy-addr/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It doesn't implement any of the API functionalities requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/.github/FUNDING.yml
+suggestions for improvement:
+- This YAML file defining funding models is completely irrelevant to the exercises which are about building REST APIs with Express.js. The file does not address any of the instructions provided.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/dist/qs.js
+suggestions for improvement:
+- The provided code appears to be a minified and bundled Javascript library (likely 'qs', a query string parsing and stringifying library), which is completely unrelated to the exercises described in the chapter content.
+- The exercises are about building RESTful APIs using Node.js and Express, involving creating server-side routes and handling HTTP requests.  This library does not address those topics at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/lib/formats.js
+suggestions for improvement:
+- The provided code snippet is completely unrelated to the exercises described in the chapter content. The exercises focus on building RESTful APIs with Express.js, while the given code appears to be a utility for URL encoding, which is not mentioned in the chapter content.
+- Since the code's purpose is not related to the exercises, it cannot be considered a valid solution or implementation of the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/lib/index.js
+suggestions for improvement:
+- This code snippet appears to be a utility for stringifying and parsing data, likely related to query strings or data serialization. However, it doesn't address any of the specific exercises outlined in the chapter content, which focus on building RESTful APIs with Express.js, including CRUD operations. Thus, it's entirely irrelevant to the provided instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/lib/parse.js
+suggestions for improvement:
+- The code provided does not address the exercises which involve building RESTful APIs with Express.js. It seems to be a utility for parsing query strings, completely unrelated to the task of creating API endpoints for blog posts or books.
+- The code should implement the described functionalities: creating, reading, updating, and deleting resources via HTTP endpoints.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/lib/stringify.js
+suggestions for improvement:
+- The provided code appears to be a library for query string serialization, which is unrelated to the exercises that focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/lib/utils.js
+suggestions for improvement:
+- The provided code is a utility library for encoding and decoding URL query strings, which is not directly related to building RESTful APIs or CRUD operations with Express.js as described in the chapter content.
+- The code does not implement any of the API endpoints or data handling logic specified in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/package.json
+suggestions for improvement:
+- The provided code appears to be a `package.json` file, not an implementation of the exercises described in the chapter content.
+- It defines metadata, dependencies, and scripts for a Node.js package named `qs`, which is a querystring parser.  This is entirely unrelated to building RESTful or CRUD APIs using Express.js as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/test/empty-keys-cases.js
+suggestions for improvement:
+- This code is completely unrelated to the exercises provided in the chapter. It seems to be test cases for parsing and stringifying URL query strings, which has nothing to do with building RESTful APIs with Express, creating CRUD operations, or using Axios to fetch data from an API.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/test/parse.js
+suggestions for improvement:
+- The submitted code is a test suite for the `qs` library, which is a query string parser and stringifier.  This is completely unrelated to the exercises that require building RESTful APIs using Express.js. Therefore, the code does not address any of the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/test/stringify.js
+suggestions for improvement:
+- The code provided is a test suite for the `qs` library, which is used for query string parsing and stringification. This code is completely unrelated to the exercises that involve building RESTful APIs with Express.js. The exercises require creating server-side applications with specific endpoints and functionalities, which are not present in the given code.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/qs/test/utils.js
+suggestions for improvement:
+- This code appears to be a set of utility functions and tests, unrelated to building RESTful APIs with Express.js as described in the exercises.  It involves buffer manipulation, encoding, and type checking, which are not the primary focus of the provided chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/range-parser/index.js
+suggestions for improvement:
+- This code is completely unrelated to the exercise instructions, which involve building RESTful APIs using Express.js. The provided code appears to be a module for parsing HTTP Range headers, a utility that is not mentioned or required by the exercises.
+- The code does not attempt to implement any of the API endpoints described in the exercises (GET, POST, PUT, DELETE for blog posts or books).
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/range-parser/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which describes a Node.js package. It doesn't implement any of the API functionalities described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/raw-body/index.d.ts
+suggestions for improvement:
+- This code appears to be TypeScript declaration file for the `getRawBody` library. It doesn't implement any of the API functionality described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/raw-body/index.js
+suggestions for improvement:
+- The code provided does not implement any of the exercises described in the chapter content. It's a module for reading the raw body of a stream, which is related to handling request bodies, but not a direct implementation of building APIs or CRUD operations as requested.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/raw-body/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which is metadata about a Node.js package, not an implementation of any of the API exercises. It does not address any of the instructions related to building RESTful APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/router/index.js
+suggestions for improvement:
+- The submitted code is the source code for the Express Router, which is a core component of the Express.js framework. It is entirely unrelated to the exercises that involve building RESTful APIs.
+- Since the code does not attempt to implement any of the specified API functionalities (creating, reading, updating, deleting blog posts or books) or data retrieval from JSONPlaceholder, it is not relevant to the chapter's objectives.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/router/lib/layer.js
+suggestions for improvement:
+- This code appears to be an internal module for the Express router, specifically handling route matching and parameter decoding. It's not a direct solution to any of the API building exercises.
+- The code is well-structured for its purpose, but it doesn't address the specific task of creating RESTful APIs for blog posts or books as outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/router/lib/route.js
+suggestions for improvement:
+- This code appears to be internal code for the Express framework's routing system and not a solution to any of the API building exercises. It defines the `Route` object and its methods for handling different HTTP methods. This is not relevant to building a RESTful API or a CRUD API as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/router/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a node module, and doesn't implement any of the API functionalities outlined in the exercises. It is completely unrelated to building RESTful APIs using Express as requested by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/safer-buffer/dangerous.js
+suggestions for improvement:
+- This code appears to be related to buffer manipulation in Node.js, and not related to building RESTful APIs with Express.js, as outlined in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/safer-buffer/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a node module but doesn't implement any of the API functionality described in the exercises.
+- The exercise instructions require creating server-side code using Express.js to build REST APIs.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/safer-buffer/safer.js
+suggestions for improvement:
+- This code appears to be a polyfill or a utility for working with Buffers in Node.js, possibly aiming to provide safer alternatives. However, it is completely unrelated to building RESTful or CRUD APIs with Express as described in the exercises.
+- The chapter content focuses on creating API endpoints, handling requests, and managing data using Express.js. This code does not address any of those concepts.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/safer-buffer/tests.js
+suggestions for improvement:
+- The code provided appears to be testing the buffer module, which is unrelated to building RESTful or CRUD APIs using Express.js as outlined in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/send/index.js
+suggestions for improvement:
+- The provided code is the 'send' module, a utility for serving static files in Express.js. This module is not a direct solution to any of the API building exercises outlined in the chapter content.
+- The code doesn't implement any API endpoints or CRUD operations as required by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/send/package.json
+suggestions for improvement:
+- The code provided is a `package.json` file, which describes a Node.js module named `send`. This file contains metadata about the package, its dependencies, and scripts. However, it does not address any of the exercises described in the chapter content, which involve building RESTful APIs using Express.js.
+- The exercises require creating server-side applications with specific routes and functionality (CRUD operations on blog posts and books). This `package.json` file, while relevant to a Node.js project, does not implement any of that functionality.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/serve-static/index.js
+suggestions for improvement:
+- The provided code appears to be the source code for the `serve-static` middleware, which is not code directly written to solve any of the presented exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/serve-static/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which describes a Node.js package. It does not implement any of the API functionalities described in the exercises.
+- The exercises require building RESTful APIs with Express.js, including defining routes for CRUD operations. This `package.json` file provides metadata about a package but doesn't fulfill those requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/setprototypeof/index.d.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/setprototypeof/index.js
+suggestions for improvement:
+- This code snippet appears to be a polyfill for setting the prototype of an object. It's unrelated to the exercises provided in the chapter, which focus on building RESTful APIs with Express.js.
+- The chapter exercises involve creating API endpoints, handling requests, and managing data. This code does not address any of those aspects.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/setprototypeof/package.json
+suggestions for improvement:
+- This is a package.json file, not an implementation of any of the exercises described. It's completely unrelated to the task.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/setprototypeof/test/index.js
+suggestions for improvement:
+- The provided code appears to be a test suite for a `setPrototypeOf` function, which is completely unrelated to the chapter content focused on building RESTful APIs with Express.js. The exercises involve creating API endpoints for blog posts and books, utilizing CRUD operations, and fetching data from external APIs using Axios.
+- Since the code does not address any of the specific requirements outlined in the exercises, it's fundamentally incorrect in the context of the provided chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/.github/FUNDING.yml
+suggestions for improvement:
+- The provided code snippet appears to be a funding model configuration file, likely for a project on GitHub or a similar platform. It is entirely unrelated to the exercises described in the chapter content, which focus on building RESTful APIs with Express.js. Therefore, it does not address any of the specified requirements.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/index.d.ts
+suggestions for improvement:
+- The provided code is a TypeScript declaration file for a function named `getSideChannelList`. This code is not relevant to any of the exercises outlined in the chapter, which focus on building RESTful APIs using Express.js and Node.js. The exercises require creating server-side applications with specific routes and functionalities (CRUD operations) related to blog posts or books. The provided code doesn't address any of these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/index.js
+suggestions for improvement:
+- The code does not implement the exercises described in the chapter content.
+- The code appears to be related to managing a linked list or a side channel, which is not aligned with the instructions for building RESTful APIs or CRUD operations using Express.js and Axios.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/list.d.ts
+suggestions for improvement:
+- The provided code appears to define TypeScript types and function signatures related to linked lists, which is not relevant to the exercises described in the chapter. The exercises focus on building RESTful APIs using Node.js, Express.js, and Axios. Therefore, the code doesn't address the problem at all.
+- The code should implement the API endpoints (GET, POST, PUT, DELETE) as specified in the exercises using Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/package.json
+suggestions for improvement:
+- This submission is a package.json file, which is not relevant to the exercises which require building RESTful APIs with Express.js.
+- The file does not implement any of the required functionalities.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/test/index.js
+suggestions for improvement:
+- The code provided is a test suite for a `getSideChannelList` module and is not related to building RESTful APIs with Express as requested in the chapter content. The code does not attempt to address any of the exercises.
+- This submission needs to implement the instructions for building REST APIs using Express, including creating routes for CRUD operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-list/tsconfig.json
+suggestions for improvement:
+- The provided code is a tsconfig.json file, which is used for configuring TypeScript projects. It doesn't implement any of the API functionalities described in the exercises. The exercises focus on building RESTful APIs using Node.js and Express, including creating routes for CRUD operations. This tsconfig file is completely unrelated to the exercise instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/.github/FUNDING.yml
+suggestions for improvement:
+- The provided data is a list of funding model platforms and has no relevance to the exercises, which involve creating RESTful APIs with Node.js and Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/index.d.ts
+suggestions for improvement:
+- The provided code does not implement any of the exercises outlined in the chapter content. It defines TypeScript declarations for a `getSideChannelMap` function and related types, but doesn't build an Express API or any CRUD operations as requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/index.js
+suggestions for improvement:
+- This code is completely unrelated to the exercise instructions. It appears to be a polyfill or utility for managing side channel maps, which has nothing to do with building RESTful APIs using Express, creating CRUD operations, or using Axios to retrieve data from an external API.
+- The exercise instructions explicitly require building different REST APIs using Express and Node.js, including creating routes, handling requests, and working with data. This code does not address any of those requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/package.json
+suggestions for improvement:
+- This code is a `package.json` file, which describes a Node.js package. While it's a valid and well-structured `package.json` file, it doesn't implement any of the API-related exercises described in the chapter content.
+- The exercises require building RESTful APIs using Express.js, including defining routes, handling requests, and managing data. This `package.json` file provides metadata about a JavaScript package but doesn't fulfill any of those requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/test/index.js
+suggestions for improvement:
+- This code appears to be testing a utility for managing side channel data using Maps. It's completely unrelated to building RESTful APIs with Express, as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-map/tsconfig.json
+suggestions for improvement:
+- This code is a tsconfig.json file which is not related to the exercises provided.
+- The exercises all focus on creating REST APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/.github/FUNDING.yml
+suggestions for improvement:
+- The provided file seems to be a funding model configuration, which is completely unrelated to the exercises that involve building RESTful APIs with Node.js and Express.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/index.d.ts
+suggestions for improvement:
+- Checker failed to provide a response.
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/index.js
+suggestions for improvement:
+- The provided code appears to be an implementation of a `WeakMap` polyfill or utility for managing side channel data, and it's completely unrelated to the exercises described in the chapter content, which focus on building RESTful APIs with Express.js. Therefore, it does not address any of the specified requirements.
+- The code utilizes concepts such as `get-intrinsic`, `call-bound`, `object-inspect`, and `side-channel-map`, which are not covered or relevant to the Express.js API building exercises.
+- The code's purpose is to provide a mechanism for storing and retrieving data associated with objects in a way that doesn't prevent garbage collection, which is a different problem domain than the chapter's focus on API development.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/package.json
+suggestions for improvement:
+- The provided code is a `package.json` file, which is a dependency manifest, not an implementation of a REST API as requested by the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/test/index.js
+suggestions for improvement:
+- This code is a unit test for a library related to WeakMaps and Maps, and it's entirely unrelated to building RESTful APIs with Express as described in the chapter content. The test suite checks the functionality of a `getSideChannelWeakMap` function. Since the code's purpose is completely different from the chapter's focus, it receives a correctness score of 0%.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel-weakmap/tsconfig.json
+suggestions for improvement:
+- This code snippet is a TypeScript configuration file and is not related to any of the exercises which involve building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/.github/FUNDING.yml
+suggestions for improvement:
+- This file seems to be a funding configuration file, likely for open-source projects. It's completely unrelated to the exercises that involve building RESTful APIs with Node.js and Express.js.
+- The exercises focus on creating API endpoints, handling requests, and performing CRUD operations, none of which are addressed in the provided code.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/index.d.ts
+suggestions for improvement:
+- This code snippet appears to be related to a side-channel library, which is completely unrelated to the exercise instructions that focus on building RESTful APIs with Express.js. Therefore, it does not address the problem at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/index.js
+suggestions for improvement:
+- This code appears to be a module for managing side channels, likely for data storage within a larger application. It does not directly address any of the API building exercises described in the chapter content, which focus on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/package.json
+suggestions for improvement:
+- This submission appears to be a `package.json` file, which does not address any of the exercises described in the chapter content. The exercises involve creating RESTful APIs with Express.js, not defining project metadata.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/test/index.js
+suggestions for improvement:
+- The provided code is a test suite for a `getSideChannel` module. It does not implement any of the API building exercises described in the chapter content. Therefore, it's entirely unrelated to the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/side-channel/tsconfig.json
+suggestions for improvement:
+- This code snippet appears to be a TypeScript configuration file, which is completely unrelated to the exercises that involve building RESTful APIs with Express.js and Node.js.  The exercises focus on server-side development, route handling, and CRUD operations, none of which are addressed by a TypeScript configuration.
+- Since this isn't code intended to address any of the exercises, it's impossible to provide useful suggestions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/statuses/codes.json
+suggestions for improvement:
+- This code is a JSON object containing HTTP status codes and their corresponding messages, but it does not implement any of the API functionality described in the exercises.
+- The code is completely unrelated to the task of building RESTful APIs with Express.js.
+- The submission is not code or does not contain any code (i.e., it's purely a written response), then assign "N/A" for readability, performance, and security, and do not include those fields in the response.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/statuses/index.js
+suggestions for improvement:
+- This code provides a module for handling HTTP status codes. It is not related to building RESTful APIs with Express, which is the subject of the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/statuses/package.json
+suggestions for improvement:
+- This looks like a package.json file for an npm package named 'statuses'.
+- This doesn't address any of the exercises, which involve building APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/toidentifier/index.js
+suggestions for improvement:
+- The provided code is a utility function to transform a string into a JavaScript identifier. This is completely unrelated to the exercises which focus on building RESTful APIs using Express.js.
+- The code should implement the exercises outlined, focusing on creating API endpoints for blog posts or books with CRUD operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/toidentifier/package.json
+suggestions for improvement:
+- The provided code appears to be a package.json file, which describes a Node.js module named 'toidentifier'. This is not directly related to the exercises which involve building RESTful APIs using Express.js.
+- The exercises specifically require creating server-side applications with specific routes and functionalities, none of which are present in the package.json file.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/type-is/index.js
+suggestions for improvement:
+- This code snippet appears to be from the 'type-is' library, which is used for content type negotiation. It's completely unrelated to the exercises which focus on building RESTful APIs with Express.js.
+- The code doesn't address the requirements of building APIs, creating routes, or using HTTP methods (GET, POST, PUT, DELETE) as outlined in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/type-is/package.json
+suggestions for improvement:
+- This appears to be a package.json file, which is unrelated to the exercises which involve building REST APIs with Express.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/unpipe/index.js
+suggestions for improvement:
+- This code snippet appears to be a utility for removing pipes from a stream in Node.js, and is not related to building RESTful APIs with Express as described in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/unpipe/package.json
+suggestions for improvement:
+- This submission appears to be a `package.json` file for a utility called `unpipe`.  It's completely unrelated to the exercises on building RESTful APIs with Express.js.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/vary/index.js
+suggestions for improvement:
+- This code appears to be the 'vary' module, which is for manipulating the 'Vary' HTTP header. It's completely unrelated to the exercises about building RESTful APIs with Express.js.
+- The submission should contain code implementing the API endpoints described in the exercises, using Express.js to handle requests and responses.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/vary/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module. It does not implement any of the API functionalities described in the exercises. Therefore, it's irrelevant to the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/wrappy/package.json
+suggestions for improvement:
+- The provided code is a package.json file, which describes a Node.js module but does not implement any of the API building exercises described in the chapter content.
+- To address the exercises, you should write code using Express.js to create RESTful APIs as outlined in the instructions for each exercise.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/node_modules/wrappy/wrappy.js
+suggestions for improvement:
+- This code appears to be a module for wrapping functions, which is not related to the exercises in the chapter.
+- The chapter focuses on building RESTful APIs using Express.js, including creating routes for CRUD operations and using modules for data handling, while the provided code has nothing to do with these topics.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/package-lock.json
+suggestions for improvement:
+- This code is a package-lock.json file, not the server.js file which the instructions specify need to implement the API logic.
+- The submission does not contain the code to implement the routes GET /posts, GET /posts/:id, POST /posts, PUT /posts/:id, and DELETE /posts/:id
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/package.json
+suggestions for improvement:
+- This is just the package.json file which is automatically generated by `npm init`. It needs the server.js, app.js and dataService.js files to actually create the API as described in the exercises.
+- The submission does not include any of the server-side logic required by exercises 1, 2, and 3 (creating routes, handling requests, etc.).
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/server.js
+suggestions for improvement:
+- The PUT and DELETE routes are implemented using POST, which is incorrect. They should use the respective HTTP methods.
+- The POST route for creating a new blog post hardcodes the title and content. It should use the data sent in the request body.
+- The DELETE route sends two responses: one with status 200 and a message, and another with the updated users array. Only one response should be sent.
+- Consider using more descriptive variable names.
+- Error handling could be improved to provide more informative messages.
+Correctness: 60%
+-----
