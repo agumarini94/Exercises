@@ -1,0 +1,7 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day4/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- The 'Delete All' button functionality is not working correctly. It removes the entire `divContainer` instead of just its children (the GIFs). This should be corrected to remove all GIF elements within the container.
+- The 'Delete All' button is appended to the `divContainer` itself, which is then removed when the button is clicked. It would be better to append this button to the `body` tag. Also, should be created outside the getGift function.
+- Consider adding some loading state feedback to the user while the API is fetching the GIF, to improve user experience.
+Correctness: 75%
+-----
