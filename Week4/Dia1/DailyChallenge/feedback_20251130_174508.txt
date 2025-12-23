@@ -1,0 +1,6 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Dia1/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- Consider adding comments to explain complex logic, especially in larger projects.
+- The bonus part (storing data in an array and looping to instantiate instances) is missing.
+Correctness: 100%
+-----

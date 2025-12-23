@@ -1,0 +1,12 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- Consider using CSS classes for planet colors instead of inline styles for better maintainability.
+- The moon positioning logic could be improved for better visual distribution.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day2/DailyChallenge/DailyChallenge.js
+suggestions for improvement:
+- Consider encapsulating the moon creation and positioning logic into a separate function for better code organization and readability.
+- The moon positioning logic could be improved to ensure moons don't overlap each other or the planet, providing a more visually appealing and realistic simulation.  This could involve more complex math or a collision detection system.
+Correctness: 100%
+-----

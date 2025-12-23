@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/week1/Day3/AllTheExercises.py
+suggestions for improvement:
+- In Exercise 2, the `elif` condition should be `family[name] >= 3 and family[name] <= 12` to correctly apply the $10 ticket price based on age.
+- In Exercise 3, the logic for adding 'Desigual' to the `international_competitors` list is flawed. The `if` condition is always true because it compares the string 'international_competitors' to itself.  Instead, you should check if the key exists using `if 'international_competitors' in brand:`. Then, to add 'Desigual' to the list, use `.append('Desigual')`.
+- In Exercise 3, the logic for printing all keys is unnecessarily complex and doesn't account for nested dictionaries properly. You should use `brand.keys()` directly to get all keys at the top level.
+- In Exercise 4, the first two parts of the exercise are printing a separate dictionary in each iteration, instead, you must append all the elements into one single dict and then print. Same thing applies for the 3rd point.
+- In exercise 4, you're creating the dictionary inside the loop. This is appending each element one by one. Make sure to create the dictionary first and then add the element.
+Brief justification:
+- correctness: The code addresses all the exercises, but has some critical logical errors: in Exercise 2, the `elif` condition and the adding of `price` is incorrect, so the right price is not given, in exercise 3 the `if` condition for adding desigual is wrong, making it add the value in the wrong way. In exercise 4, the dictionaries are printed on each iteration and not at the end.
+- readability: The code is generally readable, with comments explaining the steps. However, some variable names could be more descriptive.
+- performance: The code has no major performance issues. The solutions are reasonably efficient for the given tasks.
+- security: The code doesn't involve any user input or external data, so there are no security concerns.
+
