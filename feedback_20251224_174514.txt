@@ -1,0 +1,19 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/App.js
+suggestions for improvement:
+- Consider destructuring the user object in the App component for improved readability.
+- Add PropTypes to the UserFavoriteAnimals component to define the expected type for the `favAnimals` prop, enhancing code maintainability.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/exercise3.js
+suggestions for improvement:
+- The h1 element needs inline styling as requested in the prompt. e.g. style={{color:'red', backgroundColor:'lightblue'}}
+- Add list and image tags
+- Implement the style_header object within the Exercise component and apply the styles.
+Correctness: 60%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/UserFavoriteAnimals.js
+suggestions for improvement:
+- Consider adding PropTypes to the UserFavoriteAnimals component to explicitly define the expected type of the `favAnimals` prop. This can improve code maintainability and prevent unexpected errors.
+- While the component is functionally correct, adding a conditional check to ensure that `favAnimals` is an array before mapping over it could make the component more robust.
+Correctness: 100%
+-----
