@@ -1,0 +1,18 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject.js
+suggestions for improvement:
+- The provided code is completely unrelated to the exercises described in the prompt. It appears to be related to a drawing application using a grid of divs, which is not mentioned or required in the exercises.
+- The code does not implement any of the requested functionalities such as setTimeout, setInterval, or DOM manipulation to add paragraphs or move a box.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject1.html
+suggestions for improvement:
+- The provided HTML code is for a color palette and pixel board, which is completely unrelated to the timer and animation exercises described in the chapter content.  The exercises require using `setTimeout` and `setInterval` to manipulate the DOM and animate elements.
+- The code does not address DOM manipulation using timers or animation as described in the chapter.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProjectColors.css
+suggestions for improvement:
+- The provided code is CSS, not JavaScript, and therefore does not address the exercises that require DOM manipulation and animation using JavaScript timers.
+- The code pertains to styling a color palette and a pixel art board, which are unrelated to the given exercises.
+Correctness: 0%
+-----
