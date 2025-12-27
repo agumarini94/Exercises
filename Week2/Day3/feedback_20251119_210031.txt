@@ -1,0 +1,56 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/AllExercisesXp.py
+suggestions for improvement:
+- Exercise 2 is missing. You need to create two files, func.py and exercise_one.py, as described in the instructions.
+- In Exercise 3, the instruction says to use uppercase and lowercase letters, but the code uses only lowercase letters. Use `string.ascii_letters` instead of `string.ascii_lowercase`.
+- In Exercise 5, the code calculates the user's age in seconds instead of the time until January 1st. The implementation is incorrect according to the goal.
+- In Exercise 6, the code calculates the user's age in seconds, which might have been intended for Exercise 5 (calculating remaining time). Rename the function to reflect the calculation.
+- In Exercise 7, the `addres` key in the dictionary is misspelled. It should be `address`.
+Correctness: 71%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/Exercise3.py
+suggestions for improvement:
+- The code only addresses Exercise 3 and doesn't include any code for the other exercises.
+- For Exercise 3, consider using `''.join(random.choices(string.ascii_letters, k=5))` for a more concise and efficient way to generate the random string.
+- Separate the code into different files or classes to correspond to each exercise for better organization.
+Correctness: 33.33%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise1Inclass.py
+suggestions for improvement:
+- Consider adding more comments to explain complex logic, especially within the dunder methods.
+- You can use more descriptive variable names for better readability.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise2.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise4.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise5.py
+suggestions for improvement:
+- The provided code calculates the difference between two dates, which is related to the `datetime` module but does not implement any of the exercises requested, instead of using the `datetime` to create a function that displays the current date. It also does not address any of the other exercises.
+Correctness: 0.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise6.py
+suggestions for improvement:
+- The code calculates the age in minutes, but it's implemented outside of a class or in relation to previous exercises. It should be integrated as part of a module or in relation to the other exercises in the chapter.
+- The input validation could be improved to handle invalid date formats gracefully.
+- Consider using more descriptive variable names (e.g., `birthdate_str` instead of `user_age`).
+- The comments are in Spanish. Either translate them to English or remove them.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/exercise7.py
+suggestions for improvement:
+- Consider removing commented-out code to improve readability.
+- The variable name `users` inside the loop could be more descriptive to differentiate it from `user_list`.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week2/Day3/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

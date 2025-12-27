@@ -1,0 +1,21 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp1/app.js
+suggestions for improvement:
+- The code lacks the implementation details for creating the routes and mounting them correctly as instructed in the exercises.
+- The router import path `./routes/` is incomplete; it should specify the actual file, like `./routes/index.js` or `./routes/todos.js`, depending on the exercise.
+- Missing `express.json()` middleware to parse JSON request bodies, which is essential for POST and PUT requests in Exercises 2 and 3.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp1/routes/index.js
+suggestions for improvement:
+- This code snippet only represents the router module and lacks the main application setup (app.js) where Express is initialized and the router is mounted. To fully address the exercise, include the code for app.js which imports this router.
+- Consider adding error handling to your routes to catch any unexpected errors and provide meaningful responses to the client.
+- For Exercise 2 and 3, implement the missing CRUD operations (POST, PUT, DELETE) within the router module, including logic for in-memory data storage and retrieval.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp2/app.js
+suggestions for improvement:
+- In Exercise 1, the code snippets for creating the Express application (`app.js`) and router module (`index.js`) are missing. Need to provide the full code for `app.js` and `routes/index.js` to create the routes and start the server.
+- In Exercise 2, complete the `todos.js` file in Step 4 with the implementation for GET, POST, PUT, and DELETE requests.
+- In Exercise 3, complete the `books.js` file in Step 4 with the implementation for GET, POST, PUT, and DELETE requests, and add the corresponding route mounting to the `app.js` file.
+Correctness: 50%
+-----

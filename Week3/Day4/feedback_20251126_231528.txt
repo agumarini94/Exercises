@@ -1,0 +1,60 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.html
+suggestions for improvement:
+- Provide actual code solutions for each exercise instead of just embedding the questions from the prompt as comments.
+- Add code to address the questions asked in each section, such as using the ternary operator, arrow functions, and self-invoking functions as specified in the exercises.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.js
+suggestions for improvement:
+- The code only provides the HTML structure and attempts to answer the scope exercise questions as comments. It does not include the code for exercises 2-8, meaning it doesn't address most of the chapter content.
+- The comments provided as answers to the scope questions are often incomplete or inaccurate. For example, the answer to #1.2 is incorrect.
+- There is a typo in the HTML: '< !DOCTYPE html >' should be '<!DOCTYPE html>'.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise2.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise3.html
+suggestions for improvement:
+- The isString function in exercise 3 seems correct. However, there is only a solution for excercise 3.
+- All other exercises are missing.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise4.html
+suggestions for improvement:
+- The code only addresses Exercise 4. You need to create solutions for all exercises: 1, 2, 3, 5, 6, 7, and 8.
+- Please include your predictions and explanations for Exercise 1 in the comments of your javascript file.
+- For Exercise 5, address all the instructions. Create three different functions: function declaration, function expression, and an arrow function, all doing the same task.
+- For Exercises 6, 7, and 8, make sure to output to the DOM as specified in the instructions.
+Correctness: 20.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise5.html
+suggestions for improvement:
+- In Exercise 1, you need to provide the predicted outputs and explanations as comments in the Javascript file, and also answer the questions related to `const`.
+- For Exercise 2, convert `winBattle()` into an arrow function, and use a ternary operator to assign values to `experiencePoints` based on the function's return value.
+- For Exercise 3, create an arrow function that checks if a value is a string and returns `true` or `false`.
+- For Exercise 4, create a concise arrow function to sum two numbers.
+- For Exercise 5, fully implement all steps: function declaration, function expression, comment explaining the difference, and the arrow function. The code only show the arrow function.
+- Exercises 6, 7 and 8 are missing
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise6.html
+suggestions for improvement:
+- The instructions said to display the sentence in the DOM. You are currently displaying it on the console.
+- Consider using template literals for better string formatting.
+- For exercise 7: Create a Navbar in your HTML file and create a self-invoking function to add a div in the navbar with the user's name and profile picture.
+- For exercise 8: Implement the Juice Bar exercise using nested functions as described in the instructions.
+Correctness: 30%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise7.html
+suggestions for improvement:
+- For Exercise 1, include the JavaScript code with comments indicating your predictions and explanations, as requested by the prompt.  This is missing from the submission.
+- For Exercise 2, 3, 4, and 5, provide the JavaScript code that solves each exercise. These exercises are missing from the submission.
+- For Exercise 6, use `document.body.innerHTML += ...` or create elements dynamically and append them to the DOM to fulfill the instruction: 'The function should display in the DOM a sentence...'
+- For Exercise 7, although the code adds a welcome message to the navbar, it does not include a profile picture as requested.
+- Exercises 1-5 are missing. Add completed solutions for them.
+- For Exercise 7, add functionality to include a profile picture in the navbar along with the username.
+Correctness: 70%
+-----

@@ -1,0 +1,7 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day2ExerciseXP/XP2/DailyChallenge/dailychallenge.sql
+Brief justification:
+- correctness: The response accurately predicts the output of each SQL query based on the provided table data and SQL logic, directly addressing the task's requirements.
+- readability: The response is well-organized and easy to understand.
+- performance: The response focuses on the correctness of the SQL query outputs, which inherently relates to the query's efficiency.
+- security: The response does not involve any security-related aspects, so the score is based on the absence of vulnerabilities.
+
