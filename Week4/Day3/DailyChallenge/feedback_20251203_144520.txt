@@ -1,0 +1,12 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day3/DailyChallenge/Exercise1.html
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability.
+- The use of `setTimeout` is not required in the problem description and can be removed to simplify the code and make it execute synchronously.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week4/Day3/DailyChallenge/Exercise2.html
+suggestions for improvement:
+- Consider using `const` instead of `let` for variables that are not reassigned, such as `codigoMorse` in the `toMorse` function, to improve code clarity and prevent accidental reassignment.
+- Error handling could be improved by displaying the specific error message from the `reject` function in the `.catch` block, rather than a generic 'something is wrong' message.
+Correctness: 100%
+-----
