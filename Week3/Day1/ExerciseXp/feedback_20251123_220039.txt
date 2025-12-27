@@ -1,0 +1,61 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise1.html
+suggestions for improvement:
+- The HTML structure provides a basic setup but doesn't include any JavaScript code to address the exercises. You need to include the JavaScript code within `<script>` tags either directly in the HTML file or by linking an external `.js` file (as you've done, which is good), and that JavaScript code should implement the logic for each of the given exercises involving variables, conditionals, loops and objects.
+- The current HTML only sets up the structure for a webpage but doesn't actually execute any of the exercise instructions.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise1.js
+suggestions for improvement:
+- In Part I, step 5, after modifying the `people` array, it should look like this: `const people = ["Mary", "Devon", "Jason", "Yourname"];`  The slice should be based on *this* array, not the original.
+- In Part II, the `while` loop in the second part will not print 'Devon'. Consider using a `for` loop with a `break` statement as hinted in the instructions.
+Correctness: 85%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise2.html
+suggestions for improvement:
+- The HTML file includes a reference to 'exercise2.js', but the content of that file is missing. Without the JavaScript code, it's impossible to evaluate the correctness, readability, performance, or security of the solution.
+- Please provide the JavaScript code from 'exercise2.js' to enable a complete assessment.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise2.js
+suggestions for improvement:
+- The exercise asks for five favorite colors, but only four are used in the example.
+- Consider using template literals for string concatenation to improve readability.
+- The code only works correctly for arrays of length four. Generalize the ordinal suffix logic for any length array or implement the bonus which is intended to handle array of any size.
+Correctness: 50%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise3.html
+suggestions for improvement:
+- The HTML file provided doesn't contain any JavaScript code related to the exercises mentioned in the prompt. It simply sets up a basic HTML structure with a heading and includes an external JavaScript file named 'exercise3.js'. To fulfill the requirements of the exercises, you need to implement the JavaScript code within 'exercise3.js' and link it to the HTML structure if needed.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise3.js
+suggestions for improvement:
+- The code inside the while loop should reassign the `numero` variable with the new number obtained from the prompt, after converting it to a Number.
+- The use of `alert` is not ideal for user feedback in a console-based exercise. Consider using `console.log` for consistency with the rest of the exercises.
+Correctness: 50%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise4.html
+suggestions for improvement:
+- The HTML file only sets up a basic structure but does not include any of the JavaScript code to address the exercises. The JavaScript file 'exercise4.js' (which is not provided) is meant to contain the solutions, but without its content, the provided HTML is insufficient.
+- Ensure that the JavaScript file is created and contains the code to solve all the exercises related to variables, conditionals, loops, and objects.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise4.js
+suggestions for improvement:
+- The `if` statement in Exercise 4 part 5 has a semicolon at the end of the condition, which causes the code block to always execute. Remove the semicolon to make the condition work as intended.
+- Use template literals instead of string concatenation for better readability (e.g., `console.log(`name of 2 tenant is ${building.nameOfTenants[1]} and hi has rooms ${building.numberOfRoomsAndRent.dan[0]}`)` ).
+- Be consistent with your commenting style.
+Correctness: 75%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise5,6,7.html
+suggestions for improvement:
+- The HTML file only sets up the basic structure to potentially run the JavaScript file but doesn't execute the logic required by the exercises.
+- There is no javascript code in this file that addresses the exercises.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day1/ExerciseXp/exercise5,6,7.js
+suggestions for improvement:
+- In Exercise 6, you could improve readability by directly constructing the string 'my name is Rudolf the reindeer' without creating an intermediate 'text' variable.
+- In Exercise 7, consider sorting the extracted first letters alphabetically before concatenating them to form the secret society name. This aligns better with the problem description.
+Correctness: 100%
+-----

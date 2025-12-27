@@ -1,0 +1,8 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject1.html
+suggestions for improvement:
+- Consider moving the CSS into an external stylesheet for better organization and maintainability.
+- Simplify the event listener setup for the pixel grid to improve readability and reduce redundancy.
+- Consolidate the mouse event handling logic into a single function for better organization.
+- Remove commented-out code to improve readability.
+Correctness: 75%
+-----
