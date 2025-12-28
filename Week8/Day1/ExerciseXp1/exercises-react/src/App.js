@@ -2,6 +2,7 @@ import './App.css';
 import { Car } from './components/Car';
 import { MyButton } from './components/Events';
 import { Phone } from './components/Phone';
+import { Color } from './components/Color';
 function App() {
   const carinfo = { name: "Ford", model: "Mustang" };
 
@@ -11,6 +12,7 @@ function App() {
       <Car carinfo={carinfo} />
       <MyButton />
       <Phone />
+      <Color />
     </div>
   );
 }
