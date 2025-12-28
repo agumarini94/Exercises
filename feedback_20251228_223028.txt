@@ -1,0 +1,15 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/ExerciseXp/exercisesxp/src/App.jsx
+suggestions for improvement:
+- Create a separate ErrorBoundary component as instructed in Exercise 1.
+- Implement simulations 1, 2, and 3 as described in Exercise 1 by structuring the components in different ways.
+- Address Exercise 2 by converting the previous exercise (XP 4 from yesterday) to class components and implementing the lifecycle methods shouldComponentUpdate, componentDidUpdate, and getSnapshotBeforeUpdate.
+- Implement Exercise 3 by adding a 'show' property to the state, creating a Child component, using componentWillUnmount in the Child component, and rendering the Child based on the 'show' property.
+Correctness: 50%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/ExerciseXp/exercisesxp/src/ErrorBoundary.js
+suggestions for improvement:
+- In the `componentDidCatch` method, you're only updating the state with the error message. You should also store the `info` object (which contains the component stack trace) in the state, as suggested in the instructions.  The `ErrorBoundary` component needs to save the error info to state so that the stack trace can be displayed, which is a requirement in exercise 1.
+- The render method only displays the error message and a hardcoded 'THE COMPUTER HAS BEEN HACKED BY ISRAEL' message. It should also include the error stack trace in a `details` tag as specified by the instructions to render `this.state.errorInfo.componentStack`
+- The component name is misspelled (`ErrorBundary` instead of `ErrorBoundary`).
+Correctness: 50%
+-----
