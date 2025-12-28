@@ -1,0 +1,78 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/DailyChallenge/dailychallenge.js
+suggestions for improvement:
+- The function returns prematurely within the loop. It should only return `false` after checking all allowed types.
+- The function doesn't need the `else` statement within the loop because it is going to be returning a value no matter what.
+- It can be improved by removing the parenthesis in `return (true);`
+Correctness: 50%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/DailyChallenge/dailychallenge.ts
+suggestions for improvement:
+- The `else` block inside the `for` loop causes the function to return prematurely. It should only return `false` after checking all allowed types.
+- Consider returning `false` by default if no types match inside the loop, instead of relying on the first `else` condition.
+- The instructions ask to validate variables with different types, but it only validates with 'string' and 'number'. Need to add boolean
+Correctness: 30%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise7xP.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise7xP.ts
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise8.js
+suggestions for improvement:
+- The provided code does not address the prompt. The prompt asks for a function to validate the type of a variable against a list of allowed types, whereas the given code returns a string based on a given action.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise8.ts
+suggestions for improvement:
+- The code does not address the problem of validating a value against an array of allowed types using union types. It simply returns a string based on the input string.
+- The function should check if the type of the value matches one of the types in the allowedTypes array. The current code does not perform any type checking.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/Exercise9.ts
+suggestions for improvement:
+- The code doesn't address the challenge requirements at all. It's a function to greet, which is unrelated to the topic of validating union types.
+- The code provided does not implement any form of type validation against an array of allowed types. It's a simple string manipulation function.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/ExercisesXp.js
+suggestions for improvement:
+- The provided code does not implement the function `validateUnionType(value: any, allowedTypes: string[]): boolean` as described in the exercise. It presents unrelated code snippets that do not address the core task of validating variable types against a list of allowed types using the `typeof` operator.
+- The code includes examples using union types and tuples but doesn't directly relate to the 'Union Type Validator' challenge. Therefore, it needs to be rewritten to focus on creating the `validateUnionType` function as outlined in the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/ExercisesXp.ts
+suggestions for improvement:
+- The provided code does not address the problem described in the chapter content which is to create a function that validates a value against an array of allowed types (strings) using union types and the typeof operator.
+- The exercises provided are not related to the daily challenge.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise1Xp.js
+suggestions for improvement:
+- The provided code does not address the problem described in the chapter content, which is to create a function `validateUnionType` that accepts a value and an array of allowed types and returns `true` if the value is one of the allowed types; otherwise, it should return `false`.
+- The code appears to be solving a different problem, potentially related to basic variable declaration and console logging in TypeScript, which is not the focus of the provided chapter content.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise1Xp.ts
+suggestions for improvement:
+- The provided code does not address the prompt regarding union type validation. It implements basic console logging and variable declaration instead.
+- The code needs to implement the `validateUnionType` function as described in the problem statement.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise7.html
+suggestions for improvement:
+- The provided HTML code does not address the TypeScript problem described in the chapter content. The HTML file includes an input field and loads a JavaScript file, but it lacks the TypeScript implementation for the `validateUnionType` function.
+- To address the prompt, you must include the TypeScript code that defines the `validateUnionType` function and demonstrates its usage, as requested by the problem description.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/exercise9.js
+suggestions for improvement:
+- The code doesn't address the challenge of creating a `validateUnionType` function using union types and the `typeof` operator to validate variable types against an array of allowed types. The provided code implements a greeting function, which is irrelevant to the problem description.
+- The function lacks explicit type definitions for parameters and the return value.
+- The code does not use the allowedTypes array to check the type of the variable.
+Correctness: 0%
+-----

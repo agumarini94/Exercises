@@ -1,0 +1,76 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/package-lock.json
+suggestions for improvement:
+- This file is a package-lock.json, not a React component implementation. It lists dependencies for a project but doesn't contain any code fulfilling the instructions to build a React carousel.
+- A React component needs to be created to utilize the `react-responsive-carousel` package. The current submission lacks the component implementation.
+Correctness: 20%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/package.json
+suggestions for improvement:
+- The provided code is just the package.json file. It doesn't include the React component code implementing the carousel functionality as requested in the instructions. Therefore, it does not address the problem at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/public/index.html
+suggestions for improvement:
+- The provided code is just the default `index.html` file for a React app. It doesn't include any of the React components, JSX, or the React Responsive Carousel package implementation that the instructions require.
+- The task requires using the React Responsive Carousel package, importing the necessary components, and creating a carousel with the given images. The provided `index.html` file doesn't address any of these requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/public/manifest.json
+suggestions for improvement:
+- The provided code is a manifest file for a React app, not the React component code for building the carousel as described in the instructions.
+- The solution should implement the react-responsive-carousel package and display the images given.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/public/robots.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/App.css
+suggestions for improvement:
+- The provided CSS code does not address the requirements of building a React Carousel using the react-responsive-carousel package. It is related to general app styling and does not include any carousel implementation.
+- The code needs to implement the React component, install and import the carousel package, fetch or define image URLs, and use the carousel component to display those images.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/App.js
+suggestions for improvement:
+- The App component should render the React Responsive Carousel with the images provided in the instructions.
+- The MyCarousel component (not provided) needs to implement the carousel using the `react-responsive-carousel` package and display the images of Hong Kong, Macao, Japan, and Las Vegas.
+- The current code only imports and renders a component named MyCarousel, but it doesn't use the react-responsive-carousel package or the provided images directly in the App component. This does not address the problem.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/App.test.js
+suggestions for improvement:
+- The code is a basic React test, completely unrelated to the carousel creation described in the problem.
+- The test checks for the presence of 'learn react' text, which is the default in a new React app, and not specific to the carousel implementation.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/MyCarousel.jsx
+suggestions for improvement:
+- Use the images provided in the instructions instead of picsum photos.
+- Consider extracting the image and legend data into a separate array and mapping over it to improve readability and maintainability.
+- Add error handling or placeholder images in case the image URLs fail to load.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/index.css
+suggestions for improvement:
+- The provided code is a CSS snippet, while the challenge requires building a React carousel using the `react-responsive-carousel` package. This CSS snippet is not relevant to the actual task.
+- The code needs to implement the carousel using React components and JSX, as described in the instructions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/index.js
+suggestions for improvement:
+- The code provided is the default index.js file created by `create-react-app`. It doesn't implement the React Carousel component as described in the problem description.
+- The `App` component needs to be modified to include the React Responsive Carousel component and the images provided in the prompt.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/reportWebVitals.js
+suggestions for improvement:
+- The provided code reports web vitals, which is unrelated to the chapter content that asks to build a React Carousel using the react-responsive-carousel package.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/setupTests.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
