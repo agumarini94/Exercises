@@ -1,0 +1,14 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/DailyChallenge/dailyChallenge.js
+suggestions for improvement:
+- The code has a fundamental error in the loop's logic. It attempts to access `myArray` using `myArray[item_1]` where `item_1` is intended to be the element of the array, not the index. This leads to incorrect property access and type errors. The correct way to access the element at index `item` is `myArray[item]`.
+- The type guards are implemented incorrectly. The code attempts to access properties of the item directly (e.g., `myArray[item_1].type`). Instead, it should access the `type` property of the current element in the loop (e.g., `myArray[item].type`).
+- The code uses `@ts-ignore` which indicates a type error that should be addressed rather than ignored. This suggests a misunderstanding of how to properly use type guards.
+- The code doesn't return a value as suggested by the prompt, it only prints to the console. The prompt specifies to return a greeting or summary message.
+Correctness: 40%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day3/DailyChallenge/dailyChallenge.ts
+suggestions for improvement:
+- The primary issue is the shadowing of the `item` variable within the loop. This causes incorrect array access. The outer loop `for (let item = 0; item < myArray.length; item++)` defines `item` as the index. However, inside the loop, `const item = myArray[i];` redefines `item`, but uses `i` which is not defined, and also overwrites the loop index, leading to the code trying to access properties of objects where it expects indices. It also throws an error. Remove the declaration inside the for loop. Also there is no need to use the ts-ignore.
+- Instead of using `myArray[item].type`, it would be safer to use type guard functions. This makes the code more robust and readable.  Example: `function isUser(obj: any): obj is User { return obj.type === 'user'; }`
+Correctness: 60%
+-----

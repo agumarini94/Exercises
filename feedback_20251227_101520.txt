@@ -1,0 +1,42 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp1/app.js
+suggestions for improvement:
+- The provided code snippet is incomplete. It does not define any routes or implement the logic for handling requests.
+- The code needs to include the implementation for the router module to handle the requests correctly.
+- The code does not provide the router modules so that the main app can perform the task requested.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp1/routes/index.js
+suggestions for improvement:
+- This snippet only contains the router code, it does not provide the app.js code that sets up the express application
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp2/app.js
+suggestions for improvement:
+- The `app.use('/', router)` line should be `app.use('/todos', router)` in Exercise 2 to correctly mount the router at the `/todos` path as intended by the instructions. Otherwise, the routes defined in the `todos.js` will be accessible from `/` which is not the intention.
+- In Exercise 3, the `app.use('/', router)` line should be `app.use('/books', router)` to correctly mount the router at the `/books` path.
+- The code snippets for `app.js` are incomplete, lacking the import statement for express and other configurations needed to complete exercises 2 and 3. This may impact correctness if the user solely relies on the provided snippets.
+Correctness: 60%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/ExerciseXp2/routes/todos.js
+suggestions for improvement:
+- Consider using a more robust method for generating unique IDs instead of `todos.length + 1`, especially in a production environment. A UUID library is often preferred.
+- Implement input validation and sanitization to prevent potential security vulnerabilities, such as Cross-Site Scripting (XSS) or injection attacks.
+- Add error handling to catch unexpected exceptions during API operations.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/Exercise3Xp1/app.js
+suggestions for improvement:
+- In Exercise 1, you have to create the routes `index.js` and mount them on `app.js` file.
+- In Exercise 2 and Exercise 3, you need to implement all the CRUD methods to the `todos.js` file and `books.js` file respectively.
+- Include error handling for scenarios like invalid IDs or missing data.
+- Consider using more robust data storage than in-memory arrays, especially for production environments.
+Correctness: 40%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/Exercise3Xp1/routes/books.js
+suggestions for improvement:
+- In the DELETE route, `splice` returns an array of deleted items. While you access the first element `libroDelete[0]`, consider directly assigning the spliced element for clarity: `const [libroDelete] = books.splice(libroDeleteIndex, 1);`.
+- For the PUT and DELETE requests, it's better to send a 204 No Content status upon successful update/deletion without returning the object.
+- Consider adding validation to the POST and PUT requests to ensure that the required fields (title, author) are present and of the correct type.
+- While using an in-memory database is suitable for this exercise, be aware that data will be lost when the server restarts.  A real-world application would require a persistent database.
+Correctness: 80%
+-----
