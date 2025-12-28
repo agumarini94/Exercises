@@ -1,6 +1,7 @@
 import './App.css';
 import { Car } from './components/Car';
 import { MyButton } from './components/Events';
+import { Phone } from './components/Phone';
 function App() {
   const carinfo = { name: "Ford", model: "Mustang" };
 
@@ -8,7 +9,8 @@ function App() {
     <div>
     {/* DENTRO DE Car carinfo.. manda por props a Car.js el objeto carinfo */}
       <Car carinfo={carinfo} />
-      <MyButton/>
+      <MyButton />
+      <Phone />
     </div>
   );
 }
