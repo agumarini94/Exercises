@@ -1,0 +1,51 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/App.css
+suggestions for improvement:
+- The provided code is CSS styling for the App component, and not React components fulfilling the exercises requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/App.js
+suggestions for improvement:
+- Consider adding comments to explain complex logic or non-obvious code sections.
+- Ensure consistent formatting across the project for better readability.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Car.js
+suggestions for improvement:
+- The output string in the Car component could be clearer, consider template literals for readability.
+- Consider destructuring the `props` object in the `Car` component for better readability and maintainability.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Color.js
+suggestions for improvement:
+- Remove the line `<h2>My favorite color is {useEffect} </h2>` as it's not needed and doesn't display anything useful.
+- Consider adding a dependency array to useEffect if the effect relies on specific props or state variables, even though it's not required in this exercise.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Events.js
+suggestions for improvement:
+- The provided component MyButton seems to be a solution for the Exercise 2, but not for Exercise 1 or 3. The code doesn't address creating Car and Garage Components, Phone components and doesn't use useEffect hook. The code does implement Events, like the button to click and the input, but doesn't follow instructions clearly.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Garage.js
+suggestions for improvement:
+- The code is a component, however the instructions ask to make 4 components implementing different functionalities. The provided code only fulfills one part of the overall task. More components and functionality is required to complete all the exercises.
+- Focus on completing all components from all the questions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Phone.js
+suggestions for improvement:
+- The exercise asks to create state variables for brand, model, color, and year. Currently, brand, model, color and year are part of a phone object, not individual state variables.
+- The button should change the `color` state variable of the `Phone` component to 'blue', not to gray.
+- Avoid naming variables in a way that conflicts with existing DOM elements or attributes, i.e. `colorphone` can be named something else.
+Correctness: 50%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling and does not address any of the React exercises described in the chapter content.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/index.js
+suggestions for improvement:
+- The code provided is the default index.js file that's created when you initialize a React application using create-react-app or similar tools. It's responsible for rendering the main App component into the root element of your HTML. However, this code does not address any of the specific exercises outlined in the Chapter Content/Questions. The exercises require creating and manipulating components, handling events, and using lifecycle methods/hooks, none of which are present in this file.
+Correctness: 0%
+-----
