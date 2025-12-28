@@ -1,0 +1,13 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.html
+suggestions for improvement:
+- The provided HTML code only sets up the structure of the Mad Libs game. It doesn't include any JavaScript to handle form submission, retrieve input values, generate the story, or implement the shuffle button functionality.  A javascript file needs to be created to implement the logic.
+- The instruction asks to use `event.preventDefault()` to prevent the default form submission behavior.
+Correctness: 0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day3/DailyChallenge/DailyChallenge.js
+suggestions for improvement:
+- Instead of using alerts to display the story and new stories, update the content of the `span` element with the id `story` as initially intended.
+- Improve the structure and randomness of the bonus stories. Currently, the 'newHistory' function generates the same story each time, just with the addition of 'First new HISTORIA', etc. Consider creating an array of story templates and randomly selecting one each time the button is clicked.
+- The 'counter' variable's scope should be outside the submit event listener but inside the main script to persist between form submissions if that's the intended behavior. As it is now, it gets reinitialized on every form submit.
+Correctness: 70%
+-----

@@ -1,0 +1,89 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/package-lock.json
+suggestions for improvement:
+- This package-lock.json file doesn't contain any of the React code required by the exercises. It only describes the dependencies of a Node.js project.
+- To address the exercises, you need to create the React components and implement the functionality described in the instructions.
+- Create `App.js`, `UserFavoriteAnimals.js`, and `Exercise3.js` with the React code to fulfill the requirements.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/package.json
+suggestions for improvement:
+- This is a `package.json` file. It does not fulfill any of the coding instructions from the exercise, therefore it has no correctness.
+- The file does not implement any of the React components or JSX elements requested in the exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/public/index.html
+suggestions for improvement:
+- The provided HTML file is the basic template for a React app's `public/index.html` file. It doesn't implement any of the React components or logic described in the exercises. Therefore, it doesn't address the instructions at all.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/public/manifest.json
+suggestions for improvement:
+- The provided code appears to be a manifest file (likely manifest.json) for a Progressive Web App (PWA).
+- This file does not address any of the React-specific exercises described in the provided chapter content. The exercises focus on JSX, component creation, styling, and rendering data within a React application.
+- To fulfill the exercises, you need to create React components, use JSX syntax to define the UI, and implement the logic as described in each exercise.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/public/robots.txt
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/App.css
+suggestions for improvement:
+- The provided code is CSS, but the exercises require changes to the App.js file and creation of React components and other Javascript files.
+- Ensure that React components are created and JSX is used as described in each exercise.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/App.js
+suggestions for improvement:
+- Consider using more descriptive variable names if the context expands.
+- The code is well-structured but could benefit from minor formatting adjustments for enhanced readability (e.g., consistent spacing around operators).
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/App.test.js
+suggestions for improvement:
+- The provided code is a default test file created with React Apps, and doesn't address any of the exercises outlined in the chapter content. The chapter content details instructions for creating React components, using JSX, styling React components, and passing props. The test file doesn't implement any of these functionalities.
+- Please submit relevant code that attempts to address the exercises.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/UserFavoriteAnimals.js
+suggestions for improvement:
+- Consider adding PropTypes to the UserFavoriteAnimals component to validate the type of the `favAnimals` prop. This would enhance code reliability.
+- The component is well-structured; no major improvements needed.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/exercise.css
+suggestions for improvement:
+- The provided code is CSS styling but the instructions ask to create react components and use JSX to display elements as well as styling those elements with inline styling, CSS objects and external CSS files.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/exercise3.js
+suggestions for improvement:
+- Add inline styles to the `<h1>` tag as required in PART I using style={{color: 'red', backgroundColor: 'lightblue'}}
+- Use the style object style_header defined in PART II to style the h1 element.
+- Add a list and an image as required by part I of exercise 3.
+- The form needs a submit button to be complete
+- Label elements are not linked with their respective input elements using 'for' attribute
+Correctness: 50.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/index.css
+suggestions for improvement:
+- The provided code is a CSS file, but the exercises are focused on creating React components and using JSX. This CSS file does not address any of the specific instructions in the exercises.
+Correctness: 0.0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/index.js
+suggestions for improvement:
+- The provided code is the default index.js file created by create-react-app. It does not address any of the exercises described in the chapter content.
+- The code should implement the functionalities described in exercises 1, 2 and 3.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/reportWebVitals.js
+suggestions for improvement:
+- This code is related to web vitals reporting and not related to React exercises provided in the instructions. The React exercises focus on creating React apps, using JSX, styling components. This file should not be submitted for these exercises.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/ExerciseXp/exercisexp/src/setupTests.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

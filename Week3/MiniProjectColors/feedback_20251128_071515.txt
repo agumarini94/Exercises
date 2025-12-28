@@ -1,0 +1,23 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject.js
+suggestions for improvement:
+- Consider simplifying the event handling for drawing. The `mousedown`, `mouseup`, and `mouseover` events are used correctly, but the logic can be streamlined.
+- Remove commented-out code blocks to improve readability and maintainability.
+- Refactor code into smaller, more focused functions to improve organization.
+- Avoid unnecessary global variables like `botonPresionado` and `isMouseDown`. Encapsulate state within functions where possible.
+- Ensure that the `clickedId` variable is properly updated and accessible when a new color is selected.
+Correctness: 70%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProject1.html
+suggestions for improvement:
+- The HTML provides the basic structure, including the color palette and a starting point for the pixel grid. However, the grid is only partially populated with pixel divs. The task explicitly mentions using JS to generate the grid. Implement the grid generation using JS to dynamically create the pixels instead of manually adding them in the HTML.
+- Consider adding more semantic HTML elements to improve accessibility and SEO. For example, using `<button>` elements for the color swatches instead of `<div>` elements with IDs.
+- The current approach to creating the grid (manually adding divs) is highly inefficient and impacts performance negatively, especially for larger grids. Generating the grid dynamically with JavaScript would be a better approach.
+- Add labels or tooltips to the color swatches to improve accessibility.
+Correctness: 50%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/MiniProjectColors/MiniProjectColors.css
+suggestions for improvement:
+- The code provided is only CSS, so it can style HTML elements related to the Coloring Squares project, but it cannot implement the core functionality of the game, like selecting colors or drawing on the grid. Functionality requires JavaScript.
+- Consider structuring the CSS using a preprocessor like Sass or Less for better organization and maintainability.
+Correctness: 0%
+-----
