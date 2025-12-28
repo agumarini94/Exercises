@@ -1,0 +1,5 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/App.css
+suggestions for improvement:
+- The provided code is CSS styling for the App component, which is not directly related to any of the exercises described in the provided instructions. The exercises focus on creating React components, using state, handling events, and using the useEffect hook.  Therefore, the code does not address the exercises.
+Correctness: 0%
+-----
