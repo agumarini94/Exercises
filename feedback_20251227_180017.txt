@@ -1,0 +1,29 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/Exercise3Xp/crud-api/data/dataService.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/Exercise3Xp/crud-api/app.js
+suggestions for improvement:
+- The code only implements part of Exercise 3, specifically fetching data from an external API. It doesn't address the CRUD operations as a complete API as described in the instruction for exercise 3.
+- The code mixes concerns by directly calling `fetchPosts` within the route handler. It would be better to separate the data fetching logic from the route handling logic.
+- The error handling could be improved by providing more specific error messages and logging the errors for debugging purposes.
+- The use of `async/await` is good for handling asynchronous operations, but it's important to handle potential errors using `try/catch` blocks.
+Correctness: 50%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/Exercise2Xp/book-api/app.js
+suggestions for improvement:
+- The routes should be '/api/books' as specified in the instructions, not '/books'.
+- The POST route should take the book details from the request body, not hardcode them.
+- Error handling could be improved with more specific error messages and status codes.
+- Consider using a more robust method for generating unique IDs, especially for larger datasets.  Incrementing `books.length` is simple but can lead to issues if books are deleted.
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day5NodeServer/ExerciseXP/ExerciseXp1/blog-api/server.js
+suggestions for improvement:
+- The POST route hardcodes the new blog post's title and content. It should read these values from the request body.
+- The PUT route also hardcodes the updated title and content.  It should read these values from the request body.
+- Consider using more descriptive variable names (e.g., `blogPost` instead of `blog`).
+- Add error handling to handle cases where the request body is missing or invalid.
+Correctness: 75%
+-----

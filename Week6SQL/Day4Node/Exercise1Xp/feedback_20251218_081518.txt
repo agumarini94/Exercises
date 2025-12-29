@@ -1,0 +1,35 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise2XP/data.js
+suggestions for improvement:
+- Consider renaming the exported variable to `humans` for better readability, aligning with the array's content.
+- Add comments to explain the reasoning behind using ES6 module syntax, highlighting its benefits over CommonJS in specific scenarios.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise2XP/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise3XP/fileManager.js
+suggestions for improvement:
+- The `writeFile` function does not receive the content to write as a parameter. It should accept both the file path and the content.
+- The `writeFile` function incorrectly uses the 'utf-8' encoding as the second argument, which should be the data to write. The encoding should be specified in the options object or as part of the data if writing a string.
+- The `readFile` and `writeFile` functions use callbacks, which can lead to callback hell in more complex scenarios. Consider using Promises or async/await for cleaner asynchronous code.
+- Error handling in both functions is basic. Consider throwing errors or returning error codes to allow the calling function to handle errors more effectively.
+Correctness: 30%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise3XP/app.js
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise5Xp/math-app/math.js
+suggestions for improvement:
+- This code defines a module with `multiply` and `suma` functions, which are basic arithmetic operations. However, this code is not in response to any of the exercises, so it is unrelated.
+- Consider aligning the code with one of the exercises to demonstrate understanding of the module concepts and file system operations.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day4Node/Exercise5Xp/math-app/app.js
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----

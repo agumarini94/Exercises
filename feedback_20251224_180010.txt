@@ -1,0 +1,16 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day3/Miniproject1/app.js
+suggestions for improvement:
+- The code lacks the core functionality of the task management API, particularly the routes to interact with the JSON file (GET, POST, PUT, DELETE).
+- It's missing the implementation of file read/write operations and data validation.
+- Consider separating concerns further by moving the `app.listen` to a separate file or function.
+Correctness: 20%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day3/Miniproject1/routes/router.js
+suggestions for improvement:
+- The task IDs are being generated sequentially, which can lead to issues if tasks are deleted and new ones are added. Consider using a UUID library to generate unique IDs.
+- There's no input sanitization to prevent malicious data from being stored in the JSON file.
+- The code reads and writes the entire JSON file for each operation. For larger datasets, consider using a database instead or implementing partial updates.
+- Error messages could be more descriptive.
+- Consider creating a separate module or utility function to handle file read/write operations to avoid code duplication.
+Correctness: 90%
+-----
