@@ -1,0 +1,7 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/App.js
+suggestions for improvement:
+- Implement the form submission logic to construct the URL with the data. The current code handles input changes and displays the data, but it doesn't build the URL as required.
+- Consider creating a separate FormComponent as instructed, instead of placing the form directly within the App component.  This will make the code more modular.
+- Rename the dietary state variable to lactoseFree for closer alignment with the prompt.
+Correctness: 70%
+-----
