@@ -28,7 +28,9 @@ class App extends Component {
       <div>
         <h1>Daily Challenge </h1>
         <form>
-          <input type="text" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
+          {/* hago un input, texto, con su name, value = lo que esta en app, constructor, y los carga ahi.. 
+          y onChange actualiza el valor en la funcion.  */}
+          <input type="text" name="firstName" value={this.state.firstName} onChange={this.handleChange} /> 
           <input type="text" name="lastName" value={this.state.lastName} onChange={this.handleChange} /> 
           <input type="number" name="age" value={this.state.age} onChange={this.handleChange} />
           <input type="radio" name="gender" value="male" onChange={this.handleChange} />Male
@@ -37,7 +39,8 @@ class App extends Component {
             <option value="Rusia">Rusia</option>
             <option value="Argentina">Argentina</option>
           </select>
-        <input type="checkbox" name="dietary" checked={this.state.dietary} onChange={this.handleChange} />
+          <input type="checkbox" name="dietary" checked={this.state.dietary} onChange={this.handleChange} />Dietary ? 
+          <input type="submit" value="Send"></input>
         </form>
 
         {/* ahora muestro los valores  */}
