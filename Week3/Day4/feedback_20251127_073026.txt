@@ -1,0 +1,57 @@
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.html
+suggestions for improvement:
+- The HTML structure is minimal and doesn't actively contribute to the exercises' solutions. Consider structuring the HTML to reflect the expected output or interaction from the JavaScript exercises.
+- Include the JavaScript code within a separate .js file and link it to the HTML file. This promotes better organization and maintainability.
+Correctness: 10.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/Exercise1.js
+suggestions for improvement:
+- Exercise 1: Only the code for exercise 1 is implemented in the <script> tag. The HTML structure is basic and acceptable, though not strictly necessary for answering the exercise. The rest of the exercises are missing.
+- Exercise 1: The comments predicting the values of 'a' are interspersed directly within the code for `funcOne`, `funcTwo`, etc..  These predictions should be clearly separated and formatted for better readability.
+- Exercise 1:  The answers to the questions about 'const' are incomplete and sometimes incorrect. For example, in #1.2, if 'a' is declared as `const a = 5;` inside `funcOne`, then `a = 3;` would throw an error because you can't reassign a constant variable.
+- Exercises 2-8: These exercises are not implemented at all in the provided code.
+Correctness: 30%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise2.html
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise3.html
+suggestions for improvement:
+- Complete all the exercises as requested by the instructions.
+- For exercise 1, provide the requested comments predicting the value of 'a' and explaining your reasoning. Also, answer the questions about using 'const' instead of 'let'.
+- For the other exercises, ensure the code fulfills all instructions. For example, for Exercise 5, implement all three specified function types (declaration, expression, arrow function).
+- Make sure to add the solutions in a Javascript file.
+Correctness: 20.0%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise4.html
+suggestions for improvement:
+- The exercise asks to answer and explain the scope exercise questions in comments in a js file. You didn't answer those questions.
+- The file includes only the solution to exercise 4, and it's inside an HTML document. Create separate files for JavaScript code and HTML structure.
+- While the arrow function in exercise 4 is correct, consider adding more context or comments to clarify its purpose within the broader exercise.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise5.html
+suggestions for improvement:
+- Address all parts of Exercise 5 completely: declaration, expression, difference (comment), and arrow function.
+- In Exercise 5, invoke the function declaration and expression forms as well, not just the arrow function.
+- Complete the rest of the exercises as well, not just exercise 5.
+Correctness: 20%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise6.html
+suggestions for improvement:
+- The self-invoking function is created correctly.
+- The function logs to the console instead of displaying the sentence in the DOM as requested.
+- String concatenation is used instead of template strings.
+Correctness: 30%
+-----
+URL: URL: https://github.com/agumarini94/Exercises/blob/main/Week3/Day4/exercise7.html
+suggestions for improvement:
+- For exercise 1, provide the javascript file with comments including your predictions and explanations, it is requested by the exercise instructions.
+- For exercise 2, 3, 4, 5, provide the javascript code that solves each problem. The instructions are explicit in requesting it.
+- For exercise 6, display the sentence in the DOM as requested.
+- For exercise 7, add also the profile picture in the DOM as requested.
+- For exercise 8, follow the steps from part 1 and part 2 to complete the exercise.
+Correctness: 75%
+-----

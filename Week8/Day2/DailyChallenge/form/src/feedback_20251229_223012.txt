@@ -1,0 +1,22 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/App.css
+suggestions for improvement:
+- The provided code is CSS styling, which is irrelevant to the React form processing task described in the problem statement. The instructions require creating a stateful React component, handling form input changes, and submitting the form data as a URL query string.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/App.js
+suggestions for improvement:
+- Implement the form submission logic to pass the entered data in the URL as query parameters. The current code captures the form data in the state, but does not submit it to the URL.
+- Add a FormComponent to encapsulate the form rendering logic. This will improve the structure of the App component, making it more readable and maintainable.
+- Handle the 'lactoseFree' checkbox correctly to align with the expected output in the URL. Currently, the checkbox is named 'dietary', but the URL expects 'lactoseFree'.
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/index.css
+suggestions for improvement:
+- The provided code is CSS styling, not React code that addresses the instructions. The prompt requires creating React components, managing state, handling form data, and constructing a URL with form data. This CSS code does none of that.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/index.js
+suggestions for improvement:
+- The provided code is the entry point for a React application and doesn't implement the form functionality described in the instructions. It simply renders the App component.
+Correctness: 0%
+-----
