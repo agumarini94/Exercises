@@ -1,0 +1,12 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/App.js
+suggestions for improvement:
+- The provided code only shows the App component, which imports and uses a 'MyCarousel' component. To fully evaluate correctness, the implementation of the MyCarousel component is required. Based solely on this App component, it's impossible to determine if it correctly uses the React Responsive Carousel package, displays the images, and meets the overall requirements of the challenge.
+- Without seeing the MyCarousel component, I cannot give specific suggestions.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day5React/dailyChallenge/corrusel/src/MyCarousel.jsx
+suggestions for improvement:
+- Use the images provided in the instructions instead of picsum.photos.
+- Consider adding Bootstrap for styling as indicated in the 'What you will learn' section.
+Correctness: 75%
+-----

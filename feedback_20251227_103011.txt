@@ -1,0 +1,15 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/Exercise3Xp1/routes/books.js
+suggestions for improvement:
+- Implement error handling for potential issues like invalid JSON payloads.
+- Consider using a more robust data storage solution than an in-memory array, especially for production environments. A database would be more suitable.
+- Add input validation to prevent unexpected data from being saved to the books array.
+- Use more descriptive variable names and comments.
+Correctness: 90%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week7/Day1/Exercise3Xp1/app.js
+suggestions for improvement:
+- The provided code snippet only shows the `app.js` part of Exercise 3, and is missing the `routes/books.js` file. Therefore, the complete functionality of the exercise cannot be assessed.
+- The routes are mounted on the root path '/' instead of '/books'. This will cause issues with the API endpoints as defined in the exercise instructions. It should be `app.use('/books', router);`
+- Port number 3003 is different from the port number mentioned in the instructions (3000).  While this isn't strictly wrong, it's inconsistent with the instructions.
+Correctness: 50%
+-----

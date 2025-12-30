@@ -1,0 +1,15 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/DailyChallenge/dailychallenge.js
+suggestions for improvement:
+- The function should iterate through all allowed types before returning false. Currently, it returns false immediately if the first type check fails.
+- Consider adding more comprehensive tests with different data types to ensure robustness.
+Correctness: 70%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week5/Day1/DailyChallenge/dailychallenge.ts
+suggestions for improvement:
+- The function returns prematurely. It should only return `false` after checking all `allowedTypes`.
+- Consider returning `false` after the loop, indicating that the value's type did not match any of the allowed types.
+- While not explicitly requested, adding type annotations for the `allowedTypes` variable would improve clarity.
+- Avoid shadowing variables (e.g., naming the argument and the global variable `allowedTypes` the same). This can be confusing.
+- The current implementation returns false if the type is not matched in the first item of the allowedTypes, it won't validate if other types match
+Correctness: 50%
+-----
