@@ -1,0 +1,11 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week6SQL/Day1/DailyChallenge.sql
+suggestions for improvement:
+- The `COUNT` query in SQL should be `SELECT COUNT(*) FROM actors;` to count all rows.
+- The `INSERT` statement syntax is incorrect.  It should be `INSERT INTO actors (first_name, last_name, birth_date, oscars) VALUES ('Juan', '12/06/1945', null, null), ('Marcos', 'Rolon', '10/10/1910', 3);`. Also, consider including single quotes around date values if that is how they should be entered into the database.
+- Consider using more meaningful column names for the inserted values if the `actors` table does not have column name limitations mentioned in the provided text.
+Brief justification:
+- correctness: The code attempts to address the questions in the instructions. The count query is close but not quite correct. The insert query has incorrect syntax. Therefore, the correctness is marked as 50%.
+- readability: The code is generally readable with comments, but the formatting of the `INSERT` statement could be improved.
+- performance: The queries themselves are simple and efficient.
+- security: The code doesn't directly involve any security concerns in this context.
+

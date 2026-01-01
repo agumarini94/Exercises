@@ -1,0 +1,13 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/index.js
+suggestions for improvement:
+- The provided code is the entry point for a React application and does not implement any of the form handling logic described in the instructions.  It initializes the React application but doesn't create the `FormComponent` or `handleChange` function, nor does it handle form submission and URL parameter generation.
+- The code should include the App.js file, and the FormComponent.js file.  App.js should be a stateful component with a handleChange function to manage form input, and FormComponent.js should render the form elements.
+- A submit handler needs to be implemented to construct the URL with form data upon submission.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day2/DailyChallenge/form/src/App.js
+suggestions for improvement:
+- Implement form submission to construct the URL with the entered data.
+- Pass the props from App to FormComponent.
+Correctness: 70%
+-----
