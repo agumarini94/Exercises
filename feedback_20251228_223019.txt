@@ -1,0 +1,41 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/App.js
+suggestions for improvement:
+- Consider adding more descriptive comments to clarify the purpose of specific sections or logic within the components.
+- Ensure proper error handling and validation, especially when dealing with user inputs in the Events and Phone components, to prevent unexpected behavior.
+Correctness: 100%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Car.js
+suggestions for improvement:
+- Consider destructuring the props object for better readability.
+- Move the Garage component outside the paragraph to adhere strictly to the instructions about where the component should render (within the Car component, but not necessarily *inside* the displayed text).
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Color.js
+suggestions for improvement:
+- Remove the line `<h2>My favorite color is {useEffect} </h2>` as it is not needed and doesn't display anything meaningful.
+- The `useEffect` should not be used to show an alert directly. Consider using it for side effects like fetching data or updating the document title, and avoid alerts in the final production code.
+Correctness: 75%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Events.js
+suggestions for improvement:
+- The component name should start with a capital letter.
+- Consider using more descriptive variable names (e.g., `isToggleOn` instead of `isTogglleOn`).
+- The code does not relate to the current chapter content. It is related to a previous chapter.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Garage.js
+suggestions for improvement:
+- This is just one component. To fully address the exercises, you need to create all the components specified (Car, Garage, Events, Phone, Color), implement the required logic within each, and ensure they interact as described in the instructions.
+- Ensure the components use functional components and hooks where specified, not class components (for these exercises).
+- Pay close attention to the instructions regarding event handling (onClick, onKeyDown), state management (useState), and useEffect hooks.
+- Make sure to follow instructions and create all files required. Create src/components folder and put the components there.
+- Show the Phone's data.
+- Have one function change the phone color.
+Correctness: 0%
+-----
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day1/ExerciseXp1/exercises-react/src/components/Phone.js
+suggestions for improvement:
+- The original instructions specify using useState for all the listed phone properties (brand, model, color, year) individually, not grouping them into a single 'phone' object. This should be corrected to align perfectly with the prompt.
+- The exercise asks for the color to be changed to blue, but the implementation toggles between blue and gray. Adhere strictly to the instruction to change to blue.
+Correctness: 75%
+-----

@@ -1,0 +1,6 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day3/ErrorBoundary/errorbundary/src/App.js
+suggestions for improvement:
+- Wrap all routes, not just the Shop route, with ErrorBoundary for comprehensive error handling.
+- Consider using Bootstrap classes in your navigation to match the instructions.
+Correctness: 75%
+-----
