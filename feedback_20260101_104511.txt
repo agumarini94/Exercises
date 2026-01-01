@@ -1,0 +1,7 @@
+URL: https://github.com/agumarini94/Exercises/blob/main/Week8/Day5/Miniproject/dailyChallenge/calculator/src/components/calculator.js
+suggestions for improvement:
+- The code fulfills the basic requirement of adding two numbers. However, it goes beyond the initial requirements by implementing subtraction, multiplication, division, modulo, and average calculations.
+- The code uses inline styles extensively, which can reduce readability and maintainability. Consider using CSS classes or a styling library.
+- The initial state values for `valor1` and `valor2` are strings. It would be more appropriate to initialize them as empty strings or null to avoid potential type coercion issues later.
+Correctness: 70%
+-----
